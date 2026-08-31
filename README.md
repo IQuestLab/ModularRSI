@@ -22,9 +22,9 @@ domains, and models.
 
 [Released Terminal-Bench evaluation trajectories](trajectories/mergefinal/README.md)
 
-The [released evolution data](evolution_data/README.md) contains 1,000 terminal
-tasks and 1,000 software-engineering tasks, with a runnable 120-task training
-view for each domain.
+The evolution dataset is released separately as `ModularRSI_2000_Instances`.
+It contains 1,000 terminal tasks and 1,000 software-engineering tasks, with 120
+training tasks marked in each domain manifest.
 
 ## How it works
 
@@ -53,7 +53,7 @@ cp .env.example .env
 
 ```bash
 # Evolve one module type
-export SUPPORT_DATASET_DIR="$PWD/evolution_data/tb"
+export SUPPORT_DATASET_DIR=/path/to/ModularRSI_2000_Instances/tb
 bash scripts/self_evolve.sh evolve tools
 
 # Evaluate the included generation
@@ -66,8 +66,13 @@ runs are stored under `self_evo_runs/runs/<run-id>/`.
 
 ## License
 
-Built on [Harbor](https://github.com/harbor-framework/harbor) and distributed
-under its license. See [LICENSE](LICENSE).
+Original ModularRSI research contributions are available under
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en) for
+non-commercial use only. See
+[LICENSE-MODULARRSI.md](LICENSE-MODULARRSI.md).
+
+Harbor-derived code remains under the Apache License 2.0 in [LICENSE](LICENSE).
+Third-party components and datasets retain their respective licenses.
 
 
 ```tex
