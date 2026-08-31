@@ -18,7 +18,7 @@ candidates that pass validation gates. The study improves Terminal-Bench 2.0
 accuracy from **47.57% to 52.43%** and evaluates transfer across unseen tasks,
 domains, and models.
 
-[Project article: ModularRSI — Toward Generalizable Harness RSI](https://app.notion.com/p/yizhilll/Blog-1-ModularRSI-Toward-Generalizable-Harness-RSI-3b1f36408b8c80bbadc7d7a41f6b0095)
+[Project article: ModularRSI — Toward Generalizable Harness RSI](https://recursive-self-improvement.notion.site/blog-1-modularrsi-toward-generalizable-harness-rsi)
 
 [Released Terminal-Bench evaluation trajectories](trajectories/mergefinal/README.md)
 
@@ -68,3 +68,18 @@ runs are stored under `self_evo_runs/runs/<run-id>/`.
 
 Built on [Harbor](https://github.com/harbor-framework/harbor) and distributed
 under its license. See [LICENSE](LICENSE).
+
+
+```tex
+@misc{modularRSI_blog_2026,
+  title     = {Exploration of Harness RSI: Methodology, Generalization, and Empirical Foundations},
+  url       = {https://recursive-self-improvement.notion.site/blog-1-modularrsi-toward-generalizable-harness-rsi?source=copy_link},
+  publisher = {Notion},
+  author    = { Wu, Siwei and Ren, Jincheng and Li, Yizhi and Li, Haau-Sing and
+    Yang, Chengran and Gu, Weicheng and Zhang, Yuxuan and Yang, Jian and Batista-Navarro, Riza and
+    Zhang, Chuanyi and Zhou, Ming and Dai, Bryan and Lin, Chenghua
+  },
+  year      = {2026},
+  month     = {Aug}
+}
+```
