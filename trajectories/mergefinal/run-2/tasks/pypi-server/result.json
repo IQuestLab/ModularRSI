@@ -1,0 +1,28 @@
+{
+  "task_name": "pypi-server",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 735159,
+    "n_output_tokens": 40815,
+    "n_cache_tokens": 617088,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 17
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.263339,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 563.378742,
+    "verifier_seconds": 6.270808
+  },
+  "exception_info": null
+}

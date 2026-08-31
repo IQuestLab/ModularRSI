@@ -1,0 +1,28 @@
+{
+  "task_name": "sparql-university",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 1730263,
+    "n_output_tokens": 18419,
+    "n_cache_tokens": 1422080,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 21
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.390314,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 275.168444,
+    "verifier_seconds": 10.846931
+  },
+  "exception_info": null
+}

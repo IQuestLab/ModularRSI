@@ -1,0 +1,28 @@
+{
+  "task_name": "git-leak-recovery",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 26798,
+    "n_output_tokens": 15027,
+    "n_cache_tokens": 20352,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 8
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.91226,
+    "agent_setup_seconds": 2.1e-05,
+    "agent_execution_seconds": 280.962848,
+    "verifier_seconds": 7.798734
+  },
+  "exception_info": null
+}

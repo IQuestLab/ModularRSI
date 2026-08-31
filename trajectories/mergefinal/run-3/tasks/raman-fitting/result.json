@@ -1,0 +1,30 @@
+{
+  "task_name": "raman-fitting",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 2197099,
+    "n_output_tokens": 55601,
+    "n_cache_tokens": 1910400,
+    "metadata": {
+      "summarization_count": 1,
+      "n_episodes": 19
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.401842,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 900.863396,
+    "verifier_seconds": 5.25352
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

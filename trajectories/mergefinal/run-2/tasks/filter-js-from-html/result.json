@@ -1,0 +1,26 @@
+{
+  "task_name": "filter-js-from-html",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 296980,
+    "n_output_tokens": 11628,
+    "n_cache_tokens": 238848,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 13
+    }
+  },
+  "verifier_result": null,
+  "durations": {
+    "environment_setup_seconds": 1.460717,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 168.000642,
+    "verifier_seconds": 1801.00656
+  },
+  "exception_info": {
+    "exception_type": "VerifierTimeoutError"
+  }
+}

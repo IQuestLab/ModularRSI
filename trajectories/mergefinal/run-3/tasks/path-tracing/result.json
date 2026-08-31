@@ -1,0 +1,30 @@
+{
+  "task_name": "path-tracing",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 2893127,
+    "n_output_tokens": 110812,
+    "n_cache_tokens": 2139392,
+    "metadata": {
+      "summarization_count": 2,
+      "n_episodes": 16
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.474628,
+    "agent_setup_seconds": 1.7e-05,
+    "agent_execution_seconds": 1800.919157,
+    "verifier_seconds": 9.524044
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "task_name": "train-fasttext",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 22816844,
+    "n_output_tokens": 106691,
+    "n_cache_tokens": 17059840,
+    "metadata": {
+      "summarization_count": 14,
+      "n_episodes": 90
+    }
+  },
+  "verifier_result": null,
+  "durations": {
+    "environment_setup_seconds": 1.477552,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 3603.543879,
+    "verifier_seconds": 9.121602
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "task_name": "polyglot-rust-c",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 235648,
+    "n_output_tokens": 77894,
+    "n_cache_tokens": 185088,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 22
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.430957,
+    "agent_setup_seconds": 2e-05,
+    "agent_execution_seconds": 900.868988,
+    "verifier_seconds": 7.223757
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

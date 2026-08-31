@@ -1,0 +1,28 @@
+{
+  "task_name": "prove-plus-comm",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 67773,
+    "n_output_tokens": 22076,
+    "n_cache_tokens": 52736,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 11
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.471963,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 286.07692,
+    "verifier_seconds": 12.96716
+  },
+  "exception_info": null
+}

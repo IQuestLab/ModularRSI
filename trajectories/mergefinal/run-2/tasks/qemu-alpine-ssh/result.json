@@ -1,0 +1,30 @@
+{
+  "task_name": "qemu-alpine-ssh",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 218421,
+    "n_output_tokens": 21123,
+    "n_cache_tokens": 166016,
+    "metadata": {
+      "summarization_count": 1,
+      "n_episodes": 12
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.326686,
+    "agent_setup_seconds": 2.7e-05,
+    "agent_execution_seconds": 900.905899,
+    "verifier_seconds": 7.129031
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

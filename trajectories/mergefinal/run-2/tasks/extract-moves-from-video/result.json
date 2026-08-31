@@ -1,0 +1,30 @@
+{
+  "task_name": "extract-moves-from-video",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 10929284,
+    "n_output_tokens": 77246,
+    "n_cache_tokens": 9358080,
+    "metadata": {
+      "summarization_count": 4,
+      "n_episodes": 81
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.46668,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 1800.96896,
+    "verifier_seconds": 16.86541
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

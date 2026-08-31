@@ -1,0 +1,283 @@
+[
+ {
+  "name": "baseline",
+  "type": "agent_loop",
+  "niche": {
+   "grounding": "reactive",
+   "drift": "none",
+   "parse": "baseline"
+  },
+  "parent_ids": [],
+  "addresses": "baseline",
+  "change_type": "baseline",
+  "born_gen": "gen_0",
+  "status": "active"
+ },
+ {
+  "name": "parse_error_recovery",
+  "type": "agent_loop",
+  "niche": {
+   "grounding": "reactive",
+   "drift": "none",
+   "parse": "robust-json"
+  },
+  "parent_ids": [],
+  "addresses": "",
+  "change_type": "add",
+  "born_gen": "gen_5",
+  "status": "active"
+ },
+ {
+  "name": "planning_with_guard",
+  "type": "agent_loop",
+  "niche": {
+   "grounding": "planning",
+   "drift": "stuck-detection",
+   "parse": "baseline"
+  },
+  "parent_ids": [],
+  "addresses": "",
+  "change_type": "add",
+  "born_gen": "gen_9",
+  "status": "active"
+ },
+ {
+  "name": "baseline",
+  "type": "context_mgmt",
+  "niche": {
+   "strategy": "qa-summarize"
+  },
+  "parent_ids": [],
+  "addresses": "baseline",
+  "change_type": "baseline",
+  "born_gen": "gen_0",
+  "status": "active"
+ },
+ {
+  "name": "passthrough",
+  "type": "context_mgmt",
+  "niche": {
+   "strategy": "passthrough"
+  },
+  "parent_ids": [],
+  "addresses": "baseline",
+  "change_type": "baseline",
+  "born_gen": "gen_0",
+  "status": "active"
+ },
+ {
+  "name": "baseline",
+  "type": "observation",
+  "niche": {
+   "capture": "incremental",
+   "capacity": "low",
+   "staleness": "none"
+  },
+  "parent_ids": [],
+  "addresses": "baseline",
+  "change_type": "baseline",
+  "born_gen": "gen_0",
+  "status": "active"
+ },
+ {
+  "name": "terminal_scrollback",
+  "type": "observation",
+  "niche": {
+   "capture": "full",
+   "capacity": "200k",
+   "staleness": "detect-suppress"
+  },
+  "parent_ids": [
+   "fresh_full_scrollback",
+   "bulk_capture",
+   "idle_aware_capture",
+   "full_capture"
+  ],
+  "addresses": "baseline capture returns only ~71-char incremental stubs so the agent operates blind (draft_dp_0365b530_aopeng); full-scrollback behavior was fragmented across four near-duplicate variants with conflicting supersede claims",
+  "change_type": "merge",
+  "born_gen": "gen_12",
+  "status": "active"
+ },
+ {
+  "name": "edit_block",
+  "type": "tool_helper",
+  "niche": {
+   "op": "edit",
+   "target": "file",
+   "scope": "multi-line"
+  },
+  "parent_ids": [],
+  "addresses": "",
+  "change_type": "add",
+  "born_gen": "gen_11",
+  "status": "active"
+ },
+ {
+  "name": "edit_file",
+  "type": "tool_helper",
+  "niche": {
+   "op": "edit",
+   "target": "file"
+  },
+  "parent_ids": [
+   "(none)"
+  ],
+  "addresses": "fragile heredoc/sed edit churn and repeated cat-to-verify loops when modifying draft files",
+  "change_type": "add",
+  "born_gen": "gen_1",
+  "status": "active"
+ },
+ {
+  "name": "glob_files",
+  "type": "tool_helper",
+  "niche": {
+   "op": "list",
+   "target": "files"
+  },
+  "parent_ids": [
+   "(none)"
+  ],
+  "addresses": "locating the draft file by repeated ls/find before reading or editing it",
+  "change_type": "add",
+  "born_gen": "gen_1",
+  "status": "active"
+ },
+ {
+  "name": "grep_search",
+  "type": "tool_helper",
+  "niche": {
+   "op": "search",
+   "target": "file-content"
+  },
+  "parent_ids": [
+   "(none)"
+  ],
+  "addresses": "20+ ls/find navigations to locate definitions/usages in a draft project",
+  "change_type": "add",
+  "born_gen": "gen_1",
+  "status": "active"
+ },
+ {
+  "name": "read_file",
+  "type": "tool_helper",
+  "niche": {
+   "op": "read",
+   "target": "file"
+  },
+  "parent_ids": [
+   "(none)"
+  ],
+  "addresses": "pane truncation hides file contents; no line-numbered inspection; agent claims task_complete without verifying the final draft",
+  "change_type": "add",
+  "born_gen": "gen_1",
+  "status": "active"
+ },
+ {
+  "name": "write_file",
+  "type": "tool_helper",
+  "niche": {
+   "op": "write",
+   "target": "file"
+  },
+  "parent_ids": [],
+  "addresses": "",
+  "change_type": "add",
+  "born_gen": "gen_3",
+  "status": "active"
+ },
+ {
+  "name": "baseline",
+  "type": "tools",
+  "niche": {
+   "transport": "tmux",
+   "encoding": "both"
+  },
+  "parent_ids": [],
+  "addresses": "baseline",
+  "change_type": "baseline",
+  "born_gen": "gen_0",
+  "status": "active"
+ },
+ {
+  "name": "bypass_helpers",
+  "type": "tools",
+  "niche": {
+   "transport": "tmux",
+   "encoding": "both",
+   "helpers": "bypass-only"
+  },
+  "parent_ids": [],
+  "addresses": "",
+  "change_type": "add",
+  "born_gen": "gen_11",
+  "status": "active"
+ },
+ {
+  "name": "combined_robust",
+  "type": "tools",
+  "niche": {
+   "transport": "tmux",
+   "encoding": "both",
+   "robustness": "combined"
+  },
+  "parent_ids": [],
+  "addresses": "",
+  "change_type": "add",
+  "born_gen": "gen_9",
+  "status": "active"
+ },
+ {
+  "name": "editor_file_tools",
+  "type": "tools",
+  "niche": {
+   "audience": "editor"
+  },
+  "parent_ids": [],
+  "addresses": "baseline",
+  "change_type": "baseline",
+  "born_gen": "gen_0",
+  "status": "excluded"
+ },
+ {
+  "name": "tmux_xml",
+  "type": "tools",
+  "niche": {
+   "transport": "env-exec",
+   "encoding": "xml"
+  },
+  "parent_ids": [],
+  "addresses": "baseline",
+  "change_type": "baseline",
+  "born_gen": "gen_0",
+  "status": "active"
+ },
+ {
+  "name": "baseline",
+  "type": "verification",
+  "niche": {
+   "evidence": "executed-ever",
+   "error_gate": "none"
+  },
+  "parent_ids": [],
+  "addresses": "baseline",
+  "change_type": "baseline",
+  "born_gen": "gen_0",
+  "status": "active"
+ },
+ {
+  "name": "margin_gated",
+  "type": "verification",
+  "niche": {
+   "evidence": "benchmark-margin",
+   "error_gate": "checked"
+  },
+  "parent_ids": [
+   "baseline          # built on BaselineVerification",
+   "not a merge of siblings"
+  ],
+  "addresses": "the agent terminates too early when a benchmark self-test shows a barely-passing speedup (e.g., 11.86x vs 10x requirement) without strong margin, allowing noisy measurements to cross the threshold. The finding from `draft_dp_0bcad9db_haitian` showed r1 terminating after one marginal 11.86x pass while r0 kept optimizing to 146x.",
+  "change_type": "add",
+  "born_gen": "gen_3",
+  "status": "active"
+ }
+]

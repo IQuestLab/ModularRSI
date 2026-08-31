@@ -1,0 +1,30 @@
+{
+  "task_name": "feal-linear-cryptanalysis",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 10034131,
+    "n_output_tokens": 147163,
+    "n_cache_tokens": 9814272,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 130
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.294947,
+    "agent_setup_seconds": 2.5e-05,
+    "agent_execution_seconds": 1800.884916,
+    "verifier_seconds": 4.807365
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

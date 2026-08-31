@@ -1,0 +1,28 @@
+{
+  "task_name": "hf-model-inference",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 3235665,
+    "n_output_tokens": 15804,
+    "n_cache_tokens": 2959360,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 34
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.413249,
+    "agent_setup_seconds": 2.4e-05,
+    "agent_execution_seconds": 599.950318,
+    "verifier_seconds": 8.682315
+  },
+  "exception_info": null
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "chess-best-move",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 1815826,
+    "n_output_tokens": 23393,
+    "n_cache_tokens": 1475072,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 17
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.481801,
+    "agent_setup_seconds": 1.8e-05,
+    "agent_execution_seconds": 303.470604,
+    "verifier_seconds": 7.651668
+  },
+  "exception_info": null
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "openssl-selfsigned-cert",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 268138,
+    "n_output_tokens": 32981,
+    "n_cache_tokens": 208000,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 10
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.245393,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 429.049241,
+    "verifier_seconds": 5.754225
+  },
+  "exception_info": null
+}

@@ -1,0 +1,30 @@
+{
+  "task_name": "make-mips-interpreter",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 8198252,
+    "n_output_tokens": 160129,
+    "n_cache_tokens": 6508032,
+    "metadata": {
+      "summarization_count": 5,
+      "n_episodes": 41
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.420225,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 1801.597713,
+    "verifier_seconds": 37.4563
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

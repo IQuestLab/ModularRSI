@@ -1,0 +1,28 @@
+{
+  "task_name": "video-processing",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 13816379,
+    "n_output_tokens": 212882,
+    "n_cache_tokens": 13670400,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 129
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.29029,
+    "agent_setup_seconds": 2.5e-05,
+    "agent_execution_seconds": 2190.882164,
+    "verifier_seconds": 9.862701
+  },
+  "exception_info": null
+}

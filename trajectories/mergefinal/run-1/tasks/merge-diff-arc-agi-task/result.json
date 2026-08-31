@@ -1,0 +1,30 @@
+{
+  "task_name": "merge-diff-arc-agi-task",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 744433,
+    "n_output_tokens": 97141,
+    "n_cache_tokens": 641024,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 56
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.818148,
+    "agent_setup_seconds": 3.1e-05,
+    "agent_execution_seconds": 900.885349,
+    "verifier_seconds": 8.073343
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

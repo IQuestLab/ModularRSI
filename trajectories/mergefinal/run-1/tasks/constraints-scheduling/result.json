@@ -1,0 +1,30 @@
+{
+  "task_name": "constraints-scheduling",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 519600,
+    "n_output_tokens": 59350,
+    "n_cache_tokens": 468736,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 24
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.403526,
+    "agent_setup_seconds": 3.3e-05,
+    "agent_execution_seconds": 1200.89923,
+    "verifier_seconds": 7.692168
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

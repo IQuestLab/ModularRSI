@@ -1,0 +1,28 @@
+{
+  "task_name": "custom-memory-heap-crash",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 4571154,
+    "n_output_tokens": 94631,
+    "n_cache_tokens": 4023296,
+    "metadata": {
+      "summarization_count": 1,
+      "n_episodes": 45
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.672127,
+    "agent_setup_seconds": 2.6e-05,
+    "agent_execution_seconds": 1108.504016,
+    "verifier_seconds": 13.889106
+  },
+  "exception_info": null
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "financial-document-processor",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 5801594,
+    "n_output_tokens": 19649,
+    "n_cache_tokens": 4947200,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 27
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.44536,
+    "agent_setup_seconds": 2.5e-05,
+    "agent_execution_seconds": 567.581814,
+    "verifier_seconds": 10.58531
+  },
+  "exception_info": null
+}

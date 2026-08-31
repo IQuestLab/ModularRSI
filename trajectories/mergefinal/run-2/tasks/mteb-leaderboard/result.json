@@ -1,0 +1,28 @@
+{
+  "task_name": "mteb-leaderboard",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 7431519,
+    "n_output_tokens": 12340,
+    "n_cache_tokens": 6498560,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 25
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.715027,
+    "agent_setup_seconds": 2.5e-05,
+    "agent_execution_seconds": 1134.189908,
+    "verifier_seconds": 6.099521
+  },
+  "exception_info": null
+}

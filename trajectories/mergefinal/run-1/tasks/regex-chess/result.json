@@ -1,0 +1,26 @@
+{
+  "task_name": "regex-chess",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 15255347,
+    "n_output_tokens": 315728,
+    "n_cache_tokens": 14677760,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 145
+    }
+  },
+  "verifier_result": null,
+  "durations": {
+    "environment_setup_seconds": 1.379602,
+    "agent_setup_seconds": 2.6e-05,
+    "agent_execution_seconds": 3603.486961,
+    "verifier_seconds": 1.321823
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

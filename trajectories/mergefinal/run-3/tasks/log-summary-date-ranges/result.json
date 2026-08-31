@@ -1,0 +1,28 @@
+{
+  "task_name": "log-summary-date-ranges",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 141849,
+    "n_output_tokens": 19661,
+    "n_cache_tokens": 97792,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 6
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.695378,
+    "agent_setup_seconds": 3e-05,
+    "agent_execution_seconds": 216.363462,
+    "verifier_seconds": 5.175359
+  },
+  "exception_info": null
+}

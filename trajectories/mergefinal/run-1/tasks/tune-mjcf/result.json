@@ -1,0 +1,28 @@
+{
+  "task_name": "tune-mjcf",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 200122,
+    "n_output_tokens": 12505,
+    "n_cache_tokens": 163072,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 23
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.366355,
+    "agent_setup_seconds": 3.1e-05,
+    "agent_execution_seconds": 285.862026,
+    "verifier_seconds": 26.445721
+  },
+  "exception_info": null
+}

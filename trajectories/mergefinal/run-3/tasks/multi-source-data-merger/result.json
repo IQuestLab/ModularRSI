@@ -1,0 +1,28 @@
+{
+  "task_name": "multi-source-data-merger",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 314533,
+    "n_output_tokens": 12166,
+    "n_cache_tokens": 233472,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 14
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.372467,
+    "agent_setup_seconds": 2.1e-05,
+    "agent_execution_seconds": 153.780868,
+    "verifier_seconds": 8.735844
+  },
+  "exception_info": null
+}

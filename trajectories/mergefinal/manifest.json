@@ -1,0 +1,4041 @@
+{
+  "agent": "terminus-2-modular",
+  "run_count": 3,
+  "files": [
+    {
+      "path": "run-1/config.json",
+      "sha256": "b96651e737406f2d2145a23aabea986518bb2f74019620dbb657aa860e32141f",
+      "bytes": 54
+    },
+    {
+      "path": "run-1/result.json",
+      "sha256": "ca77542917086ab649a8f3dff97a0fdf8605f07d16277c378cb07d4c3f0a0d23",
+      "bytes": 4926
+    },
+    {
+      "path": "run-1/tasks/adaptive-rejection-sampler/agent/trajectory.json",
+      "sha256": "c0e6b2d3c7dd27f855eed5a05e607065b690f061eea8d14b6c757eba2e0157de",
+      "bytes": 273357
+    },
+    {
+      "path": "run-1/tasks/adaptive-rejection-sampler/config.json",
+      "sha256": "cd046349b8070040caf7273499a0a6db23f4f1cde3cb718bb55e9d67a27fb627",
+      "bytes": 112
+    },
+    {
+      "path": "run-1/tasks/adaptive-rejection-sampler/result.json",
+      "sha256": "6e34e9f6ceb5ce354eec2c784e705652b5d8e118416a1e7aba915a11782a34a5",
+      "bytes": 603
+    },
+    {
+      "path": "run-1/tasks/bn-fit-modify/agent/trajectory.json",
+      "sha256": "37c00f50ab36da1c72198bea0071a463cfbc47e12a2d887159e29ccdce5bf421",
+      "bytes": 301824
+    },
+    {
+      "path": "run-1/tasks/bn-fit-modify/config.json",
+      "sha256": "214f9ede79342803834eb1465d1c254c7431f3c2af557ce7f2929c646184b7f2",
+      "bytes": 99
+    },
+    {
+      "path": "run-1/tasks/bn-fit-modify/result.json",
+      "sha256": "a195dc67f18d7d1b75b272e9e919ed3f54fd0c4c2894feaee2afaf82a07aeaad",
+      "bytes": 592
+    },
+    {
+      "path": "run-1/tasks/break-filter-js-from-html/agent/trajectory.json",
+      "sha256": "c7c33b4f82e06ecf470173c753971da76335ee5a4a7a737da1954b1e8146cec0",
+      "bytes": 323318
+    },
+    {
+      "path": "run-1/tasks/break-filter-js-from-html/config.json",
+      "sha256": "f21eedb3e7dda4e6338f59682a2908f5075d435e1a44a987ddc76ab91bc1d4aa",
+      "bytes": 111
+    },
+    {
+      "path": "run-1/tasks/break-filter-js-from-html/result.json",
+      "sha256": "e708c7e4021b23f656927f383819c407d212c6505d6df18846139a7bd2a11864",
+      "bytes": 601
+    },
+    {
+      "path": "run-1/tasks/build-cython-ext/agent/trajectory.json",
+      "sha256": "546c8c00bb7734c16c2e4a07dbe7904fc094a9cbf81c9624eacf3d75c739c921",
+      "bytes": 246985
+    },
+    {
+      "path": "run-1/tasks/build-cython-ext/config.json",
+      "sha256": "6eaa570a53b6c5b1fd4e864169d122056e7386f36efcf0d98b2deacf977187cf",
+      "bytes": 102
+    },
+    {
+      "path": "run-1/tasks/build-cython-ext/result.json",
+      "sha256": "a771ba07a10ac70a96860444001af0d047da48bf5fc5f099518c176e54357f70",
+      "bytes": 591
+    },
+    {
+      "path": "run-1/tasks/build-pmars/agent/trajectory.json",
+      "sha256": "6c9284ad674ad5d79000548ff81f5286d5194cd0732790afca924b20d032e0f1",
+      "bytes": 251543
+    },
+    {
+      "path": "run-1/tasks/build-pmars/config.json",
+      "sha256": "e902b4ddd5a954e17bd95fb0f3bdc16b09457a67944c0c8690df286904fc3f2e",
+      "bytes": 97
+    },
+    {
+      "path": "run-1/tasks/build-pmars/result.json",
+      "sha256": "36336387f0143e02be9fda8bf4a102ccb18de2182d3a033b320db970aabc74fa",
+      "bytes": 589
+    },
+    {
+      "path": "run-1/tasks/build-pov-ray/agent/trajectory.json",
+      "sha256": "b148eb0957cc1fd24666f5c00cd2a91072b2686f599c4585a1ecd621d3ab7392",
+      "bytes": 313858
+    },
+    {
+      "path": "run-1/tasks/build-pov-ray/config.json",
+      "sha256": "e7361a14f5fb9fc98035dd7be1393e21c3551f3122a75d82c0e14061c756eb81",
+      "bytes": 99
+    },
+    {
+      "path": "run-1/tasks/build-pov-ray/result.json",
+      "sha256": "70a321fc0b84d9fb72b0d0ac73191c91b743d075e6d1e104e826ef757e44d68b",
+      "bytes": 592
+    },
+    {
+      "path": "run-1/tasks/caffe-cifar-10/agent/trajectory.json",
+      "sha256": "3d363bd590328ab980c54a0b70d1543a65225f67a73b281fa48430cf23cf54c0",
+      "bytes": 203036
+    },
+    {
+      "path": "run-1/tasks/caffe-cifar-10/config.json",
+      "sha256": "75bb45c50e8eb81bd8724a0da67117f975339da473f956e17d4e29559fc4d450",
+      "bytes": 100
+    },
+    {
+      "path": "run-1/tasks/caffe-cifar-10/result.json",
+      "sha256": "c08c944fdccda4ff05246e1fec6d63d8fb467669a89b20755cc1bab252f60566",
+      "bytes": 634
+    },
+    {
+      "path": "run-1/tasks/cancel-async-tasks/agent/trajectory.json",
+      "sha256": "85d241a8ffd8aebec9a30fad83437df3d3efc8c93c0b091a3440b2a5def3d223",
+      "bytes": 142338
+    },
+    {
+      "path": "run-1/tasks/cancel-async-tasks/config.json",
+      "sha256": "f9cff885eab462f6f685d8c9c99cd7a132240474d6fb41e13c4921a2899bc306",
+      "bytes": 104
+    },
+    {
+      "path": "run-1/tasks/cancel-async-tasks/result.json",
+      "sha256": "8992b2ec60bcad048036d56aa5bdeec6a68efe93e283e3496fd7d6dd114b29ba",
+      "bytes": 591
+    },
+    {
+      "path": "run-1/tasks/chess-best-move/agent/trajectory.json",
+      "sha256": "b5a068392e29189700b8764ba06eee6c027a1160bdf42177bee531a7dfcc10a5",
+      "bytes": 326038
+    },
+    {
+      "path": "run-1/tasks/chess-best-move/config.json",
+      "sha256": "178e746e8f95e661ccb7f03ac784ee0fb9f10777d2a34535cb87d1461dd38b61",
+      "bytes": 101
+    },
+    {
+      "path": "run-1/tasks/chess-best-move/result.json",
+      "sha256": "cc8b9ca5cadf583293dac33a6b2efd8010aa6f3ed1badd1644db331f2b78edd4",
+      "bytes": 633
+    },
+    {
+      "path": "run-1/tasks/circuit-fibsqrt/agent/trajectory.json",
+      "sha256": "e56e47ab59590694af4f10572d1560885894e597c5e707c2a3917271c6fc96f3",
+      "bytes": 1608350
+    },
+    {
+      "path": "run-1/tasks/circuit-fibsqrt/config.json",
+      "sha256": "d938b6ce929ab97badac038998da4d6ea0c61d4886271baeb86b104575e55220",
+      "bytes": 101
+    },
+    {
+      "path": "run-1/tasks/circuit-fibsqrt/result.json",
+      "sha256": "6bf061c0567785aa61489c667e4b2f7f9f4ba5a96dd282aba9abbdba5b6379df",
+      "bytes": 594
+    },
+    {
+      "path": "run-1/tasks/cobol-modernization/agent/trajectory.json",
+      "sha256": "469306a535077bf4e16af742c75a158b6059e3314e52b0a23efada69de530448",
+      "bytes": 225601
+    },
+    {
+      "path": "run-1/tasks/cobol-modernization/config.json",
+      "sha256": "56e44a3f9506238b3d23b100bd59f3a062102b953cdcb065f0c1aa95b8542168",
+      "bytes": 105
+    },
+    {
+      "path": "run-1/tasks/cobol-modernization/result.json",
+      "sha256": "7541d57e573d2ce11955028616915f1bbad030204da4b1e79d62d4d7d261e989",
+      "bytes": 595
+    },
+    {
+      "path": "run-1/tasks/code-from-image/agent/trajectory.json",
+      "sha256": "cb8f8b6c78d6fa70cfd2e697edee28780a8c2e56b58416e028c27fe3a565e3e1",
+      "bytes": 203990
+    },
+    {
+      "path": "run-1/tasks/code-from-image/config.json",
+      "sha256": "1e7b9e36acd47169dcb3bae018c7f72d24482455992e87d5f0ee49869507bfb2",
+      "bytes": 101
+    },
+    {
+      "path": "run-1/tasks/code-from-image/result.json",
+      "sha256": "b94d0cb07d34dd70eebd1d1db3999219d30f84362f4b0c4e09ac6a480ea16c0f",
+      "bytes": 590
+    },
+    {
+      "path": "run-1/tasks/compile-compcert/agent/trajectory.json",
+      "sha256": "4878dddbe587486c9f65f5324b2e927940b10bd9f703bc987f8d2203fb6abccd",
+      "bytes": 241047
+    },
+    {
+      "path": "run-1/tasks/compile-compcert/config.json",
+      "sha256": "b796202af3bf049450ec20a3b5e785b9bb3d80aea6a7484d0191017ecc9af37e",
+      "bytes": 102
+    },
+    {
+      "path": "run-1/tasks/compile-compcert/result.json",
+      "sha256": "c3630ab35b1391b03bebe678ce5b2843e67f99e4dd53d6dc169caa10a59e5530",
+      "bytes": 590
+    },
+    {
+      "path": "run-1/tasks/configure-git-webserver/agent/trajectory.json",
+      "sha256": "25eb79b50e4bfdc4242d07a3e4a6f1a7370e580d7d357d51a8d95c4a75ababec",
+      "bytes": 98635
+    },
+    {
+      "path": "run-1/tasks/configure-git-webserver/config.json",
+      "sha256": "9a490c7c9553ad976a99e3ae59c8409ab5ab8618088f6e55a76464f66c84e02e",
+      "bytes": 109
+    },
+    {
+      "path": "run-1/tasks/configure-git-webserver/result.json",
+      "sha256": "092f113a36fda3072fb1925d68acca7363a35a9c6feab5959b1030ec878a61c6",
+      "bytes": 598
+    },
+    {
+      "path": "run-1/tasks/constraints-scheduling/agent/trajectory.json",
+      "sha256": "6b50873955cf35f7facf95d5f8ebe287a6a3e4500b9e850ce5dfb35314a4423f",
+      "bytes": 281864
+    },
+    {
+      "path": "run-1/tasks/constraints-scheduling/config.json",
+      "sha256": "110d6f0d2a004e64fe6b5afc3d51fb82f8a5e867cba435f629cad05b632efd6c",
+      "bytes": 108
+    },
+    {
+      "path": "run-1/tasks/constraints-scheduling/result.json",
+      "sha256": "58433398e775d07652653df54860ea485a16000965c756346085fa5997e30b68",
+      "bytes": 641
+    },
+    {
+      "path": "run-1/tasks/count-dataset-tokens/agent/trajectory.json",
+      "sha256": "09c5079715e21c85520de1b102321d071089b27fecdc526807a3ff0547d0a9e3",
+      "bytes": 94568
+    },
+    {
+      "path": "run-1/tasks/count-dataset-tokens/config.json",
+      "sha256": "5230264090bf72bed301f67ecc785a9a3784c58573c60a4f7c13e998c5ca5fc0",
+      "bytes": 106
+    },
+    {
+      "path": "run-1/tasks/count-dataset-tokens/result.json",
+      "sha256": "0332b9b835285e9e0f1089eebf07bf644ba2e1b8f1b567e830326ac56edd70a5",
+      "bytes": 593
+    },
+    {
+      "path": "run-1/tasks/crack-7z-hash/agent/trajectory.json",
+      "sha256": "bfeaf4d782a74400f2cbc19585bb9d7c5dce14bc0de9b3d11ac38e1c4c0ae6cb",
+      "bytes": 300737
+    },
+    {
+      "path": "run-1/tasks/crack-7z-hash/config.json",
+      "sha256": "436b86b90d0d89a9d7749ecc3dd9e6fe4a1777f2e318822c535ca3e01f534004",
+      "bytes": 99
+    },
+    {
+      "path": "run-1/tasks/crack-7z-hash/result.json",
+      "sha256": "f8e496775a4385559bd07aa1353f8c40ac988452719127f6b8fd7d197c5cfcf1",
+      "bytes": 632
+    },
+    {
+      "path": "run-1/tasks/custom-memory-heap-crash/agent/trajectory.json",
+      "sha256": "34aaa4f48ffb0894a71e9b953e44b88b432f02a8ab6e8461d4281b8eec983ca5",
+      "bytes": 354256
+    },
+    {
+      "path": "run-1/tasks/custom-memory-heap-crash/config.json",
+      "sha256": "a574d060e3550f360e4b590fd87cdad54278b714f6555e5d92d20d4d4654c650",
+      "bytes": 110
+    },
+    {
+      "path": "run-1/tasks/custom-memory-heap-crash/result.json",
+      "sha256": "25dd5e05fd2d630ee4ced48b8fce8282a9412296ea1229c3fd4cfb2ed20f82f0",
+      "bytes": 601
+    },
+    {
+      "path": "run-1/tasks/db-wal-recovery/agent/trajectory.json",
+      "sha256": "d353bcc1d2251d3a967b465da94ff4e81d32854d06b19475aab9372cd3e699e0",
+      "bytes": 336678
+    },
+    {
+      "path": "run-1/tasks/db-wal-recovery/config.json",
+      "sha256": "e459cd8269186f22ab3e3126ce213dd821f66c6365505b4d53da4971127837c0",
+      "bytes": 101
+    },
+    {
+      "path": "run-1/tasks/db-wal-recovery/result.json",
+      "sha256": "342646eeb3c55abf197d28d60d01b3b45af28e30b4104e7057ecebf235e429af",
+      "bytes": 635
+    },
+    {
+      "path": "run-1/tasks/distribution-search/agent/trajectory.json",
+      "sha256": "b48964af3500cacb416bf4dc7856ef1616380a9d1ad85cc96f77b7385092841c",
+      "bytes": 201876
+    },
+    {
+      "path": "run-1/tasks/distribution-search/config.json",
+      "sha256": "f01c28ac5260327e21f2794d40d31df52326e30488b5ef0c5b779877d86ac46f",
+      "bytes": 105
+    },
+    {
+      "path": "run-1/tasks/distribution-search/result.json",
+      "sha256": "b1eb6c851048db66bbab27c5d52ae0aa3d21a43f7db6288e8c65de3b1d9df91f",
+      "bytes": 594
+    },
+    {
+      "path": "run-1/tasks/dna-assembly/agent/trajectory.json",
+      "sha256": "3122a2ae41a8c15f4e0ca95cac3209c380b704edefa077a086599a5b1ee2f5c6",
+      "bytes": 614481
+    },
+    {
+      "path": "run-1/tasks/dna-assembly/config.json",
+      "sha256": "5b259423bf4c74c1736c002b1ebf9a952721213314963e47cd58f3113ce6d801",
+      "bytes": 98
+    },
+    {
+      "path": "run-1/tasks/dna-assembly/result.json",
+      "sha256": "419e07108d7a2b8eb521215560a4c2a9d8003647cf2b54280e710f01e72203f9",
+      "bytes": 631
+    },
+    {
+      "path": "run-1/tasks/dna-insert/agent/trajectory.json",
+      "sha256": "c40b841703d10184b656b435cf3309f2dfe7f1486bb8924046c6eb943fff425d",
+      "bytes": 632013
+    },
+    {
+      "path": "run-1/tasks/dna-insert/config.json",
+      "sha256": "e5325a39234e2556b44dd660a69d2927de0a93b61a049ac53acf7bb816d47064",
+      "bytes": 96
+    },
+    {
+      "path": "run-1/tasks/dna-insert/result.json",
+      "sha256": "18f1ead70ab9ad766f5cb41e4a42fcf7e7e891e7e79210041ca6fde72b0b1c47",
+      "bytes": 590
+    },
+    {
+      "path": "run-1/tasks/extract-elf/agent/trajectory.json",
+      "sha256": "220aef8b3a9bb94f7313269e7045b40b39b5d1e0e0d2cf9e9b2afe2b74dffc11",
+      "bytes": 429955
+    },
+    {
+      "path": "run-1/tasks/extract-elf/config.json",
+      "sha256": "73f516ec570db0995658b7a3a5603c8eef0453a7e3ffa778f3368ce384dcceb0",
+      "bytes": 97
+    },
+    {
+      "path": "run-1/tasks/extract-elf/result.json",
+      "sha256": "047acfe00306f9b7c39b02ff47b56a5ac43be1ce63047985d076f2ebe4baad14",
+      "bytes": 586
+    },
+    {
+      "path": "run-1/tasks/extract-moves-from-video/agent/trajectory.json",
+      "sha256": "dce286feaaff11b9e9929339b0ee206bddd41dc68a360eae27c3f0348d168d27",
+      "bytes": 474425
+    },
+    {
+      "path": "run-1/tasks/extract-moves-from-video/config.json",
+      "sha256": "75c9411cb8232f91bf93aff7805cf58baa182678fea9d1b38dac6ee2fa738806",
+      "bytes": 110
+    },
+    {
+      "path": "run-1/tasks/extract-moves-from-video/result.json",
+      "sha256": "2fc759b716e9b7e3fac6ae7c5423858313d669d85daec46e3c51488a9eb2ce2c",
+      "bytes": 647
+    },
+    {
+      "path": "run-1/tasks/feal-differential-cryptanalysis/agent/trajectory.json",
+      "sha256": "5fd2cb51205ee469c0361ff526561a6353ea56df0258530f5ea8920d8e05ecfb",
+      "bytes": 183982
+    },
+    {
+      "path": "run-1/tasks/feal-differential-cryptanalysis/config.json",
+      "sha256": "c8e3460f7b85d27b4be0d05a561b9b6c551ddba1d2fc3bd67ac6410a08ac132c",
+      "bytes": 117
+    },
+    {
+      "path": "run-1/tasks/feal-differential-cryptanalysis/result.json",
+      "sha256": "49f07d84fc338487a7d2e4b7a79be4cc9db6d3ad39e4b6c019e68211cdaa35f7",
+      "bytes": 608
+    },
+    {
+      "path": "run-1/tasks/feal-linear-cryptanalysis/agent/trajectory.json",
+      "sha256": "5b33660ab61cd65ef9bb5c4d7fa0aaf8ddf384480d0a9cccb9824bc2305e7d9a",
+      "bytes": 723513
+    },
+    {
+      "path": "run-1/tasks/feal-linear-cryptanalysis/config.json",
+      "sha256": "8d41f46b820def8f54d70c3ae273ec970835109e545e832750bd1af77bd1a583",
+      "bytes": 111
+    },
+    {
+      "path": "run-1/tasks/feal-linear-cryptanalysis/result.json",
+      "sha256": "7a37ae4ab2ab05305d4f9f8874bf022677e712a5b013f879ba7780f249143fe9",
+      "bytes": 650
+    },
+    {
+      "path": "run-1/tasks/filter-js-from-html/agent/trajectory.json",
+      "sha256": "816e9d00b2f7d72bac3e30956f19cc4e45bb3c82f44295a853420c492f8408a8",
+      "bytes": 349760
+    },
+    {
+      "path": "run-1/tasks/filter-js-from-html/config.json",
+      "sha256": "a59effe083502ff0433bfcf58628f903ccfa88ef1045578303031662c777cb99",
+      "bytes": 105
+    },
+    {
+      "path": "run-1/tasks/filter-js-from-html/result.json",
+      "sha256": "2bb6217b741a8e860b00f308b3eeee92799d9d2d0908f63f019c461967ddfcc0",
+      "bytes": 598
+    },
+    {
+      "path": "run-1/tasks/financial-document-processor/agent/trajectory.json",
+      "sha256": "d23c79a211e21f7f5cbed1545ee956237d5b90ab3516cdaa6f49c1d7a8bc1766",
+      "bytes": 255843
+    },
+    {
+      "path": "run-1/tasks/financial-document-processor/config.json",
+      "sha256": "c53291179288789c7415cad2e6f780234cf43bdfd93f32642f9f68f6ddd57c7b",
+      "bytes": 114
+    },
+    {
+      "path": "run-1/tasks/financial-document-processor/result.json",
+      "sha256": "680d1f2685f392bfb484a13faf02a05c2560137b87f08a224f7362abd61abbba",
+      "bytes": 604
+    },
+    {
+      "path": "run-1/tasks/fix-code-vulnerability/agent/trajectory.json",
+      "sha256": "299ccf28551244464ca3d1dc58bbdeaa1abc0b11549ec0938a6cee6488c15ec7",
+      "bytes": 396552
+    },
+    {
+      "path": "run-1/tasks/fix-code-vulnerability/config.json",
+      "sha256": "71e1dd49f15b004f1bcf30cc38e881743062f5ac21f0c5ba3ab0e821e1eb4551",
+      "bytes": 108
+    },
+    {
+      "path": "run-1/tasks/fix-code-vulnerability/result.json",
+      "sha256": "5526f20fdbfd362163e00c4a0bff42bfa2d3c61a2122f4b40e3e1eab8517d873",
+      "bytes": 600
+    },
+    {
+      "path": "run-1/tasks/fix-git/agent/trajectory.json",
+      "sha256": "a028a3a208343c8cd93e6dcb1c62cd5853d79565959dd9b6be631d4ef9c49525",
+      "bytes": 59134
+    },
+    {
+      "path": "run-1/tasks/fix-git/config.json",
+      "sha256": "3b7da4676bd590cb5592df32431e892113112e18a5a329364f9a3f410ea06cb5",
+      "bytes": 93
+    },
+    {
+      "path": "run-1/tasks/fix-git/result.json",
+      "sha256": "c3a10d412368f8c69876567da10591e9e6cc415667986a4fa740ff45611927b4",
+      "bytes": 578
+    },
+    {
+      "path": "run-1/tasks/fix-ocaml-gc/agent/trajectory.json",
+      "sha256": "86ed934930aa4b3d60c339deae9afa992fc6357e63ceb272ab236806d5253bed",
+      "bytes": 464208
+    },
+    {
+      "path": "run-1/tasks/fix-ocaml-gc/config.json",
+      "sha256": "127d51ea00eb0e1041b0f1a653cc6f2fdd2ea6158c91114628e9b3a885e4099b",
+      "bytes": 98
+    },
+    {
+      "path": "run-1/tasks/fix-ocaml-gc/result.json",
+      "sha256": "3da9074030325b96157473ab2a2fc79a3e4c71473fb198bcbcb6e2b35cd7e36b",
+      "bytes": 593
+    },
+    {
+      "path": "run-1/tasks/gcode-to-text/agent/trajectory.json",
+      "sha256": "44ab8f43f49ea936879cecc19637e262bd738f397242e652752cefb2c84d53f6",
+      "bytes": 397278
+    },
+    {
+      "path": "run-1/tasks/gcode-to-text/config.json",
+      "sha256": "cda73b606faabec9b190f29e93e456afd785d6c90e94a8a8c4e866041ea1c438",
+      "bytes": 99
+    },
+    {
+      "path": "run-1/tasks/gcode-to-text/result.json",
+      "sha256": "70e38bd8f7a2dbe45158f76c53ef415b263bbfb54e061557c6de6963ce360083",
+      "bytes": 632
+    },
+    {
+      "path": "run-1/tasks/git-leak-recovery/agent/trajectory.json",
+      "sha256": "7847d416601e880fa07ae4e504823285128c27fff896070729169752dd6a12ad",
+      "bytes": 96645
+    },
+    {
+      "path": "run-1/tasks/git-leak-recovery/config.json",
+      "sha256": "ff742c1888721366eafca133ca5b9f25be30a1dfe9ef144fe142e869c2baa3f2",
+      "bytes": 103
+    },
+    {
+      "path": "run-1/tasks/git-leak-recovery/result.json",
+      "sha256": "530b33d900157fd12fd4f0ef37eab6b9cfc66e5d685d4a9218388a5d72043bea",
+      "bytes": 589
+    },
+    {
+      "path": "run-1/tasks/git-multibranch/agent/trajectory.json",
+      "sha256": "80e139bf209c03c451dbd968ad1697826cda99acea5cad4b01bce2e6b7ebc29b",
+      "bytes": 432688
+    },
+    {
+      "path": "run-1/tasks/git-multibranch/config.json",
+      "sha256": "33785c1d60dfd356e7ee38d43e784dec995720f1ab152c5118060ca95d07db27",
+      "bytes": 101
+    },
+    {
+      "path": "run-1/tasks/git-multibranch/result.json",
+      "sha256": "1230806f01ac1819c98b2dc6e30b5c8fcb7bf8f149f2d7455cf8c2e26b9a16dd",
+      "bytes": 637
+    },
+    {
+      "path": "run-1/tasks/gpt2-codegolf/agent/trajectory.json",
+      "sha256": "0406f1eaedb4cbe089d1e8ef17ca695777b7c7ba2a87ece136a9187d90cf08e4",
+      "bytes": 287442
+    },
+    {
+      "path": "run-1/tasks/gpt2-codegolf/config.json",
+      "sha256": "55e3c54fa484f53ecc7e924f6d236138b059a85e4e6ea649a8bf7899145789fa",
+      "bytes": 99
+    },
+    {
+      "path": "run-1/tasks/gpt2-codegolf/result.json",
+      "sha256": "350a9c696ee414b341f590a28fb37a47dbcc81e7c10676a9d35a4024f058e6af",
+      "bytes": 632
+    },
+    {
+      "path": "run-1/tasks/headless-terminal/agent/trajectory.json",
+      "sha256": "b7e5958cdbe786aae25cdddcb8af818070deae8cf12e9eb97eda9c92772f503d",
+      "bytes": 132787
+    },
+    {
+      "path": "run-1/tasks/headless-terminal/config.json",
+      "sha256": "1f57ccdc1f07ea155951c3501d30165b8d12c1ed28c5fa110a20ca5a2db19ca3",
+      "bytes": 103
+    },
+    {
+      "path": "run-1/tasks/headless-terminal/result.json",
+      "sha256": "04d2d479d799a9655d36f89f259271483e91ab42a84063e7d82401565eff19de",
+      "bytes": 594
+    },
+    {
+      "path": "run-1/tasks/hf-model-inference/agent/trajectory.json",
+      "sha256": "7de4aca4c4cb0e37fde6098f24ca0c9de717771a0df01cd998cf9e1dc89de427",
+      "bytes": 48157
+    },
+    {
+      "path": "run-1/tasks/hf-model-inference/config.json",
+      "sha256": "2f7f3ad6ce5ecc6b336e5fe53a16365c16dadeffb4ca1fbfb26678f8183ab491",
+      "bytes": 104
+    },
+    {
+      "path": "run-1/tasks/hf-model-inference/result.json",
+      "sha256": "2f62629a649289f771b3a84b603483bf8b4c16c000a8a7c77583c3e817fec3f5",
+      "bytes": 591
+    },
+    {
+      "path": "run-1/tasks/install-windows-3.11/agent/trajectory.json",
+      "sha256": "877570e3ecb4f803a3d3094141e167194554247049ccffca916b6a32b2d9e4f9",
+      "bytes": 565405
+    },
+    {
+      "path": "run-1/tasks/install-windows-3.11/config.json",
+      "sha256": "7aac78d371360acdc5182758508847187b93e77f63df171b259c3688742ab99b",
+      "bytes": 106
+    },
+    {
+      "path": "run-1/tasks/install-windows-3.11/result.json",
+      "sha256": "e590fb4f2bc67e5cef562b8c0f750b4bf61eea2b304e8cb06ad120f63fef1b8c",
+      "bytes": 601
+    },
+    {
+      "path": "run-1/tasks/kv-store-grpc/agent/trajectory.json",
+      "sha256": "d326c6cc3c037a4059b4b35c444caeea059d1afc6533b1770683dc59e5031589",
+      "bytes": 452055
+    },
+    {
+      "path": "run-1/tasks/kv-store-grpc/config.json",
+      "sha256": "ee66557aef404e3e840212161906861822b7a2001348b88286bba36483c2b3ba",
+      "bytes": 99
+    },
+    {
+      "path": "run-1/tasks/kv-store-grpc/result.json",
+      "sha256": "42e04a694223c21dacff5ad5300f9bc5b192daf666f73ba6f2142b7ebc8c099e",
+      "bytes": 590
+    },
+    {
+      "path": "run-1/tasks/large-scale-text-editing/agent/trajectory.json",
+      "sha256": "b31dc77d3e1db8ebf6b244e0ba6e2fef38404f320c597f225faf5e4a528d55ae",
+      "bytes": 401859
+    },
+    {
+      "path": "run-1/tasks/large-scale-text-editing/config.json",
+      "sha256": "1f00aa28472f3a5e75d2b38dca6009cf65d5e39f305d2228a75fc3ee16b1b586",
+      "bytes": 110
+    },
+    {
+      "path": "run-1/tasks/large-scale-text-editing/result.json",
+      "sha256": "63fd4ee5f3a442b44076023c81fd9930a856f427490348114db93022d70267ad",
+      "bytes": 605
+    },
+    {
+      "path": "run-1/tasks/largest-eigenval/agent/trajectory.json",
+      "sha256": "0b1454d82bea72026fc51befcbad1de80133bb41a3190ae2d0577cd567448756",
+      "bytes": 350089
+    },
+    {
+      "path": "run-1/tasks/largest-eigenval/config.json",
+      "sha256": "47c8d2f0a98432e9d61dfc5fe0fcca5f3fb6096b5ad4d933bf1c7b1bf4a2e432",
+      "bytes": 102
+    },
+    {
+      "path": "run-1/tasks/largest-eigenval/result.json",
+      "sha256": "1b8288fff71d30dc63c11c72ff7fd12d160185f344276d6ad2d39f69b37c7823",
+      "bytes": 637
+    },
+    {
+      "path": "run-1/tasks/llm-inference-batching-scheduler/agent/trajectory.json",
+      "sha256": "0e5cc7d0be03357607294ce0b08287cbb3a64971d37a1816455aabb174561f7a",
+      "bytes": 836714
+    },
+    {
+      "path": "run-1/tasks/llm-inference-batching-scheduler/config.json",
+      "sha256": "de052e476398a63fef6453fe510290632e373814d120d185d0dce5fbb8017a5f",
+      "bytes": 118
+    },
+    {
+      "path": "run-1/tasks/llm-inference-batching-scheduler/result.json",
+      "sha256": "24c0a2712d4071542267846daa6e7f91ee858b33ac32b064ed5ee234cce72f14",
+      "bytes": 655
+    },
+    {
+      "path": "run-1/tasks/log-summary-date-ranges/agent/trajectory.json",
+      "sha256": "6f09b040e6b1db07de0ccefa90d577bd12d5e398b6cdde23fa776d9b35963d82",
+      "bytes": 34326
+    },
+    {
+      "path": "run-1/tasks/log-summary-date-ranges/config.json",
+      "sha256": "d6c53d36f5a64cd15cfef351aa0c88b747727a681017a5cab22a3c976dcbe32b",
+      "bytes": 109
+    },
+    {
+      "path": "run-1/tasks/log-summary-date-ranges/result.json",
+      "sha256": "e34b261e9ab8c39a36ed9966cf098d6af68a6823ad67667cfeb95da11c1d5c09",
+      "bytes": 590
+    },
+    {
+      "path": "run-1/tasks/mailman/agent/trajectory.json",
+      "sha256": "c4f38429c94bf2b509a519ca3053f530a015d88b275af7cf5d998f6f711ee689",
+      "bytes": 643001
+    },
+    {
+      "path": "run-1/tasks/mailman/config.json",
+      "sha256": "3a30a9a0dfb4bb1d79889075ee83bc1ec22f32b22f546bfe693258cf65624504",
+      "bytes": 93
+    },
+    {
+      "path": "run-1/tasks/mailman/result.json",
+      "sha256": "9cd7d1f02bef669d53daa241a17044dba6a19b8cd138a61d72e8665235fa3eb7",
+      "bytes": 630
+    },
+    {
+      "path": "run-1/tasks/make-doom-for-mips/agent/trajectory.json",
+      "sha256": "4ccba5e2013751d44ce20fbf5c8ce7c7ac7271db85ead79be244e0c8204d90c5",
+      "bytes": 415085
+    },
+    {
+      "path": "run-1/tasks/make-doom-for-mips/config.json",
+      "sha256": "a64e731870759de171f2d30104d8a7970d7a4deef1695eb58b4a6781a3de7026",
+      "bytes": 104
+    },
+    {
+      "path": "run-1/tasks/make-doom-for-mips/result.json",
+      "sha256": "2a45ad34d434fb7528c4342651775b44a284ed47b11f02635c1cc30fae6773d0",
+      "bytes": 640
+    },
+    {
+      "path": "run-1/tasks/make-mips-interpreter/agent/trajectory.json",
+      "sha256": "c226b32f37811fbd6ce49fc7b09564d65500144ba2d2bdcfb46609decfec8ec9",
+      "bytes": 512077
+    },
+    {
+      "path": "run-1/tasks/make-mips-interpreter/config.json",
+      "sha256": "8c938de524167c5d1db4fd32a0fb6f17f06dd33679267005b5c3dfc5d945ac59",
+      "bytes": 107
+    },
+    {
+      "path": "run-1/tasks/make-mips-interpreter/result.json",
+      "sha256": "480b3ac0fecf6cea2806e214bfb5fec979d02fe5034a2bd8337c87b696aefcb1",
+      "bytes": 644
+    },
+    {
+      "path": "run-1/tasks/mcmc-sampling-stan/agent/trajectory.json",
+      "sha256": "cf4b592fd6fe3b96e0af98be624e0c537d81dbf631c54d42adc99897ad8b6871",
+      "bytes": 336743
+    },
+    {
+      "path": "run-1/tasks/mcmc-sampling-stan/config.json",
+      "sha256": "a99981cc2de3f66a368845a37433b6af2bc55e90f0d851f70bb5ebfd896c9caf",
+      "bytes": 104
+    },
+    {
+      "path": "run-1/tasks/mcmc-sampling-stan/result.json",
+      "sha256": "299012681873454dfb3375413c5d73d30a75ebea434bb14478cdfb0ebaaf5d18",
+      "bytes": 599
+    },
+    {
+      "path": "run-1/tasks/merge-diff-arc-agi-task/agent/trajectory.json",
+      "sha256": "d883b1b01d19971c552541f0b3578cfbfb96964e84eab30bdc53e8143056eb4d",
+      "bytes": 407645
+    },
+    {
+      "path": "run-1/tasks/merge-diff-arc-agi-task/config.json",
+      "sha256": "3f0d644e51bb01be8ea52f54847a836a33a7359ce50735411f36449d4fc71d13",
+      "bytes": 109
+    },
+    {
+      "path": "run-1/tasks/merge-diff-arc-agi-task/result.json",
+      "sha256": "384c06c37f1751b18a36e37c8870ddd9f79348a598aa31d136e9260fb084266c",
+      "bytes": 642
+    },
+    {
+      "path": "run-1/tasks/model-extraction-relu-logits/agent/trajectory.json",
+      "sha256": "51d80f7db9a9ba62df1cc0aece70203ea6fdea0495d3c3310305ac010b7f603d",
+      "bytes": 383497
+    },
+    {
+      "path": "run-1/tasks/model-extraction-relu-logits/config.json",
+      "sha256": "d848b5ebbab4c51dc7bcf632cbc6df476ededc5e92165184ab919335ca9187a9",
+      "bytes": 114
+    },
+    {
+      "path": "run-1/tasks/model-extraction-relu-logits/result.json",
+      "sha256": "a7e96cc59c7d61663c8cc8db4c2bcd296fe4c68c034a17866040b37bbf749216",
+      "bytes": 648
+    },
+    {
+      "path": "run-1/tasks/modernize-scientific-stack/agent/trajectory.json",
+      "sha256": "9b46ae8a2f5d15bdb9d8b42b3156960167170e0c67df2bd46e8781b4b4cb3cfd",
+      "bytes": 31200
+    },
+    {
+      "path": "run-1/tasks/modernize-scientific-stack/config.json",
+      "sha256": "afce00831ebcef35f00d9022e527c6e534126831746519779232d91d6da99baa",
+      "bytes": 112
+    },
+    {
+      "path": "run-1/tasks/modernize-scientific-stack/result.json",
+      "sha256": "c7f48ae065ede4c7d3c5145e5bb108830fa9b0d25774d8e6add5a02ea8022aa5",
+      "bytes": 597
+    },
+    {
+      "path": "run-1/tasks/mteb-leaderboard/agent/trajectory.json",
+      "sha256": "7f4f109dfde85d6c232398209e153074187a72ec81a861233e6b0d39263e7a72",
+      "bytes": 319526
+    },
+    {
+      "path": "run-1/tasks/mteb-leaderboard/config.json",
+      "sha256": "f5b3a26f439e8184b17f8205a3208a87064de949955eb8be5fcd6b7f6cb35bc1",
+      "bytes": 102
+    },
+    {
+      "path": "run-1/tasks/mteb-leaderboard/result.json",
+      "sha256": "7ac927118f73aa155fb2016d85f7c47bd5598a98b355bcf317ac13fe940a6587",
+      "bytes": 592
+    },
+    {
+      "path": "run-1/tasks/mteb-retrieve/agent/trajectory.json",
+      "sha256": "dea45d601d2db8831cd5f9031cf38a98ca5663094bbbacc29985e8da6784d953",
+      "bytes": 63201
+    },
+    {
+      "path": "run-1/tasks/mteb-retrieve/config.json",
+      "sha256": "d4509f3327919b3899ff23a82b8c25ca07963cf45f4d1f25a22aba4c8f64832c",
+      "bytes": 99
+    },
+    {
+      "path": "run-1/tasks/mteb-retrieve/result.json",
+      "sha256": "1587a7f1bc8ca7e323e8ed525e8c9af6e9fe1224d992ab9d72c4f2002df596d0",
+      "bytes": 587
+    },
+    {
+      "path": "run-1/tasks/multi-source-data-merger/agent/trajectory.json",
+      "sha256": "e2faa0f046ce3812caae2a239dfa106cdbb5c1f2a30999f33e4b5af11f27bd0b",
+      "bytes": 79030
+    },
+    {
+      "path": "run-1/tasks/multi-source-data-merger/config.json",
+      "sha256": "28d09bfe78b53ecfdaa62d6d2bcd16c65a7e3d52d8c5a03fdf4b5bf41d2bad55",
+      "bytes": 110
+    },
+    {
+      "path": "run-1/tasks/multi-source-data-merger/result.json",
+      "sha256": "b64fbb521699d850468aace9e1a6e990ad76c51ffc95a0c422d564792971030b",
+      "bytes": 598
+    },
+    {
+      "path": "run-1/tasks/nginx-request-logging/agent/trajectory.json",
+      "sha256": "2b252ec3ecf9bf51ad996e55faa6aab3b462de8cfeb0bb21b00ac99943e5c2bb",
+      "bytes": 327148
+    },
+    {
+      "path": "run-1/tasks/nginx-request-logging/config.json",
+      "sha256": "3620ae378c4182684d4be0d9bacbd36dd597b44ce1042add5153c5524b33fe71",
+      "bytes": 107
+    },
+    {
+      "path": "run-1/tasks/nginx-request-logging/result.json",
+      "sha256": "219eedd117833b515495cd1e0d77541c9b97066f00c4b77ba5fe35e1a00b750a",
+      "bytes": 597
+    },
+    {
+      "path": "run-1/tasks/openssl-selfsigned-cert/agent/trajectory.json",
+      "sha256": "eb88b5a98ac7b0eff5728211b881e01b3fac99d7dc25803eda853c5ee35c02cd",
+      "bytes": 210856
+    },
+    {
+      "path": "run-1/tasks/openssl-selfsigned-cert/config.json",
+      "sha256": "8d4e37b4c34ace4600e85eccf1f0a32c603ad2dc77bd570d502f31cd095bdcc3",
+      "bytes": 109
+    },
+    {
+      "path": "run-1/tasks/openssl-selfsigned-cert/result.json",
+      "sha256": "c675be762e9d1fd48a8ccc857a9a2d2f58037146ec6cc823ceb2c9b5dc5e0b0a",
+      "bytes": 599
+    },
+    {
+      "path": "run-1/tasks/overfull-hbox/agent/trajectory.json",
+      "sha256": "4b8b886918b2fa420b60382bd5057050dceb02bd61fd6169e8a584d27bbbddb0",
+      "bytes": 138841
+    },
+    {
+      "path": "run-1/tasks/overfull-hbox/config.json",
+      "sha256": "b76dce4b9c4221217cc02225a2c6db47f1ccec31340056f50efa924aeb3b51b6",
+      "bytes": 99
+    },
+    {
+      "path": "run-1/tasks/overfull-hbox/result.json",
+      "sha256": "e2ad16c90120e7bb635a84bd4269984d59c65ef5fd86a8896961a45f562720a5",
+      "bytes": 590
+    },
+    {
+      "path": "run-1/tasks/password-recovery/agent/trajectory.json",
+      "sha256": "672680ec0049af92021c5982ffa1dfc345d00ab4ceeb099dd6977f51f91dee35",
+      "bytes": 164037
+    },
+    {
+      "path": "run-1/tasks/password-recovery/config.json",
+      "sha256": "e001c9c122085b2d222b97674c434bcebe5838fd194b2b54edaa46fcb9c081e6",
+      "bytes": 103
+    },
+    {
+      "path": "run-1/tasks/password-recovery/result.json",
+      "sha256": "38af552cb21c562f637dec3ce34ade023737075eb8481889ddab7132a0b12e80",
+      "bytes": 593
+    },
+    {
+      "path": "run-1/tasks/path-tracing/agent/trajectory.json",
+      "sha256": "44f58f049221e7f49445336b7ea8ed8b1c26c753a598efdf61ac630fb7a7097a",
+      "bytes": 757698
+    },
+    {
+      "path": "run-1/tasks/path-tracing/config.json",
+      "sha256": "c7cbe5332abd3de358b625d96f6430a69711a1eed7f0bab1c00d422f6a06784d",
+      "bytes": 98
+    },
+    {
+      "path": "run-1/tasks/path-tracing/result.json",
+      "sha256": "6a3d64e0625e0a0fb881fbdad1ebfd32d5f3075dc7e82f623400b81877906d66",
+      "bytes": 635
+    },
+    {
+      "path": "run-1/tasks/path-tracing-reverse/agent/trajectory.json",
+      "sha256": "58117e19b3f7447dd2fe8d68d94ca81e8f9953b65b0c174460905ae35636822e",
+      "bytes": 636043
+    },
+    {
+      "path": "run-1/tasks/path-tracing-reverse/config.json",
+      "sha256": "483448dbea121b5f48c632a925f39ed78c68d8a755ab41f9f7b807d0c6094537",
+      "bytes": 106
+    },
+    {
+      "path": "run-1/tasks/path-tracing-reverse/result.json",
+      "sha256": "fa4fb404e7a56ca87317943f9a1642faf55abfc351f10fb22f9f9ef30ad88939",
+      "bytes": 643
+    },
+    {
+      "path": "run-1/tasks/polyglot-c-py/agent/trajectory.json",
+      "sha256": "785715660bf2b710f842ac1deba245c0cc7ce37209212e657fe686baba5d8e6e",
+      "bytes": 268464
+    },
+    {
+      "path": "run-1/tasks/polyglot-c-py/config.json",
+      "sha256": "ab1903997c5d46ee78ad26ae403e9a0df4a6fc0b3373f9cdb68652a99e6d02dd",
+      "bytes": 99
+    },
+    {
+      "path": "run-1/tasks/polyglot-c-py/result.json",
+      "sha256": "3bb3e9f4d433a8b5487709a3a54f06829ee883539ae99df77d107012cb0fc7f8",
+      "bytes": 585
+    },
+    {
+      "path": "run-1/tasks/polyglot-rust-c/agent/trajectory.json",
+      "sha256": "2e7d6f8fc16d68ade1acc170d8743af3dfbf0e82d1e49ae925cc95e61b468502",
+      "bytes": 50260
+    },
+    {
+      "path": "run-1/tasks/polyglot-rust-c/config.json",
+      "sha256": "e17f648631359f8aaf22db40e80ef72638af8981366a133e3c8de30828869ac2",
+      "bytes": 101
+    },
+    {
+      "path": "run-1/tasks/polyglot-rust-c/result.json",
+      "sha256": "fbd2a175794c2bad807b49106a8b9edd1348f88580368321e964042f9b0f7e11",
+      "bytes": 625
+    },
+    {
+      "path": "run-1/tasks/portfolio-optimization/agent/trajectory.json",
+      "sha256": "456037d8e8e8fc8f976e96accc38c3dd1a932eb8c4d550c533467deee52b013d",
+      "bytes": 62016
+    },
+    {
+      "path": "run-1/tasks/portfolio-optimization/config.json",
+      "sha256": "115d3a82eda527f887bb90b89f8c59730a2b53b72982648d4aec6ac01e932675",
+      "bytes": 108
+    },
+    {
+      "path": "run-1/tasks/portfolio-optimization/result.json",
+      "sha256": "d0275f6b277d7e9518194f5c66dbfaccaec6b2efe18e9bd4cf423e53f0415509",
+      "bytes": 593
+    },
+    {
+      "path": "run-1/tasks/protein-assembly/agent/trajectory.json",
+      "sha256": "bfdd2fe792312948a36b573050662f861961cf51cb84a7fc864d96acb81c0824",
+      "bytes": 661072
+    },
+    {
+      "path": "run-1/tasks/protein-assembly/config.json",
+      "sha256": "a5984637b6285f6d14592dae1d606ea502ce244a12287d998a3cae3c2f99fa43",
+      "bytes": 102
+    },
+    {
+      "path": "run-1/tasks/protein-assembly/result.json",
+      "sha256": "dcb1ced513a7371bfb9d20b0e9a36d05f1d70cf4d4ccb7b2d34878956ca46f2c",
+      "bytes": 639
+    },
+    {
+      "path": "run-1/tasks/prove-plus-comm/agent/trajectory.json",
+      "sha256": "bfb94c9dcbd131da435b7ee82d215de17c486ddd49c79c341f3a902f30275ebd",
+      "bytes": 75254
+    },
+    {
+      "path": "run-1/tasks/prove-plus-comm/config.json",
+      "sha256": "fc811319a20489f57c218f86618ad7444d4587db861b26d92fbc38d9b1f0d70d",
+      "bytes": 101
+    },
+    {
+      "path": "run-1/tasks/prove-plus-comm/result.json",
+      "sha256": "daf9adc87d89a5856c9c424d5cab5f9af6219119706f220be7b25b1d85abb637",
+      "bytes": 589
+    },
+    {
+      "path": "run-1/tasks/pypi-server/agent/trajectory.json",
+      "sha256": "d5c9fdcd803131fa5f7de091345a0a93198a5b2c06f2c8eaf158f414c5347f94",
+      "bytes": 106012
+    },
+    {
+      "path": "run-1/tasks/pypi-server/config.json",
+      "sha256": "e6af6eb305bf1b4475b8a4345e449d32a94a3054659ae344e2e776bf3c0002b5",
+      "bytes": 97
+    },
+    {
+      "path": "run-1/tasks/pypi-server/result.json",
+      "sha256": "64a3f1ab5b68ac742d7c7b539100fe45487fd81e411d2d8d08048d935dea7e53",
+      "bytes": 586
+    },
+    {
+      "path": "run-1/tasks/pytorch-model-cli/agent/trajectory.json",
+      "sha256": "cee2f8d35b35b77d7320a893e3c8fc94544c328870ee2a8eb467d7aacc7b89f4",
+      "bytes": 368114
+    },
+    {
+      "path": "run-1/tasks/pytorch-model-cli/config.json",
+      "sha256": "7076df823b2b4f78cb24b36e2d8c1fc00d890796e461e0a6e81e718c7b4d804c",
+      "bytes": 103
+    },
+    {
+      "path": "run-1/tasks/pytorch-model-cli/result.json",
+      "sha256": "1a248c4f03cca8093e5d0c993f03b7e9887d53c300f6d2288142a99480afa289",
+      "bytes": 595
+    },
+    {
+      "path": "run-1/tasks/pytorch-model-recovery/agent/trajectory.json",
+      "sha256": "9078372b47783ca39ae8d99fdb95c97f0f23cc0d07d589749cc60cbe2c8b489b",
+      "bytes": 130525
+    },
+    {
+      "path": "run-1/tasks/pytorch-model-recovery/config.json",
+      "sha256": "ee012857b68e2f6df60456cbb27d677279ff5e3ae629235ad89e6686f9f33b44",
+      "bytes": 108
+    },
+    {
+      "path": "run-1/tasks/pytorch-model-recovery/result.json",
+      "sha256": "bd4f850586c92cc5e27c979301d08c4424f8c1eef902a9571e9be6bcc24c34b7",
+      "bytes": 599
+    },
+    {
+      "path": "run-1/tasks/qemu-alpine-ssh/agent/trajectory.json",
+      "sha256": "bdcb899a493b1ab84bdc666e3b77c3b1e8f0267efafe9864d6e08df91cd16631",
+      "bytes": 389690
+    },
+    {
+      "path": "run-1/tasks/qemu-alpine-ssh/config.json",
+      "sha256": "b0bad4f1d36ebd160667d07475e077f7148604c8382e7e39197852a1f53ab04f",
+      "bytes": 101
+    },
+    {
+      "path": "run-1/tasks/qemu-alpine-ssh/result.json",
+      "sha256": "910ca9143fc2545148e70343df6a948520ffdb7c0993d070dd01cd29d860fdb2",
+      "bytes": 636
+    },
+    {
+      "path": "run-1/tasks/qemu-startup/agent/trajectory.json",
+      "sha256": "9f57544fb9ea08dcd7ae4dbb688cfd09fc2e8b6e95b7f8c1aca698d3ff8f54be",
+      "bytes": 262089
+    },
+    {
+      "path": "run-1/tasks/qemu-startup/config.json",
+      "sha256": "2748fe27be34e427a11eb84d3ed8db4815053c955b5259fd50a45c037d278b75",
+      "bytes": 98
+    },
+    {
+      "path": "run-1/tasks/qemu-startup/result.json",
+      "sha256": "312d0ddfe0adb68515aad962a29da95b682727b5dbbcdb93c401cd4585d23779",
+      "bytes": 586
+    },
+    {
+      "path": "run-1/tasks/query-optimize/agent/trajectory.json",
+      "sha256": "08586e589d93e18bd15d21c2619fdd5abea693b90bcc88f26bc5174dffdf3110",
+      "bytes": 142235
+    },
+    {
+      "path": "run-1/tasks/query-optimize/config.json",
+      "sha256": "ccfcfa06fb1660725e56495ae0fd1156d54697680917cbc419943d8047b16ae7",
+      "bytes": 100
+    },
+    {
+      "path": "run-1/tasks/query-optimize/result.json",
+      "sha256": "8c7ba85f367ee97274d8ce45eb2ba01f15494a9757daa397328a6771177e0df6",
+      "bytes": 590
+    },
+    {
+      "path": "run-1/tasks/raman-fitting/agent/trajectory.json",
+      "sha256": "762ed84b63e01c9a98ab7c9921f0b32859a15c2b84ff80f4844a58da8ce1ad0b",
+      "bytes": 281767
+    },
+    {
+      "path": "run-1/tasks/raman-fitting/config.json",
+      "sha256": "2469be30b92d856dd4ea006ea2d7d87c39f99c20e27928e822224cbe3124ae76",
+      "bytes": 99
+    },
+    {
+      "path": "run-1/tasks/raman-fitting/result.json",
+      "sha256": "6b5c877baa5da2220feb53c603aff80c789086dbf2df72130eef26e881fce01e",
+      "bytes": 590
+    },
+    {
+      "path": "run-1/tasks/regex-chess/agent/trajectory.json",
+      "sha256": "2cab1113731867c70e9ce0fcb13a61db500f464557b804f62ed80a8ff8c14bf7",
+      "bytes": 1675747
+    },
+    {
+      "path": "run-1/tasks/regex-chess/config.json",
+      "sha256": "a50ff4ef7c76ab99bf471646b46aeab09e1c37b5544f26482d8df8f89313d3e9",
+      "bytes": 97
+    },
+    {
+      "path": "run-1/tasks/regex-chess/result.json",
+      "sha256": "864553dcb98a03a6c07b57d00adb60c9361d3148600e8111ef726c3b6796c686",
+      "bytes": 593
+    },
+    {
+      "path": "run-1/tasks/regex-log/agent/trajectory.json",
+      "sha256": "95065b9b812d776f1201fed7f54156ca4ab9fc9d7572c2f7fe4f23864167adc9",
+      "bytes": 139098
+    },
+    {
+      "path": "run-1/tasks/regex-log/config.json",
+      "sha256": "c6dd38edd13fb0191ee3ea31dbb5ab49dd571986a60145a7d639ed09b28a25f3",
+      "bytes": 95
+    },
+    {
+      "path": "run-1/tasks/regex-log/result.json",
+      "sha256": "a3862f6eac0bafb83ee414ec98d570d678fb577d000f2daedddcf7cd17c98300",
+      "bytes": 585
+    },
+    {
+      "path": "run-1/tasks/reshard-c4-data/agent/trajectory.json",
+      "sha256": "f636d47a0875242123aecb21ce7aa979d63ea6efaa46cc3652300652e8c4e87c",
+      "bytes": 816017
+    },
+    {
+      "path": "run-1/tasks/reshard-c4-data/config.json",
+      "sha256": "6080f14c09614d7e68ad79d0712fa54ff50ec49d07f621abbcf33a6d051453bd",
+      "bytes": 101
+    },
+    {
+      "path": "run-1/tasks/reshard-c4-data/result.json",
+      "sha256": "f87a2ceac73a3c68fcd9f8ef45209dad2efb27d513c81227b5f3d274c269e5af",
+      "bytes": 597
+    },
+    {
+      "path": "run-1/tasks/rstan-to-pystan/agent/trajectory.json",
+      "sha256": "408ff616aeb418ce0ac9e1b802857b8d45d8d6f97d82220c0737aa976d2a0c0b",
+      "bytes": 291424
+    },
+    {
+      "path": "run-1/tasks/rstan-to-pystan/config.json",
+      "sha256": "cf0bd5a206a6368c62c1eed78ee5673f1bdd7cf33de7eac7afc206dee9ad97e4",
+      "bytes": 101
+    },
+    {
+      "path": "run-1/tasks/rstan-to-pystan/result.json",
+      "sha256": "6dfbe1e6efcbdc29b48ef9bd6788df1b016726e6491dfb9537082d653d4211ae",
+      "bytes": 592
+    },
+    {
+      "path": "run-1/tasks/sam-cell-seg/agent/trajectory.json",
+      "sha256": "442b70144bca6a71269a81bdec3bd6a6f755f251ce5805493f566f8fc656a79c",
+      "bytes": 780743
+    },
+    {
+      "path": "run-1/tasks/sam-cell-seg/config.json",
+      "sha256": "1ba3ec923030915a863fb75b99e92a3a71bd1899d0dbbe406e8393eb100adb8d",
+      "bytes": 98
+    },
+    {
+      "path": "run-1/tasks/sam-cell-seg/result.json",
+      "sha256": "5ee4e9b36564ec95bc97944d411dd52b07f5482f30e679ce766c87a6e7da4a75",
+      "bytes": 593
+    },
+    {
+      "path": "run-1/tasks/sanitize-git-repo/agent/trajectory.json",
+      "sha256": "37c3e2e687c1933191ff36e4c260c02ec5d38c4f0ab873d5b9bbfa2eb7e19d89",
+      "bytes": 516223
+    },
+    {
+      "path": "run-1/tasks/sanitize-git-repo/config.json",
+      "sha256": "79c658eee4c084087b4735d348720968d996d67063b50977ced78f321d279b5f",
+      "bytes": 103
+    },
+    {
+      "path": "run-1/tasks/sanitize-git-repo/result.json",
+      "sha256": "c60cae8fb1cf759c6d579b771aca8858dd72f0727c24a755c7b9b692bae73fd7",
+      "bytes": 638
+    },
+    {
+      "path": "run-1/tasks/schemelike-metacircular-eval/agent/trajectory.json",
+      "sha256": "21999e4c7651c4a2f2f7a879abfafd1441a1cdbcb61c877c97c22f98b92cf6fe",
+      "bytes": 855058
+    },
+    {
+      "path": "run-1/tasks/schemelike-metacircular-eval/config.json",
+      "sha256": "78d8f11f96eef5c9e9110b57a22576ff3d2e13cfb456a85f02e3a9c4862f15bc",
+      "bytes": 114
+    },
+    {
+      "path": "run-1/tasks/schemelike-metacircular-eval/result.json",
+      "sha256": "7646fa11028d319f33e2d8e0481e9972295608826a374671c29700bb5e4857f9",
+      "bytes": 653
+    },
+    {
+      "path": "run-1/tasks/sparql-university/agent/trajectory.json",
+      "sha256": "680574061203ae873902bbe713e2ab4626ebbc230aea40a63b7c570c3da66c55",
+      "bytes": 448252
+    },
+    {
+      "path": "run-1/tasks/sparql-university/config.json",
+      "sha256": "f9e56af5d85ff404681159422edd8b9d43c79063107f9c8c4ef6dce5000ac5d5",
+      "bytes": 103
+    },
+    {
+      "path": "run-1/tasks/sparql-university/result.json",
+      "sha256": "d6a91fee9006c4c4eff268a78e3266d03d359ed4bcaa212fe5881f1c6e551870",
+      "bytes": 637
+    },
+    {
+      "path": "run-1/tasks/sqlite-db-truncate/agent/trajectory.json",
+      "sha256": "a4735eac02fc5a031d816a3b9b91347058b58ebebe705bc8059cf445c1e42e3c",
+      "bytes": 218359
+    },
+    {
+      "path": "run-1/tasks/sqlite-db-truncate/config.json",
+      "sha256": "491439cd95fbe2cd5cbffd643a7c60e99a57479f2c99e2e9f01eb34c9ad827c1",
+      "bytes": 104
+    },
+    {
+      "path": "run-1/tasks/sqlite-db-truncate/result.json",
+      "sha256": "c373c60e8b4a1bba4da0a0d8f13586fa4f4234afcbd4c7e8ca483c2a09f0614e",
+      "bytes": 594
+    },
+    {
+      "path": "run-1/tasks/sqlite-with-gcov/agent/trajectory.json",
+      "sha256": "26657df5cda9cf56dffb6ae999bdbd212aa1c52856af6434c25c90b6750b9e8f",
+      "bytes": 80542
+    },
+    {
+      "path": "run-1/tasks/sqlite-with-gcov/config.json",
+      "sha256": "91232fdf4a70d3ba19a40f3dad3f9a72bcf15cc1a0f987ad5dd0108d4a138184",
+      "bytes": 102
+    },
+    {
+      "path": "run-1/tasks/sqlite-with-gcov/result.json",
+      "sha256": "70179f59ec7428e2f8ff86c458ead15161eb3b86715053412ba4028b52d66aa9",
+      "bytes": 590
+    },
+    {
+      "path": "run-1/tasks/torch-pipeline-parallelism/agent/trajectory.json",
+      "sha256": "a19b22df40e2ffca006f9c427626a94a09079ee0686e16ab64f48306d83798c1",
+      "bytes": 388157
+    },
+    {
+      "path": "run-1/tasks/torch-pipeline-parallelism/config.json",
+      "sha256": "f268f5224fba19e1963b4788b8807d05f58b0f277c38f6e98ca597f9620ec07d",
+      "bytes": 112
+    },
+    {
+      "path": "run-1/tasks/torch-pipeline-parallelism/result.json",
+      "sha256": "400f5d2d68fbbfd15e98788f073b9f615eaef1eb58ea9abe57ad0f82bcafa9db",
+      "bytes": 603
+    },
+    {
+      "path": "run-1/tasks/torch-tensor-parallelism/agent/trajectory.json",
+      "sha256": "617f6308371fca0de359cf0a3ca38b49c496b25bc3df3d0f68b8f3a742a3380b",
+      "bytes": 127239
+    },
+    {
+      "path": "run-1/tasks/torch-tensor-parallelism/config.json",
+      "sha256": "53ceaa0bb7b6e7121483ad159813d4de52e34882b2d1905f79c51049cc7a1a64",
+      "bytes": 110
+    },
+    {
+      "path": "run-1/tasks/torch-tensor-parallelism/result.json",
+      "sha256": "e5ea3837a47e0fed4cf39a113b665c32cb7812f2e153711936c29eb62a12b887",
+      "bytes": 602
+    },
+    {
+      "path": "run-1/tasks/train-fasttext/agent/trajectory.json",
+      "sha256": "d90c033e7b45cf1ffc0d26ce0c3dbf7f193f2d18e0b7a598a408880d4a901d67",
+      "bytes": 433774
+    },
+    {
+      "path": "run-1/tasks/train-fasttext/config.json",
+      "sha256": "dfe78a4aaffcf48f699d9f1a4ae5c93a14000651e1ce14e44fd035fc4ca7c9b8",
+      "bytes": 100
+    },
+    {
+      "path": "run-1/tasks/train-fasttext/result.json",
+      "sha256": "8f489e53f86f3143917bb9d49eb30104595a9305c07a1af66f507c3694570949",
+      "bytes": 593
+    },
+    {
+      "path": "run-1/tasks/tune-mjcf/agent/trajectory.json",
+      "sha256": "0a8cbf25292c96038831cdc782ba51bc05bf51f1273c4933a84b8d9274abd2cf",
+      "bytes": 99342
+    },
+    {
+      "path": "run-1/tasks/tune-mjcf/config.json",
+      "sha256": "a1d45570dc880d4cf987556c51dc9fabebe540060eae6066d1172440d1715319",
+      "bytes": 95
+    },
+    {
+      "path": "run-1/tasks/tune-mjcf/result.json",
+      "sha256": "df840351cf2981a6a45fc7f71a593ab8fbf4eb8f4fa9b5d41ddb068b796e8e52",
+      "bytes": 586
+    },
+    {
+      "path": "run-1/tasks/video-processing/agent/trajectory.json",
+      "sha256": "7c5de6663e52240a0f4cd6ca8296dd1d38daa25b46482427f0e5294c15ac9f5e",
+      "bytes": 1114803
+    },
+    {
+      "path": "run-1/tasks/video-processing/config.json",
+      "sha256": "b59f2b06b0b994d8f06d3d80be206f2ed6524d9704a8d9a54efd17a840e4eca8",
+      "bytes": 102
+    },
+    {
+      "path": "run-1/tasks/video-processing/result.json",
+      "sha256": "04e46dc80e68acdeeae5e6645e4725e0d7002025818afe293569a66187cb913c",
+      "bytes": 598
+    },
+    {
+      "path": "run-1/tasks/vulnerable-secret/agent/trajectory.json",
+      "sha256": "34e7734982b985d7f242a31a8ba35e68a5ca17292d83a1fbd0587f995f20c6a4",
+      "bytes": 98841
+    },
+    {
+      "path": "run-1/tasks/vulnerable-secret/config.json",
+      "sha256": "fe5e6efafeec1377667012f69abe6483ec38bb398c2da51a474d4c6350fa8daf",
+      "bytes": 103
+    },
+    {
+      "path": "run-1/tasks/vulnerable-secret/result.json",
+      "sha256": "9c735d8dbe0a53270803a08dbf6a322cfa6742231ddd3e420ba430e45f90e2f8",
+      "bytes": 593
+    },
+    {
+      "path": "run-1/tasks/winning-avg-corewars/agent/trajectory.json",
+      "sha256": "573214a972f9fa6fee221a0ad352d676a3dbb57a0e50411a857b23efa666478c",
+      "bytes": 708228
+    },
+    {
+      "path": "run-1/tasks/winning-avg-corewars/config.json",
+      "sha256": "0f06d7b89c36cab3ed34c40169db7feb2c82065c19f9b94ffb7882018ee8fbdb",
+      "bytes": 106
+    },
+    {
+      "path": "run-1/tasks/winning-avg-corewars/result.json",
+      "sha256": "ee389c77f339112a7112d66764a7ff82604d214f2f152d07014638d460312cc2",
+      "bytes": 599
+    },
+    {
+      "path": "run-1/tasks/write-compressor/agent/trajectory.json",
+      "sha256": "b38c2a5f2b57b4c03136d0d9fa1a00d46e272632da5c4849da4901929052c85e",
+      "bytes": 151771
+    },
+    {
+      "path": "run-1/tasks/write-compressor/config.json",
+      "sha256": "18cfed0c9c6ce021cbc2f20098c9731c36bf125bf89df404a2a7601586f35904",
+      "bytes": 102
+    },
+    {
+      "path": "run-1/tasks/write-compressor/result.json",
+      "sha256": "ed785e3e639635384dd1343549bbc3dea6c11b34fafc3837a265bd703612064e",
+      "bytes": 630
+    },
+    {
+      "path": "run-2/config.json",
+      "sha256": "b96651e737406f2d2145a23aabea986518bb2f74019620dbb657aa860e32141f",
+      "bytes": 54
+    },
+    {
+      "path": "run-2/result.json",
+      "sha256": "774466698935d4c9435e2826d863e91eeeabfe81c0269a2520753bb1fac3f2ff",
+      "bytes": 4887
+    },
+    {
+      "path": "run-2/tasks/adaptive-rejection-sampler/agent/trajectory.json",
+      "sha256": "97efdb8735bee1b4fda90e0f6e1997ac1c01ad00fc7c083ad170fc9b0dd71efa",
+      "bytes": 5119541
+    },
+    {
+      "path": "run-2/tasks/adaptive-rejection-sampler/config.json",
+      "sha256": "cd046349b8070040caf7273499a0a6db23f4f1cde3cb718bb55e9d67a27fb627",
+      "bytes": 112
+    },
+    {
+      "path": "run-2/tasks/adaptive-rejection-sampler/result.json",
+      "sha256": "e13c6423092c338cadf4db51e321bbc2a1a07e100694b82f02a5c456bbfb86f7",
+      "bytes": 605
+    },
+    {
+      "path": "run-2/tasks/bn-fit-modify/agent/trajectory.json",
+      "sha256": "f293231c8e114249e3f8a2b5efa293c3a055d368e6d630cd45753015757a2703",
+      "bytes": 1401643
+    },
+    {
+      "path": "run-2/tasks/bn-fit-modify/config.json",
+      "sha256": "214f9ede79342803834eb1465d1c254c7431f3c2af557ce7f2929c646184b7f2",
+      "bytes": 99
+    },
+    {
+      "path": "run-2/tasks/bn-fit-modify/result.json",
+      "sha256": "1539990efacb8c5117524c440f647db8f1bb6987a622f88d92c5213efa6adda9",
+      "bytes": 592
+    },
+    {
+      "path": "run-2/tasks/break-filter-js-from-html/agent/trajectory.json",
+      "sha256": "18a5adf309cb0256afab3d0a2458778c0374c81246b1d3ffd2094612ea590307",
+      "bytes": 217020
+    },
+    {
+      "path": "run-2/tasks/break-filter-js-from-html/config.json",
+      "sha256": "f21eedb3e7dda4e6338f59682a2908f5075d435e1a44a987ddc76ab91bc1d4aa",
+      "bytes": 111
+    },
+    {
+      "path": "run-2/tasks/break-filter-js-from-html/result.json",
+      "sha256": "d68366d1203eb2b0360498193d84a9454e2eca5aa14266954dacfb1d2421a86e",
+      "bytes": 602
+    },
+    {
+      "path": "run-2/tasks/build-cython-ext/agent/trajectory.json",
+      "sha256": "ea30baf88a8db3eff77ddaa8258b6b77b14fd6503b4d6ef10ba2cfe6a9ce1363",
+      "bytes": 916896
+    },
+    {
+      "path": "run-2/tasks/build-cython-ext/config.json",
+      "sha256": "6eaa570a53b6c5b1fd4e864169d122056e7386f36efcf0d98b2deacf977187cf",
+      "bytes": 102
+    },
+    {
+      "path": "run-2/tasks/build-cython-ext/result.json",
+      "sha256": "3e7f7abf51da97626bcbdd1bb709df142ba617bab48ae354ccc34cdc0d06f13d",
+      "bytes": 636
+    },
+    {
+      "path": "run-2/tasks/build-pmars/agent/trajectory.json",
+      "sha256": "19a30389d40bbeda9a506bc22947fed079423de2e6bc5dd5303d76565b20a436",
+      "bytes": 1897666
+    },
+    {
+      "path": "run-2/tasks/build-pmars/config.json",
+      "sha256": "e902b4ddd5a954e17bd95fb0f3bdc16b09457a67944c0c8690df286904fc3f2e",
+      "bytes": 97
+    },
+    {
+      "path": "run-2/tasks/build-pmars/result.json",
+      "sha256": "864dfc3ce9cb009117db0aece9d9bd9d1e1de118298c4c469a28ebad8acef70c",
+      "bytes": 589
+    },
+    {
+      "path": "run-2/tasks/build-pov-ray/agent/trajectory.json",
+      "sha256": "4e4f8aa8a3708c1ff2e515a14fb153361e1cedefa348e5c20dc00cfe75dbd675",
+      "bytes": 6777551
+    },
+    {
+      "path": "run-2/tasks/build-pov-ray/config.json",
+      "sha256": "e7361a14f5fb9fc98035dd7be1393e21c3551f3122a75d82c0e14061c756eb81",
+      "bytes": 99
+    },
+    {
+      "path": "run-2/tasks/build-pov-ray/result.json",
+      "sha256": "704f799f1e7d64cbb9fa9e136271cdfa8b18f358364b90c5bc23dd8dca17f334",
+      "bytes": 593
+    },
+    {
+      "path": "run-2/tasks/caffe-cifar-10/agent/trajectory.json",
+      "sha256": "6c88fb906ede61436bca4a3b0866ad168755123b4985a6488278b6e57a5d32ba",
+      "bytes": 1774436
+    },
+    {
+      "path": "run-2/tasks/caffe-cifar-10/config.json",
+      "sha256": "75bb45c50e8eb81bd8724a0da67117f975339da473f956e17d4e29559fc4d450",
+      "bytes": 100
+    },
+    {
+      "path": "run-2/tasks/caffe-cifar-10/result.json",
+      "sha256": "2e9a07d34446dd1642292532fe8fde0e2d2be8605e20dfbad3acd21faff1f87b",
+      "bytes": 634
+    },
+    {
+      "path": "run-2/tasks/cancel-async-tasks/agent/trajectory.json",
+      "sha256": "f83cf51c82c0942c830aff85269d60abcd1bed13b81574a13de810a90168dec1",
+      "bytes": 221621
+    },
+    {
+      "path": "run-2/tasks/cancel-async-tasks/config.json",
+      "sha256": "f9cff885eab462f6f685d8c9c99cd7a132240474d6fb41e13c4921a2899bc306",
+      "bytes": 104
+    },
+    {
+      "path": "run-2/tasks/cancel-async-tasks/result.json",
+      "sha256": "9d8279330b6b6509f90c75b820956ed494115e7041c96d80f77fbacff7f025e5",
+      "bytes": 595
+    },
+    {
+      "path": "run-2/tasks/chess-best-move/agent/trajectory.json",
+      "sha256": "e6f0041c9a3bacd73c01fe6169b62bfba4c9bb328f1e47e34ef06e03517104ce",
+      "bytes": 920331
+    },
+    {
+      "path": "run-2/tasks/chess-best-move/config.json",
+      "sha256": "178e746e8f95e661ccb7f03ac784ee0fb9f10777d2a34535cb87d1461dd38b61",
+      "bytes": 101
+    },
+    {
+      "path": "run-2/tasks/chess-best-move/result.json",
+      "sha256": "b749ea09351345bc3cf68a4503bcd87cac27dcd52f3c5ac3f1d64b4459bd0315",
+      "bytes": 593
+    },
+    {
+      "path": "run-2/tasks/circuit-fibsqrt/agent/trajectory.json",
+      "sha256": "0696d7ceb4726d7525851e574c526561b0be5cf272fa7df916ad53ad71b296e8",
+      "bytes": 13007148
+    },
+    {
+      "path": "run-2/tasks/circuit-fibsqrt/config.json",
+      "sha256": "d938b6ce929ab97badac038998da4d6ea0c61d4886271baeb86b104575e55220",
+      "bytes": 101
+    },
+    {
+      "path": "run-2/tasks/circuit-fibsqrt/result.json",
+      "sha256": "998a5133ebf69971f6f95fd2d7a065df875fe2a6eb5229396718aea1381e0fd8",
+      "bytes": 598
+    },
+    {
+      "path": "run-2/tasks/cobol-modernization/agent/trajectory.json",
+      "sha256": "46c6f79fc1c44bc095c948c7863ccc3a4e537c04295b92438398e8a6042b7031",
+      "bytes": 739981
+    },
+    {
+      "path": "run-2/tasks/cobol-modernization/config.json",
+      "sha256": "56e44a3f9506238b3d23b100bd59f3a062102b953cdcb065f0c1aa95b8542168",
+      "bytes": 105
+    },
+    {
+      "path": "run-2/tasks/cobol-modernization/result.json",
+      "sha256": "5a91b700bc3415766d95ea35590e0586cf497c7348e6da9af69436b34af647ea",
+      "bytes": 596
+    },
+    {
+      "path": "run-2/tasks/code-from-image/agent/trajectory.json",
+      "sha256": "b004aae2835c9385ceca6379c912bd27740fada0d05c7a50de695d551abde719",
+      "bytes": 956676
+    },
+    {
+      "path": "run-2/tasks/code-from-image/config.json",
+      "sha256": "1e7b9e36acd47169dcb3bae018c7f72d24482455992e87d5f0ee49869507bfb2",
+      "bytes": 101
+    },
+    {
+      "path": "run-2/tasks/code-from-image/result.json",
+      "sha256": "1e7def8dd44a0ab23c37e98c02cf747db21f455d0c660a63be67ef8c4e811d9f",
+      "bytes": 591
+    },
+    {
+      "path": "run-2/tasks/compile-compcert/agent/trajectory.json",
+      "sha256": "dcf4b1724f58f10ef1be73544684a67abc1d8fdb04d0418ab1ac02287cf57a93",
+      "bytes": 12700520
+    },
+    {
+      "path": "run-2/tasks/compile-compcert/config.json",
+      "sha256": "b796202af3bf049450ec20a3b5e785b9bb3d80aea6a7484d0191017ecc9af37e",
+      "bytes": 102
+    },
+    {
+      "path": "run-2/tasks/compile-compcert/result.json",
+      "sha256": "6097d5062cc128ff97de66377f8f87250f876ec7e9cacee18985e6c849a398ad",
+      "bytes": 642
+    },
+    {
+      "path": "run-2/tasks/configure-git-webserver/agent/trajectory.json",
+      "sha256": "d30ae7b26a9c858aac384056c66aa671b0991b97505b059564acd5a8db973158",
+      "bytes": 470317
+    },
+    {
+      "path": "run-2/tasks/configure-git-webserver/config.json",
+      "sha256": "9a490c7c9553ad976a99e3ae59c8409ab5ab8618088f6e55a76464f66c84e02e",
+      "bytes": 109
+    },
+    {
+      "path": "run-2/tasks/configure-git-webserver/result.json",
+      "sha256": "3d7b7e2f043fc7f67b65116a335885316d9780977255bc8bba1b6e06add89b6a",
+      "bytes": 602
+    },
+    {
+      "path": "run-2/tasks/constraints-scheduling/agent/trajectory.json",
+      "sha256": "a3793cbcbe65e93e82f3b86fa2b6df17eaf839cc96365458bb13dc082a8700af",
+      "bytes": 221575
+    },
+    {
+      "path": "run-2/tasks/constraints-scheduling/config.json",
+      "sha256": "110d6f0d2a004e64fe6b5afc3d51fb82f8a5e867cba435f629cad05b632efd6c",
+      "bytes": 108
+    },
+    {
+      "path": "run-2/tasks/constraints-scheduling/result.json",
+      "sha256": "f2e6ba1bb5ddc0fdcbf997797ef78803bb0eee2b42e37073a8976e080d66ab4c",
+      "bytes": 597
+    },
+    {
+      "path": "run-2/tasks/count-dataset-tokens/agent/trajectory.json",
+      "sha256": "4f8c547f534673f25167ea6a94dc4982370f5a341ce717825589c47d5ee44d9c",
+      "bytes": 595758
+    },
+    {
+      "path": "run-2/tasks/count-dataset-tokens/config.json",
+      "sha256": "5230264090bf72bed301f67ecc785a9a3784c58573c60a4f7c13e998c5ca5fc0",
+      "bytes": 106
+    },
+    {
+      "path": "run-2/tasks/count-dataset-tokens/result.json",
+      "sha256": "1997157b7c94516c4c01754c1c582f1ce88ec1eb78a44bc1c10819159d99e013",
+      "bytes": 595
+    },
+    {
+      "path": "run-2/tasks/crack-7z-hash/agent/trajectory.json",
+      "sha256": "6c7498d05580e336f67a95f476c39cf4b179aa2f3120eb4eee942842c109e196",
+      "bytes": 1921269
+    },
+    {
+      "path": "run-2/tasks/crack-7z-hash/config.json",
+      "sha256": "436b86b90d0d89a9d7749ecc3dd9e6fe4a1777f2e318822c535ca3e01f534004",
+      "bytes": 99
+    },
+    {
+      "path": "run-2/tasks/crack-7z-hash/result.json",
+      "sha256": "82fffb43f7080ecd4837d766bbac32fe56a86f96a2c7da3be801b6b2e1308cad",
+      "bytes": 593
+    },
+    {
+      "path": "run-2/tasks/custom-memory-heap-crash/agent/trajectory.json",
+      "sha256": "646cb529fdd7d95345248e7224f5b2b69df79c8ac04161ac4741dc4519c14fd1",
+      "bytes": 982492
+    },
+    {
+      "path": "run-2/tasks/custom-memory-heap-crash/config.json",
+      "sha256": "a574d060e3550f360e4b590fd87cdad54278b714f6555e5d92d20d4d4654c650",
+      "bytes": 110
+    },
+    {
+      "path": "run-2/tasks/custom-memory-heap-crash/result.json",
+      "sha256": "88ad465980cd7df20ecf597d8329cc07e3c667d847f12401c1b46a9a6e5cfe1c",
+      "bytes": 603
+    },
+    {
+      "path": "run-2/tasks/db-wal-recovery/agent/trajectory.json",
+      "sha256": "83f1bd1164069200f4a3e237f27e9b94e050b1dc63141d89ef5d019c9e0e2a0a",
+      "bytes": 4548698
+    },
+    {
+      "path": "run-2/tasks/db-wal-recovery/config.json",
+      "sha256": "e459cd8269186f22ab3e3126ce213dd821f66c6365505b4d53da4971127837c0",
+      "bytes": 101
+    },
+    {
+      "path": "run-2/tasks/db-wal-recovery/result.json",
+      "sha256": "42576bb99ed4d537d1ce2e88565c60a4595cb1b8682054c93174213434b5e946",
+      "bytes": 636
+    },
+    {
+      "path": "run-2/tasks/distribution-search/agent/trajectory.json",
+      "sha256": "e37755fa2b52209b9af14c1a18946050899bd390576c040f09fe24547efe6bf2",
+      "bytes": 420954
+    },
+    {
+      "path": "run-2/tasks/distribution-search/config.json",
+      "sha256": "f01c28ac5260327e21f2794d40d31df52326e30488b5ef0c5b779877d86ac46f",
+      "bytes": 105
+    },
+    {
+      "path": "run-2/tasks/distribution-search/result.json",
+      "sha256": "d68efa772d1404e329f6c28fe21233efa5e4585234a3c12b7efa253da49daee7",
+      "bytes": 595
+    },
+    {
+      "path": "run-2/tasks/dna-assembly/agent/trajectory.json",
+      "sha256": "6b20765cf1de995da7a59472d38727cd7b2db78b899af31d73dc2cc5bc3393ca",
+      "bytes": 1080594
+    },
+    {
+      "path": "run-2/tasks/dna-assembly/config.json",
+      "sha256": "5b259423bf4c74c1736c002b1ebf9a952721213314963e47cd58f3113ce6d801",
+      "bytes": 98
+    },
+    {
+      "path": "run-2/tasks/dna-assembly/result.json",
+      "sha256": "e91ca30f7c5d0d89cf42da477254842f6c186e9838f6f6ef7f07c52dc87de451",
+      "bytes": 634
+    },
+    {
+      "path": "run-2/tasks/dna-insert/agent/trajectory.json",
+      "sha256": "7a0a5ded9455b91f643ad14f04fb1e6ed5acb93a688fd092989962ae06fbdfec",
+      "bytes": 6614756
+    },
+    {
+      "path": "run-2/tasks/dna-insert/config.json",
+      "sha256": "e5325a39234e2556b44dd660a69d2927de0a93b61a049ac53acf7bb816d47064",
+      "bytes": 96
+    },
+    {
+      "path": "run-2/tasks/dna-insert/result.json",
+      "sha256": "b8ed4427294ddcffc212a62dfea6b8bf088d00208950957ca95d8110cf482161",
+      "bytes": 590
+    },
+    {
+      "path": "run-2/tasks/extract-elf/agent/trajectory.json",
+      "sha256": "bbea87d9564670a23418186bb40b9e6674272aaf5fd8ce72d3e8c6eba6bde185",
+      "bytes": 1437759
+    },
+    {
+      "path": "run-2/tasks/extract-elf/config.json",
+      "sha256": "73f516ec570db0995658b7a3a5603c8eef0453a7e3ffa778f3368ce384dcceb0",
+      "bytes": 97
+    },
+    {
+      "path": "run-2/tasks/extract-elf/result.json",
+      "sha256": "09869da56f4552c7a59644eb6d000c63aa55bb03e3a07b37260d4957b58cb3a4",
+      "bytes": 589
+    },
+    {
+      "path": "run-2/tasks/extract-moves-from-video/agent/trajectory.json",
+      "sha256": "5feb7a80c13630fe838f5e231a7edbd3fc5437eb72821e168021481786e78a35",
+      "bytes": 4713202
+    },
+    {
+      "path": "run-2/tasks/extract-moves-from-video/config.json",
+      "sha256": "75c9411cb8232f91bf93aff7805cf58baa182678fea9d1b38dac6ee2fa738806",
+      "bytes": 110
+    },
+    {
+      "path": "run-2/tasks/extract-moves-from-video/result.json",
+      "sha256": "7a7589c2e1ff2e18bf30dc8f2a9dd9d7d4d070b09c0f102ce676ad3074acbc7e",
+      "bytes": 645
+    },
+    {
+      "path": "run-2/tasks/feal-differential-cryptanalysis/agent/trajectory.json",
+      "sha256": "0b538887c01aee0ee38bda47fd51b0c05f64fc0830342ecd746334fc4a2e1b2b",
+      "bytes": 716107
+    },
+    {
+      "path": "run-2/tasks/feal-differential-cryptanalysis/config.json",
+      "sha256": "c8e3460f7b85d27b4be0d05a561b9b6c551ddba1d2fc3bd67ac6410a08ac132c",
+      "bytes": 117
+    },
+    {
+      "path": "run-2/tasks/feal-differential-cryptanalysis/result.json",
+      "sha256": "26c2e2338dbfbea26a9212e948615c79e61efbaaca0514d9a261a81b08dc33c3",
+      "bytes": 610
+    },
+    {
+      "path": "run-2/tasks/feal-linear-cryptanalysis/agent/trajectory.json",
+      "sha256": "971df9d8c8e1fb4db35fc380b04831f9ccd3e8760bf48f715711cb6c4b081738",
+      "bytes": 1388560
+    },
+    {
+      "path": "run-2/tasks/feal-linear-cryptanalysis/config.json",
+      "sha256": "8d41f46b820def8f54d70c3ae273ec970835109e545e832750bd1af77bd1a583",
+      "bytes": 111
+    },
+    {
+      "path": "run-2/tasks/feal-linear-cryptanalysis/result.json",
+      "sha256": "f5cd0687ccf3cc6fcb7ce1cb91edb3ea54216ae540a8ea3889b541a69b02b87b",
+      "bytes": 648
+    },
+    {
+      "path": "run-2/tasks/filter-js-from-html/agent/trajectory.json",
+      "sha256": "b3cd5e7d8339ab90d3b8439b35619250261db6a5396f890928fdef590c041b57",
+      "bytes": 196071
+    },
+    {
+      "path": "run-2/tasks/filter-js-from-html/config.json",
+      "sha256": "a59effe083502ff0433bfcf58628f903ccfa88ef1045578303031662c777cb99",
+      "bytes": 105
+    },
+    {
+      "path": "run-2/tasks/filter-js-from-html/result.json",
+      "sha256": "9e4e2d0d28d12d9d2c0a5376fe53978ed5704f660cc6a809b863f238fd67cf7e",
+      "bytes": 599
+    },
+    {
+      "path": "run-2/tasks/financial-document-processor/agent/trajectory.json",
+      "sha256": "f886656a3abe1855f81208836dca5f0f0a3c49dfed5acaad909c8a88a3be97c1",
+      "bytes": 1465241
+    },
+    {
+      "path": "run-2/tasks/financial-document-processor/config.json",
+      "sha256": "c53291179288789c7415cad2e6f780234cf43bdfd93f32642f9f68f6ddd57c7b",
+      "bytes": 114
+    },
+    {
+      "path": "run-2/tasks/financial-document-processor/result.json",
+      "sha256": "15860fc7244e859629baf6e20557f3ac15aa6919a7df9d808e13450042200a5c",
+      "bytes": 605
+    },
+    {
+      "path": "run-2/tasks/fix-code-vulnerability/agent/trajectory.json",
+      "sha256": "e7f0c155688d32b49348cb480fb704fb639ccb72bcb00fc3c9521081bef70e13",
+      "bytes": 1088662
+    },
+    {
+      "path": "run-2/tasks/fix-code-vulnerability/config.json",
+      "sha256": "71e1dd49f15b004f1bcf30cc38e881743062f5ac21f0c5ba3ab0e821e1eb4551",
+      "bytes": 108
+    },
+    {
+      "path": "run-2/tasks/fix-code-vulnerability/result.json",
+      "sha256": "a5eab24c025ec4df5cc727118b2e5a2e8a4ffbc56323019aeb5bad42aeda6053",
+      "bytes": 600
+    },
+    {
+      "path": "run-2/tasks/fix-git/agent/trajectory.json",
+      "sha256": "084d0a45ebdd015a181f74997d5e6233be7dfe3ca979ea801470197b49807fc2",
+      "bytes": 510830
+    },
+    {
+      "path": "run-2/tasks/fix-git/config.json",
+      "sha256": "3b7da4676bd590cb5592df32431e892113112e18a5a329364f9a3f410ea06cb5",
+      "bytes": 93
+    },
+    {
+      "path": "run-2/tasks/fix-git/result.json",
+      "sha256": "d082598c003592e98f7973f1c9c2bea5c0fdc244d03e5ab25d06d1e3df30b9c4",
+      "bytes": 582
+    },
+    {
+      "path": "run-2/tasks/fix-ocaml-gc/agent/trajectory.json",
+      "sha256": "160108bc0bb3795b31aeb10d198ab573333afd133f7becb7080cad38d3e97959",
+      "bytes": 4252524
+    },
+    {
+      "path": "run-2/tasks/fix-ocaml-gc/config.json",
+      "sha256": "127d51ea00eb0e1041b0f1a653cc6f2fdd2ea6158c91114628e9b3a885e4099b",
+      "bytes": 98
+    },
+    {
+      "path": "run-2/tasks/fix-ocaml-gc/result.json",
+      "sha256": "31cefdef062ddb49f8a08c3d4606e620e14113d8e972c3ead8040fbcff439a2d",
+      "bytes": 597
+    },
+    {
+      "path": "run-2/tasks/gcode-to-text/agent/trajectory.json",
+      "sha256": "9685d26754feb0df73665dfc109ec774b97306e3b96d83ab72bee8942f6c499e",
+      "bytes": 330909
+    },
+    {
+      "path": "run-2/tasks/gcode-to-text/config.json",
+      "sha256": "cda73b606faabec9b190f29e93e456afd785d6c90e94a8a8c4e866041ea1c438",
+      "bytes": 99
+    },
+    {
+      "path": "run-2/tasks/gcode-to-text/result.json",
+      "sha256": "581398df74fde210eb266758cab37e198a10bc9b7fc3fd7046c5135789320150",
+      "bytes": 589
+    },
+    {
+      "path": "run-2/tasks/git-leak-recovery/agent/trajectory.json",
+      "sha256": "1737efb2647036f69c1505c8f1d8d961a5fd741c41872ba0f062811f9d422598",
+      "bytes": 61999
+    },
+    {
+      "path": "run-2/tasks/git-leak-recovery/config.json",
+      "sha256": "ff742c1888721366eafca133ca5b9f25be30a1dfe9ef144fe142e869c2baa3f2",
+      "bytes": 103
+    },
+    {
+      "path": "run-2/tasks/git-leak-recovery/result.json",
+      "sha256": "da08405aaa8559ea2c8c3570a8dc8e4eb803bc062ea624a531f66b45e3bb01af",
+      "bytes": 588
+    },
+    {
+      "path": "run-2/tasks/git-multibranch/agent/trajectory.json",
+      "sha256": "1fb8accba921c829c303498b5edc45c634fa49ec86d1f629339b6ed33f7c69cd",
+      "bytes": 402269
+    },
+    {
+      "path": "run-2/tasks/git-multibranch/config.json",
+      "sha256": "33785c1d60dfd356e7ee38d43e784dec995720f1ab152c5118060ca95d07db27",
+      "bytes": 101
+    },
+    {
+      "path": "run-2/tasks/git-multibranch/result.json",
+      "sha256": "c8a1cb99ed0ad0a66f5080b7e48d809ab7a505594d623bb2bc5f6e67c2628977",
+      "bytes": 634
+    },
+    {
+      "path": "run-2/tasks/gpt2-codegolf/agent/trajectory.json",
+      "sha256": "2f993444742a72b7e33a7d5cb77285ea3c4e38b9544ef3e65d67b3952b74d743",
+      "bytes": 2334046
+    },
+    {
+      "path": "run-2/tasks/gpt2-codegolf/config.json",
+      "sha256": "55e3c54fa484f53ecc7e924f6d236138b059a85e4e6ea649a8bf7899145789fa",
+      "bytes": 99
+    },
+    {
+      "path": "run-2/tasks/gpt2-codegolf/result.json",
+      "sha256": "9c24e0075cfaa0ecc466cb0bb62e2e47d31b7ce1721a6a8e6816b741e0fb98cd",
+      "bytes": 593
+    },
+    {
+      "path": "run-2/tasks/headless-terminal/agent/trajectory.json",
+      "sha256": "77929fe7abdbf7d203ec78bce3aae74e5a54417c919c74c2934524566b4d3933",
+      "bytes": 2055152
+    },
+    {
+      "path": "run-2/tasks/headless-terminal/config.json",
+      "sha256": "1f57ccdc1f07ea155951c3501d30165b8d12c1ed28c5fa110a20ca5a2db19ca3",
+      "bytes": 103
+    },
+    {
+      "path": "run-2/tasks/headless-terminal/result.json",
+      "sha256": "9c84fb021b132a5876a15fa8f7609f22e7b0a92a232fd3869626f23efb4acd6e",
+      "bytes": 638
+    },
+    {
+      "path": "run-2/tasks/hf-model-inference/agent/trajectory.json",
+      "sha256": "5330f70676fad722922268af6c1f2e698104cb642069bb36a05ccd7c7d834a02",
+      "bytes": 340908
+    },
+    {
+      "path": "run-2/tasks/hf-model-inference/config.json",
+      "sha256": "2f7f3ad6ce5ecc6b336e5fe53a16365c16dadeffb4ca1fbfb26678f8183ab491",
+      "bytes": 104
+    },
+    {
+      "path": "run-2/tasks/hf-model-inference/result.json",
+      "sha256": "bbe34c9df92c14c93e3fe03432918a824fa81f4ceb3c47e7e161effb41d53fe8",
+      "bytes": 591
+    },
+    {
+      "path": "run-2/tasks/install-windows-3.11/agent/trajectory.json",
+      "sha256": "7857fae351601943041f0ef8a6fe9ba1f5ffd1e5e896530a0ab2595d02ba6db4",
+      "bytes": 635868
+    },
+    {
+      "path": "run-2/tasks/install-windows-3.11/config.json",
+      "sha256": "7aac78d371360acdc5182758508847187b93e77f63df171b259c3688742ab99b",
+      "bytes": 106
+    },
+    {
+      "path": "run-2/tasks/install-windows-3.11/result.json",
+      "sha256": "b0f78e38936beb7e3139eacc5f072ea04a17409b15d9fce06e6d038549229b69",
+      "bytes": 598
+    },
+    {
+      "path": "run-2/tasks/kv-store-grpc/agent/trajectory.json",
+      "sha256": "1ee12156ec2cd7e236f42a86364ad36d6ece2510960a85d5f851e3cf43687d06",
+      "bytes": 348286
+    },
+    {
+      "path": "run-2/tasks/kv-store-grpc/config.json",
+      "sha256": "ee66557aef404e3e840212161906861822b7a2001348b88286bba36483c2b3ba",
+      "bytes": 99
+    },
+    {
+      "path": "run-2/tasks/kv-store-grpc/result.json",
+      "sha256": "3b7c8ab242bebd9d9eb9c6cffb9f1cec207ff379da019fb720c5c5eb78ae7981",
+      "bytes": 589
+    },
+    {
+      "path": "run-2/tasks/large-scale-text-editing/agent/trajectory.json",
+      "sha256": "30ad89770a9a833ee93fd2bf5b381f267263e81c04860f23014301d017436d5f",
+      "bytes": 434548
+    },
+    {
+      "path": "run-2/tasks/large-scale-text-editing/config.json",
+      "sha256": "1f00aa28472f3a5e75d2b38dca6009cf65d5e39f305d2228a75fc3ee16b1b586",
+      "bytes": 110
+    },
+    {
+      "path": "run-2/tasks/large-scale-text-editing/result.json",
+      "sha256": "8993f62dc682edeac93292575b1108baf91a23ea4048834b94762dd70ac1c439",
+      "bytes": 602
+    },
+    {
+      "path": "run-2/tasks/largest-eigenval/agent/trajectory.json",
+      "sha256": "9d087f23d78a85800f476ec3a8d280845ee75bf72b83ee58d371708bd8e63cb5",
+      "bytes": 3014745
+    },
+    {
+      "path": "run-2/tasks/largest-eigenval/config.json",
+      "sha256": "47c8d2f0a98432e9d61dfc5fe0fcca5f3fb6096b5ad4d933bf1c7b1bf4a2e432",
+      "bytes": 102
+    },
+    {
+      "path": "run-2/tasks/largest-eigenval/result.json",
+      "sha256": "fc152f75f74c40981ccfd122deb1cffd593804478adf175d39112b51a4af2d39",
+      "bytes": 635
+    },
+    {
+      "path": "run-2/tasks/llm-inference-batching-scheduler/agent/trajectory.json",
+      "sha256": "6a986d97feec0da4e7516638b49ddf4e379eded35dc37d6b419cb84dd2f64c5a",
+      "bytes": 3626917
+    },
+    {
+      "path": "run-2/tasks/llm-inference-batching-scheduler/config.json",
+      "sha256": "de052e476398a63fef6453fe510290632e373814d120d185d0dce5fbb8017a5f",
+      "bytes": 118
+    },
+    {
+      "path": "run-2/tasks/llm-inference-batching-scheduler/result.json",
+      "sha256": "6a40d0e24042a36ca36ad9971a184e16f2fc3498ad95a4b96b337df6a7e28d6b",
+      "bytes": 611
+    },
+    {
+      "path": "run-2/tasks/log-summary-date-ranges/agent/trajectory.json",
+      "sha256": "c4dfc8efd03b74c4eb58aad8870bc3fe99e07ca5b3cd1f1ee60cc2a7abe5069a",
+      "bytes": 197655
+    },
+    {
+      "path": "run-2/tasks/log-summary-date-ranges/config.json",
+      "sha256": "d6c53d36f5a64cd15cfef351aa0c88b747727a681017a5cab22a3c976dcbe32b",
+      "bytes": 109
+    },
+    {
+      "path": "run-2/tasks/log-summary-date-ranges/result.json",
+      "sha256": "ca44fdb56b997c5c879bfe3105610ede5c7aa4ac483fd7380d6e43d07475623b",
+      "bytes": 596
+    },
+    {
+      "path": "run-2/tasks/mailman/agent/trajectory.json",
+      "sha256": "97329fb6f9659223c8b5812123c70868c36d14ab12ca65a75d9feca5a378d07c",
+      "bytes": 4337733
+    },
+    {
+      "path": "run-2/tasks/mailman/config.json",
+      "sha256": "3a30a9a0dfb4bb1d79889075ee83bc1ec22f32b22f546bfe693258cf65624504",
+      "bytes": 93
+    },
+    {
+      "path": "run-2/tasks/mailman/result.json",
+      "sha256": "9ec4cde3cc46d8b0426df74517197ec7e11af29b752adcae8b8180cf150d4fb4",
+      "bytes": 629
+    },
+    {
+      "path": "run-2/tasks/make-doom-for-mips/agent/trajectory.json",
+      "sha256": "cd29bbc4831f2d84700e894127809d83375cab1126711b6d6ddb88a444518e57",
+      "bytes": 2840200
+    },
+    {
+      "path": "run-2/tasks/make-doom-for-mips/config.json",
+      "sha256": "a64e731870759de171f2d30104d8a7970d7a4deef1695eb58b4a6781a3de7026",
+      "bytes": 104
+    },
+    {
+      "path": "run-2/tasks/make-doom-for-mips/result.json",
+      "sha256": "67785efa2c3432bcab13b17802e3b5418337ae9aa1e35de0209730cf90453f0f",
+      "bytes": 639
+    },
+    {
+      "path": "run-2/tasks/make-mips-interpreter/agent/trajectory.json",
+      "sha256": "2a900b8c1104f40ecce80789e6b2ff9d3d447917a34882c7e6fa367bbb5f7242",
+      "bytes": 5303203
+    },
+    {
+      "path": "run-2/tasks/make-mips-interpreter/config.json",
+      "sha256": "8c938de524167c5d1db4fd32a0fb6f17f06dd33679267005b5c3dfc5d945ac59",
+      "bytes": 107
+    },
+    {
+      "path": "run-2/tasks/make-mips-interpreter/result.json",
+      "sha256": "5d46a934bd5198d109fa307c5f9d743cd4b9b942b5dabfd5e18ebd23c52b21b5",
+      "bytes": 643
+    },
+    {
+      "path": "run-2/tasks/mcmc-sampling-stan/agent/trajectory.json",
+      "sha256": "30b0fec727166b886552d99b123157d490b864ddff1bce255bc60d1e5ada5244",
+      "bytes": 11219580
+    },
+    {
+      "path": "run-2/tasks/mcmc-sampling-stan/config.json",
+      "sha256": "a99981cc2de3f66a368845a37433b6af2bc55e90f0d851f70bb5ebfd896c9caf",
+      "bytes": 104
+    },
+    {
+      "path": "run-2/tasks/mcmc-sampling-stan/result.json",
+      "sha256": "d74b80f14211fafc6071b23bc5a6cc61309e31a0fd5550ba83a3019747102363",
+      "bytes": 600
+    },
+    {
+      "path": "run-2/tasks/merge-diff-arc-agi-task/agent/trajectory.json",
+      "sha256": "67783de1bbb9c71da40e8b74fc40c6ef0420acfcf5fc678d94849dd2cc9bd3ac",
+      "bytes": 837090
+    },
+    {
+      "path": "run-2/tasks/merge-diff-arc-agi-task/config.json",
+      "sha256": "3f0d644e51bb01be8ea52f54847a836a33a7359ce50735411f36449d4fc71d13",
+      "bytes": 109
+    },
+    {
+      "path": "run-2/tasks/merge-diff-arc-agi-task/result.json",
+      "sha256": "aee7e4a8d01a02f0fcd4fafb8f66e5d26ca57c26147ed226c555b0e010fe4bfe",
+      "bytes": 601
+    },
+    {
+      "path": "run-2/tasks/model-extraction-relu-logits/agent/trajectory.json",
+      "sha256": "d62fdfe5487d73ab8d21db482782ac373e0fbd37501ff16175074436764b8b6d",
+      "bytes": 1009788
+    },
+    {
+      "path": "run-2/tasks/model-extraction-relu-logits/config.json",
+      "sha256": "d848b5ebbab4c51dc7bcf632cbc6df476ededc5e92165184ab919335ca9187a9",
+      "bytes": 114
+    },
+    {
+      "path": "run-2/tasks/model-extraction-relu-logits/result.json",
+      "sha256": "e7a6ff8de805d79261de0584b9c01b158d04a4e29f5a8f796b17ea0906337211",
+      "bytes": 650
+    },
+    {
+      "path": "run-2/tasks/modernize-scientific-stack/agent/trajectory.json",
+      "sha256": "c14fb32ef7678b75c969684844a9bb31277a8858635e19ff848f8730e3d88b58",
+      "bytes": 157918
+    },
+    {
+      "path": "run-2/tasks/modernize-scientific-stack/config.json",
+      "sha256": "afce00831ebcef35f00d9022e527c6e534126831746519779232d91d6da99baa",
+      "bytes": 112
+    },
+    {
+      "path": "run-2/tasks/modernize-scientific-stack/result.json",
+      "sha256": "ccc9223459145a1dd49100a53554f3f2d6fee0b9c36fa7bf49a9e58fec168bf4",
+      "bytes": 601
+    },
+    {
+      "path": "run-2/tasks/mteb-leaderboard/agent/trajectory.json",
+      "sha256": "72f5fb406aa2e934571178890c54adf05aae24abd965ac5fd2f3c5a43f18d308",
+      "bytes": 1939803
+    },
+    {
+      "path": "run-2/tasks/mteb-leaderboard/config.json",
+      "sha256": "f5b3a26f439e8184b17f8205a3208a87064de949955eb8be5fcd6b7f6cb35bc1",
+      "bytes": 102
+    },
+    {
+      "path": "run-2/tasks/mteb-leaderboard/result.json",
+      "sha256": "b19fc1b3d5c8595a9597079d2946619c1ef9052ed53837dfabe12215f1093887",
+      "bytes": 595
+    },
+    {
+      "path": "run-2/tasks/mteb-retrieve/agent/trajectory.json",
+      "sha256": "9b6aa9fb9e1ef090811ce1f5a4fcec324a3b771d5d017e84cf9584d427e0ca4e",
+      "bytes": 60233
+    },
+    {
+      "path": "run-2/tasks/mteb-retrieve/config.json",
+      "sha256": "d4509f3327919b3899ff23a82b8c25ca07963cf45f4d1f25a22aba4c8f64832c",
+      "bytes": 99
+    },
+    {
+      "path": "run-2/tasks/mteb-retrieve/result.json",
+      "sha256": "eb85ade99c29e84e5615aba145657b8f64d25dffc5c5347be7cc3b78a7b48add",
+      "bytes": 587
+    },
+    {
+      "path": "run-2/tasks/multi-source-data-merger/agent/trajectory.json",
+      "sha256": "74119bdebca0c8f9d49d6d0716e76b094679dc559b520eac63c938272d833600",
+      "bytes": 200485
+    },
+    {
+      "path": "run-2/tasks/multi-source-data-merger/config.json",
+      "sha256": "28d09bfe78b53ecfdaa62d6d2bcd16c65a7e3d52d8c5a03fdf4b5bf41d2bad55",
+      "bytes": 110
+    },
+    {
+      "path": "run-2/tasks/multi-source-data-merger/result.json",
+      "sha256": "995df3df4e79ba95a76ac0e03da7c5c9003aca07638ccd5223138a230d90fd37",
+      "bytes": 600
+    },
+    {
+      "path": "run-2/tasks/nginx-request-logging/agent/trajectory.json",
+      "sha256": "0a16f80aa3c46891b4b52c0c10aedb80787b2cf75f71c9ec4f8a5ff0f7a17b1a",
+      "bytes": 258342
+    },
+    {
+      "path": "run-2/tasks/nginx-request-logging/config.json",
+      "sha256": "3620ae378c4182684d4be0d9bacbd36dd597b44ce1042add5153c5524b33fe71",
+      "bytes": 107
+    },
+    {
+      "path": "run-2/tasks/nginx-request-logging/result.json",
+      "sha256": "35d0d615b650dbf877bdb5f7f0da1689d02e8fe4dd89083ae70be8426b2e929f",
+      "bytes": 595
+    },
+    {
+      "path": "run-2/tasks/openssl-selfsigned-cert/agent/trajectory.json",
+      "sha256": "58cac6dc94163b7c38d9b75c52313b5ac7e046eca1ffac71bd106df928b76a0a",
+      "bytes": 354090
+    },
+    {
+      "path": "run-2/tasks/openssl-selfsigned-cert/config.json",
+      "sha256": "8d4e37b4c34ace4600e85eccf1f0a32c603ad2dc77bd570d502f31cd095bdcc3",
+      "bytes": 109
+    },
+    {
+      "path": "run-2/tasks/openssl-selfsigned-cert/result.json",
+      "sha256": "1fb1d08b404e24cf394e3b6d157268e603ca94994bd40c5f31550fd45768207a",
+      "bytes": 597
+    },
+    {
+      "path": "run-2/tasks/overfull-hbox/agent/trajectory.json",
+      "sha256": "4af6285f67da83f4172b5a9f58f8a3681c66582457f027fc79dd325ff6a168e4",
+      "bytes": 466130
+    },
+    {
+      "path": "run-2/tasks/overfull-hbox/config.json",
+      "sha256": "b76dce4b9c4221217cc02225a2c6db47f1ccec31340056f50efa924aeb3b51b6",
+      "bytes": 99
+    },
+    {
+      "path": "run-2/tasks/overfull-hbox/result.json",
+      "sha256": "f43701a260fede57ec7f4866461f98ddf5458e054b8c84cfe3f2a3b25b5b0e6c",
+      "bytes": 589
+    },
+    {
+      "path": "run-2/tasks/password-recovery/agent/trajectory.json",
+      "sha256": "c67c8a21f701f4c07fe6eebba97f182b773fa88822d221d771ab47d3787c8461",
+      "bytes": 5416066
+    },
+    {
+      "path": "run-2/tasks/password-recovery/config.json",
+      "sha256": "e001c9c122085b2d222b97674c434bcebe5838fd194b2b54edaa46fcb9c081e6",
+      "bytes": 103
+    },
+    {
+      "path": "run-2/tasks/password-recovery/result.json",
+      "sha256": "448de25985b25d44eab7bd0d4b6d8002d05a9b66da727219177946d2ff53371a",
+      "bytes": 638
+    },
+    {
+      "path": "run-2/tasks/path-tracing/agent/trajectory.json",
+      "sha256": "19c28b9a032035f8bda95d10f79e2197f4496bc2176f3f61350b5faff5f7c088",
+      "bytes": 2347141
+    },
+    {
+      "path": "run-2/tasks/path-tracing/config.json",
+      "sha256": "c7cbe5332abd3de358b625d96f6430a69711a1eed7f0bab1c00d422f6a06784d",
+      "bytes": 98
+    },
+    {
+      "path": "run-2/tasks/path-tracing/result.json",
+      "sha256": "c71b3e0813250c380af3f713d174a54e4ad8a01acf3f851e88e6de91c7d2e2a1",
+      "bytes": 636
+    },
+    {
+      "path": "run-2/tasks/path-tracing-reverse/agent/trajectory.json",
+      "sha256": "79a7c67a58789fd493d0d7111561081a2a1ef370aa28750b41efed42ce91bf65",
+      "bytes": 5882197
+    },
+    {
+      "path": "run-2/tasks/path-tracing-reverse/config.json",
+      "sha256": "483448dbea121b5f48c632a925f39ed78c68d8a755ab41f9f7b807d0c6094537",
+      "bytes": 106
+    },
+    {
+      "path": "run-2/tasks/path-tracing-reverse/result.json",
+      "sha256": "f768e9941c8563e057b71c45952da0d8b33b288e17e11d0fe1c0d6279f2ef578",
+      "bytes": 644
+    },
+    {
+      "path": "run-2/tasks/polyglot-c-py/agent/trajectory.json",
+      "sha256": "0c3863c0fa6c4d1360a990588a5a7f2ee96f0e45714715dc600f080acaf33043",
+      "bytes": 244676
+    },
+    {
+      "path": "run-2/tasks/polyglot-c-py/config.json",
+      "sha256": "ab1903997c5d46ee78ad26ae403e9a0df4a6fc0b3373f9cdb68652a99e6d02dd",
+      "bytes": 99
+    },
+    {
+      "path": "run-2/tasks/polyglot-c-py/result.json",
+      "sha256": "23d6d4a116674229755b93471a0546b382f94efb041ab8823056436529abb8e2",
+      "bytes": 589
+    },
+    {
+      "path": "run-2/tasks/polyglot-rust-c/agent/trajectory.json",
+      "sha256": "524a1b18290075e731be2fe2dcc3d470914dc76d9fa3020695c85e567b5d840d",
+      "bytes": 411079
+    },
+    {
+      "path": "run-2/tasks/polyglot-rust-c/config.json",
+      "sha256": "e17f648631359f8aaf22db40e80ef72638af8981366a133e3c8de30828869ac2",
+      "bytes": 101
+    },
+    {
+      "path": "run-2/tasks/polyglot-rust-c/result.json",
+      "sha256": "39548bd0e1777ce10bce2e9062caf722caf57bb632ba149e498352b9f785e1ea",
+      "bytes": 634
+    },
+    {
+      "path": "run-2/tasks/portfolio-optimization/agent/trajectory.json",
+      "sha256": "16befe51e2e54ad1c58e31af228f5595be3843aa86336c4bf8a73783f0d2c3b5",
+      "bytes": 1141509
+    },
+    {
+      "path": "run-2/tasks/portfolio-optimization/config.json",
+      "sha256": "115d3a82eda527f887bb90b89f8c59730a2b53b72982648d4aec6ac01e932675",
+      "bytes": 108
+    },
+    {
+      "path": "run-2/tasks/portfolio-optimization/result.json",
+      "sha256": "b5c38f4732d279dfc9ca35b2a8324f4b24f9aed06744fe86c37bf290c4dcdf71",
+      "bytes": 602
+    },
+    {
+      "path": "run-2/tasks/protein-assembly/agent/trajectory.json",
+      "sha256": "50e804c6d102a1572c59ffcb33cfbfd159cf482a903b2b6d2085a342366f65f2",
+      "bytes": 3357412
+    },
+    {
+      "path": "run-2/tasks/protein-assembly/config.json",
+      "sha256": "a5984637b6285f6d14592dae1d606ea502ce244a12287d998a3cae3c2f99fa43",
+      "bytes": 102
+    },
+    {
+      "path": "run-2/tasks/protein-assembly/result.json",
+      "sha256": "35d13d2a61e4ebb661c2a58009edfbcd6900d72e75f78fd1c6f9c2a5863e2b1d",
+      "bytes": 639
+    },
+    {
+      "path": "run-2/tasks/prove-plus-comm/agent/trajectory.json",
+      "sha256": "230d01d4741044893d12cbdc28ce9c2698d7d182e97a7e3019f816c84deed3cd",
+      "bytes": 136068
+    },
+    {
+      "path": "run-2/tasks/prove-plus-comm/config.json",
+      "sha256": "fc811319a20489f57c218f86618ad7444d4587db861b26d92fbc38d9b1f0d70d",
+      "bytes": 101
+    },
+    {
+      "path": "run-2/tasks/prove-plus-comm/result.json",
+      "sha256": "4b9199f0a53a253b94376539b13c9b091277c62cec323ccbebb65f72a704823f",
+      "bytes": 588
+    },
+    {
+      "path": "run-2/tasks/pypi-server/agent/trajectory.json",
+      "sha256": "7c3508ff79ce84273fb5c07cadf643ca179b32599c76f0fd2d508b24e5cd0892",
+      "bytes": 560953
+    },
+    {
+      "path": "run-2/tasks/pypi-server/config.json",
+      "sha256": "e6af6eb305bf1b4475b8a4345e449d32a94a3054659ae344e2e776bf3c0002b5",
+      "bytes": 97
+    },
+    {
+      "path": "run-2/tasks/pypi-server/result.json",
+      "sha256": "b9a82fb0684b298356d81ca4d94dfbb44e3301366fde533b23f7cd48aefa919f",
+      "bytes": 587
+    },
+    {
+      "path": "run-2/tasks/pytorch-model-cli/agent/trajectory.json",
+      "sha256": "a27c9c55e90fea3cd1423b1467bb0e3f0c4aca22412eb936251fdc38b293144c",
+      "bytes": 2992011
+    },
+    {
+      "path": "run-2/tasks/pytorch-model-cli/config.json",
+      "sha256": "7076df823b2b4f78cb24b36e2d8c1fc00d890796e461e0a6e81e718c7b4d804c",
+      "bytes": 103
+    },
+    {
+      "path": "run-2/tasks/pytorch-model-cli/result.json",
+      "sha256": "0daf5768c406e0b4766d53835f5a52b90002ccb977d7024b05df0a97acd217a4",
+      "bytes": 638
+    },
+    {
+      "path": "run-2/tasks/pytorch-model-recovery/agent/trajectory.json",
+      "sha256": "d4db0a86e5972dae45ff1dae56bca1fe26bcc672ff0335fb58d8b516cc212178",
+      "bytes": 512497
+    },
+    {
+      "path": "run-2/tasks/pytorch-model-recovery/config.json",
+      "sha256": "ee012857b68e2f6df60456cbb27d677279ff5e3ae629235ad89e6686f9f33b44",
+      "bytes": 108
+    },
+    {
+      "path": "run-2/tasks/pytorch-model-recovery/result.json",
+      "sha256": "a4e9a07597109706e2f133b3a4813124dd109670640c949d090b74a11c4ef45c",
+      "bytes": 599
+    },
+    {
+      "path": "run-2/tasks/qemu-alpine-ssh/agent/trajectory.json",
+      "sha256": "3601ace29849da7d71f636804fbe63eaa3dfcc2a58cc17eee3bd7ce54b6473f6",
+      "bytes": 1143831
+    },
+    {
+      "path": "run-2/tasks/qemu-alpine-ssh/config.json",
+      "sha256": "b0bad4f1d36ebd160667d07475e077f7148604c8382e7e39197852a1f53ab04f",
+      "bytes": 101
+    },
+    {
+      "path": "run-2/tasks/qemu-alpine-ssh/result.json",
+      "sha256": "666ae0e58627387c90b957aa3472046b7bbaa0ff4479302a5a94b4ac600f9df7",
+      "bytes": 634
+    },
+    {
+      "path": "run-2/tasks/qemu-startup/agent/trajectory.json",
+      "sha256": "73d318aa269f9427c365d28c74ca97b9619db54613cbb814b5857870e80f3238",
+      "bytes": 35549
+    },
+    {
+      "path": "run-2/tasks/qemu-startup/config.json",
+      "sha256": "2748fe27be34e427a11eb84d3ed8db4815053c955b5259fd50a45c037d278b75",
+      "bytes": 98
+    },
+    {
+      "path": "run-2/tasks/qemu-startup/result.json",
+      "sha256": "2327a491aad4329b909ffd4293d77158b21192ccb5779b231af508f07aed6dc0",
+      "bytes": 584
+    },
+    {
+      "path": "run-2/tasks/query-optimize/agent/trajectory.json",
+      "sha256": "098f29efd925b525a6da82b2fd1aff9abd42ad51017ea7e1cde531a07e515aa7",
+      "bytes": 511195
+    },
+    {
+      "path": "run-2/tasks/query-optimize/config.json",
+      "sha256": "ccfcfa06fb1660725e56495ae0fd1156d54697680917cbc419943d8047b16ae7",
+      "bytes": 100
+    },
+    {
+      "path": "run-2/tasks/query-optimize/result.json",
+      "sha256": "a7a3e1f187fe8e472d35d241d28412eef1e18475d1b7a66d0d52e5b155b02482",
+      "bytes": 592
+    },
+    {
+      "path": "run-2/tasks/raman-fitting/agent/trajectory.json",
+      "sha256": "02e21bd1d3e29d64c873e5f87949348bccc9eeebc8975add79cfceb5010d4650",
+      "bytes": 1427262
+    },
+    {
+      "path": "run-2/tasks/raman-fitting/config.json",
+      "sha256": "2469be30b92d856dd4ea006ea2d7d87c39f99c20e27928e822224cbe3124ae76",
+      "bytes": 99
+    },
+    {
+      "path": "run-2/tasks/raman-fitting/result.json",
+      "sha256": "81c4ffd78b2e801903d1e8a3b92226178efadeeee1a76a198fcc334b805c4eef",
+      "bytes": 634
+    },
+    {
+      "path": "run-2/tasks/regex-chess/agent/trajectory.json",
+      "sha256": "605cc0d42af63d8ba8c42e3faa3ca3b2b7c2ddaf439ebf5c5cd3c741afbaa632",
+      "bytes": 5762066
+    },
+    {
+      "path": "run-2/tasks/regex-chess/config.json",
+      "sha256": "a50ff4ef7c76ab99bf471646b46aeab09e1c37b5544f26482d8df8f89313d3e9",
+      "bytes": 97
+    },
+    {
+      "path": "run-2/tasks/regex-chess/result.json",
+      "sha256": "1aac814a27c54259e8249b105578b7770d96ccafe5b01559a52ee144dce1b81f",
+      "bytes": 592
+    },
+    {
+      "path": "run-2/tasks/regex-log/agent/trajectory.json",
+      "sha256": "3bb264c42556c71dcf60445d9d18dcca2918d29a7d06b591c4048a568571493c",
+      "bytes": 183737
+    },
+    {
+      "path": "run-2/tasks/regex-log/config.json",
+      "sha256": "c6dd38edd13fb0191ee3ea31dbb5ab49dd571986a60145a7d639ed09b28a25f3",
+      "bytes": 95
+    },
+    {
+      "path": "run-2/tasks/regex-log/result.json",
+      "sha256": "8ae07eb9fa03572508f112512b3cdc5dc8b03df970cda301bdcdd80191f4dde6",
+      "bytes": 582
+    },
+    {
+      "path": "run-2/tasks/reshard-c4-data/agent/trajectory.json",
+      "sha256": "d1d0c2204499a347485dd0fe8d6c8b2122a806d10e871b6911b99905aed95150",
+      "bytes": 11006079
+    },
+    {
+      "path": "run-2/tasks/reshard-c4-data/config.json",
+      "sha256": "6080f14c09614d7e68ad79d0712fa54ff50ec49d07f621abbcf33a6d051453bd",
+      "bytes": 101
+    },
+    {
+      "path": "run-2/tasks/reshard-c4-data/result.json",
+      "sha256": "83fa0276272211142308ec1c0fa5ecd95a6d34d4d176c22f16ed3523db3e218a",
+      "bytes": 597
+    },
+    {
+      "path": "run-2/tasks/rstan-to-pystan/agent/trajectory.json",
+      "sha256": "10f215935feeb0c0c3fb04216d180cf0627b88527344e9528e5eb33e2debf7f8",
+      "bytes": 3287749
+    },
+    {
+      "path": "run-2/tasks/rstan-to-pystan/config.json",
+      "sha256": "cf0bd5a206a6368c62c1eed78ee5673f1bdd7cf33de7eac7afc206dee9ad97e4",
+      "bytes": 101
+    },
+    {
+      "path": "run-2/tasks/rstan-to-pystan/result.json",
+      "sha256": "02c387fb6faf150d2a5f52b4a90776846e8d100501c8675b9832975bceb09880",
+      "bytes": 594
+    },
+    {
+      "path": "run-2/tasks/sam-cell-seg/agent/trajectory.json",
+      "sha256": "3c68f2f275bc0164178bf60cabb33750546b42bb51e8532e5da99e1d1dd39363",
+      "bytes": 1498796
+    },
+    {
+      "path": "run-2/tasks/sam-cell-seg/config.json",
+      "sha256": "1ba3ec923030915a863fb75b99e92a3a71bd1899d0dbbe406e8393eb100adb8d",
+      "bytes": 98
+    },
+    {
+      "path": "run-2/tasks/sam-cell-seg/result.json",
+      "sha256": "15521130876b244dcc886ebdb47ecd30b81a481331bda3e0a1f8ef32ec5f0409",
+      "bytes": 590
+    },
+    {
+      "path": "run-2/tasks/sanitize-git-repo/agent/trajectory.json",
+      "sha256": "3d283e4503dbbb25dc5e054be05eaab2dde209964c4bfe1dda9bc8e36f1a2ac5",
+      "bytes": 5436860
+    },
+    {
+      "path": "run-2/tasks/sanitize-git-repo/config.json",
+      "sha256": "79c658eee4c084087b4735d348720968d996d67063b50977ced78f321d279b5f",
+      "bytes": 103
+    },
+    {
+      "path": "run-2/tasks/sanitize-git-repo/result.json",
+      "sha256": "b0e1ce625642f839dbd734be8adba192b2815115dcf18ffe3208093d06691c29",
+      "bytes": 638
+    },
+    {
+      "path": "run-2/tasks/schemelike-metacircular-eval/agent/trajectory.json",
+      "sha256": "080bce74bb5aa42e123ea1146bc0e566c4fef43b8fda6a2ea2720780ef313aee",
+      "bytes": 3402267
+    },
+    {
+      "path": "run-2/tasks/schemelike-metacircular-eval/config.json",
+      "sha256": "78d8f11f96eef5c9e9110b57a22576ff3d2e13cfb456a85f02e3a9c4862f15bc",
+      "bytes": 114
+    },
+    {
+      "path": "run-2/tasks/schemelike-metacircular-eval/result.json",
+      "sha256": "8a66a359a8fff260c158cd0d06e6ee195c4cc45ce1b3892a08f943627cbfd3ac",
+      "bytes": 651
+    },
+    {
+      "path": "run-2/tasks/sparql-university/agent/trajectory.json",
+      "sha256": "53ce54f5e8b6eabff16c67ff2613677467be4015d083d9136fa0ea10d555682b",
+      "bytes": 656323
+    },
+    {
+      "path": "run-2/tasks/sparql-university/config.json",
+      "sha256": "f9e56af5d85ff404681159422edd8b9d43c79063107f9c8c4ef6dce5000ac5d5",
+      "bytes": 103
+    },
+    {
+      "path": "run-2/tasks/sparql-university/result.json",
+      "sha256": "324a39ee0340e391f886cde19f6e650a7903aebf1c571cffcb7cb63f9b57ffac",
+      "bytes": 596
+    },
+    {
+      "path": "run-2/tasks/sqlite-db-truncate/agent/trajectory.json",
+      "sha256": "996f1cc7557aa82800a4b8bedbdbfc27c7d5d37d4e59854f1f04a00b5dfc3d6a",
+      "bytes": 797266
+    },
+    {
+      "path": "run-2/tasks/sqlite-db-truncate/config.json",
+      "sha256": "491439cd95fbe2cd5cbffd643a7c60e99a57479f2c99e2e9f01eb34c9ad827c1",
+      "bytes": 104
+    },
+    {
+      "path": "run-2/tasks/sqlite-db-truncate/result.json",
+      "sha256": "ebc76a76fb4c2edc480751a0548d5b11fbba4e197f983018d11efe7ab797d865",
+      "bytes": 594
+    },
+    {
+      "path": "run-2/tasks/sqlite-with-gcov/agent/trajectory.json",
+      "sha256": "f9148082a4e4d690cca7417518ad53266b876b8aaa458611519886a8ccdbe3c0",
+      "bytes": 1518719
+    },
+    {
+      "path": "run-2/tasks/sqlite-with-gcov/config.json",
+      "sha256": "91232fdf4a70d3ba19a40f3dad3f9a72bcf15cc1a0f987ad5dd0108d4a138184",
+      "bytes": 102
+    },
+    {
+      "path": "run-2/tasks/sqlite-with-gcov/result.json",
+      "sha256": "05f333389672cd7af3db7a33b6f7919a170a33d57dcd13365d976b4e083f7259",
+      "bytes": 594
+    },
+    {
+      "path": "run-2/tasks/torch-pipeline-parallelism/agent/trajectory.json",
+      "sha256": "7b291634149fe4b90da4fadd55773def1de5bad8267bd0631b15c3b1597ac014",
+      "bytes": 2260915
+    },
+    {
+      "path": "run-2/tasks/torch-pipeline-parallelism/config.json",
+      "sha256": "f268f5224fba19e1963b4788b8807d05f58b0f277c38f6e98ca597f9620ec07d",
+      "bytes": 112
+    },
+    {
+      "path": "run-2/tasks/torch-pipeline-parallelism/result.json",
+      "sha256": "b17cfd4d751c94cd1569cc7b1ebcb71b34382c96f423cb8002d641832e3dce76",
+      "bytes": 646
+    },
+    {
+      "path": "run-2/tasks/torch-tensor-parallelism/agent/trajectory.json",
+      "sha256": "e41b3cd4922032a138c7a603378473477494fe39f8bbdf02be9aa409d9585f23",
+      "bytes": 613085
+    },
+    {
+      "path": "run-2/tasks/torch-tensor-parallelism/config.json",
+      "sha256": "53ceaa0bb7b6e7121483ad159813d4de52e34882b2d1905f79c51049cc7a1a64",
+      "bytes": 110
+    },
+    {
+      "path": "run-2/tasks/torch-tensor-parallelism/result.json",
+      "sha256": "87888ecc87ea330b055adb8f39c43c8146656c0033bd9f2daecc29e0f0c98324",
+      "bytes": 642
+    },
+    {
+      "path": "run-2/tasks/train-fasttext/agent/trajectory.json",
+      "sha256": "fc3c3555887ecba0546324c76e75d501b2ed5c2e94703fe79d59e3520ac34a22",
+      "bytes": 4196133
+    },
+    {
+      "path": "run-2/tasks/train-fasttext/config.json",
+      "sha256": "dfe78a4aaffcf48f699d9f1a4ae5c93a14000651e1ce14e44fd035fc4ca7c9b8",
+      "bytes": 100
+    },
+    {
+      "path": "run-2/tasks/train-fasttext/result.json",
+      "sha256": "e2abe354bf1fffd9d0fdf34aa8e213ef9d8c2c87ccb59f6acabb78f99fc7fbed",
+      "bytes": 594
+    },
+    {
+      "path": "run-2/tasks/tune-mjcf/agent/trajectory.json",
+      "sha256": "a157ee2c72b7c2e6ba32ab1b242938e0cfff2e32a82a03b50c5f528a4de27f19",
+      "bytes": 328221
+    },
+    {
+      "path": "run-2/tasks/tune-mjcf/config.json",
+      "sha256": "a1d45570dc880d4cf987556c51dc9fabebe540060eae6066d1172440d1715319",
+      "bytes": 95
+    },
+    {
+      "path": "run-2/tasks/tune-mjcf/result.json",
+      "sha256": "d887e6a40c323047c0b253fb3852deb13f752acaa4a41b044634597ab4e06b6c",
+      "bytes": 586
+    },
+    {
+      "path": "run-2/tasks/video-processing/agent/trajectory.json",
+      "sha256": "4924746501b5ed64422f76e153c5c3d9b79ec9c462c91e32b615e6d834fa2763",
+      "bytes": 1901496
+    },
+    {
+      "path": "run-2/tasks/video-processing/config.json",
+      "sha256": "b59f2b06b0b994d8f06d3d80be206f2ed6524d9704a8d9a54efd17a840e4eca8",
+      "bytes": 102
+    },
+    {
+      "path": "run-2/tasks/video-processing/result.json",
+      "sha256": "89aa3e03ea409047ddeec86086c53fa18090b6e6268a9a6df66b44a959259420",
+      "bytes": 594
+    },
+    {
+      "path": "run-2/tasks/vulnerable-secret/agent/trajectory.json",
+      "sha256": "171d9fe8a3ee56fd2e3c87d5a59df704a6387d98514dfdb460587f34727021f1",
+      "bytes": 258365
+    },
+    {
+      "path": "run-2/tasks/vulnerable-secret/config.json",
+      "sha256": "fe5e6efafeec1377667012f69abe6483ec38bb398c2da51a474d4c6350fa8daf",
+      "bytes": 103
+    },
+    {
+      "path": "run-2/tasks/vulnerable-secret/result.json",
+      "sha256": "21c677992dc616c85c6fbbee5d696593d534f29f6dae4c614f8003c40b05e9fe",
+      "bytes": 590
+    },
+    {
+      "path": "run-2/tasks/winning-avg-corewars/agent/trajectory.json",
+      "sha256": "01a00ad1c2586e0d4e8f94bf368229d961927b3dd8f28141832b3865339f99f4",
+      "bytes": 641479
+    },
+    {
+      "path": "run-2/tasks/winning-avg-corewars/config.json",
+      "sha256": "0f06d7b89c36cab3ed34c40169db7feb2c82065c19f9b94ffb7882018ee8fbdb",
+      "bytes": 106
+    },
+    {
+      "path": "run-2/tasks/winning-avg-corewars/result.json",
+      "sha256": "84f1b745581bd273edfde84678cebfa854a56cb16e9bee120b4cdc7b69f93e35",
+      "bytes": 599
+    },
+    {
+      "path": "run-2/tasks/write-compressor/agent/trajectory.json",
+      "sha256": "07eddd9c60eb767296d7d534c4d871e3ff17e5b097b9c79eff94f72ca7776ad9",
+      "bytes": 568457
+    },
+    {
+      "path": "run-2/tasks/write-compressor/config.json",
+      "sha256": "18cfed0c9c6ce021cbc2f20098c9731c36bf125bf89df404a2a7601586f35904",
+      "bytes": 102
+    },
+    {
+      "path": "run-2/tasks/write-compressor/result.json",
+      "sha256": "458c3be2ed26b84fe4b7e23b217b350f893c71f236c7d1264e7af13d5a7127fd",
+      "bytes": 631
+    },
+    {
+      "path": "run-3/config.json",
+      "sha256": "b96651e737406f2d2145a23aabea986518bb2f74019620dbb657aa860e32141f",
+      "bytes": 54
+    },
+    {
+      "path": "run-3/result.json",
+      "sha256": "37b486b9644ef36b49d56a99ef9f029fa24ff9020aac7553e2713e936191db99",
+      "bytes": 4749
+    },
+    {
+      "path": "run-3/tasks/adaptive-rejection-sampler/agent/trajectory.json",
+      "sha256": "06a12ee1ae21e379b6d48caf011acf913d89c17f4814eb442810aa85d6c3c31c",
+      "bytes": 1531623
+    },
+    {
+      "path": "run-3/tasks/adaptive-rejection-sampler/config.json",
+      "sha256": "cd046349b8070040caf7273499a0a6db23f4f1cde3cb718bb55e9d67a27fb627",
+      "bytes": 112
+    },
+    {
+      "path": "run-3/tasks/adaptive-rejection-sampler/result.json",
+      "sha256": "69c2d275555270762a90463e8eb13801a553cd4162be6a78be774e81f4ae1175",
+      "bytes": 605
+    },
+    {
+      "path": "run-3/tasks/bn-fit-modify/agent/trajectory.json",
+      "sha256": "3956da726249d0ae757adfd4d922d521e84cd6cc36789916169dfa289533990b",
+      "bytes": 6213987
+    },
+    {
+      "path": "run-3/tasks/bn-fit-modify/config.json",
+      "sha256": "214f9ede79342803834eb1465d1c254c7431f3c2af557ce7f2929c646184b7f2",
+      "bytes": 99
+    },
+    {
+      "path": "run-3/tasks/bn-fit-modify/result.json",
+      "sha256": "96e61dfd7573feb694c5d82b0577840ae5b7189d1a9497234002fa87732b8010",
+      "bytes": 594
+    },
+    {
+      "path": "run-3/tasks/break-filter-js-from-html/agent/trajectory.json",
+      "sha256": "f58fd1847830bb5fe8e29cc80cf185b13cb40d264e3696b163d5d5c8d2b708d6",
+      "bytes": 1007272
+    },
+    {
+      "path": "run-3/tasks/break-filter-js-from-html/config.json",
+      "sha256": "f21eedb3e7dda4e6338f59682a2908f5075d435e1a44a987ddc76ab91bc1d4aa",
+      "bytes": 111
+    },
+    {
+      "path": "run-3/tasks/break-filter-js-from-html/result.json",
+      "sha256": "6e896f587b920770f160478abe5fade1a5cf09c9a94363d28cea76a36931fd9d",
+      "bytes": 649
+    },
+    {
+      "path": "run-3/tasks/build-cython-ext/agent/trajectory.json",
+      "sha256": "6f848e381304571e9eaec51c17094a5a786489fdfc84a0c9dfb33ccfd0fac65e",
+      "bytes": 739523
+    },
+    {
+      "path": "run-3/tasks/build-cython-ext/config.json",
+      "sha256": "6eaa570a53b6c5b1fd4e864169d122056e7386f36efcf0d98b2deacf977187cf",
+      "bytes": 102
+    },
+    {
+      "path": "run-3/tasks/build-cython-ext/result.json",
+      "sha256": "b59468dbf5683beb9df1bcfafcb2d90593c933ef0ef40080de64696ebc741773",
+      "bytes": 636
+    },
+    {
+      "path": "run-3/tasks/build-pmars/agent/trajectory.json",
+      "sha256": "e464181b80d9b87ce511ccadf01da769c4e1886ad3ac371d84348a41705084ab",
+      "bytes": 2785357
+    },
+    {
+      "path": "run-3/tasks/build-pmars/config.json",
+      "sha256": "e902b4ddd5a954e17bd95fb0f3bdc16b09457a67944c0c8690df286904fc3f2e",
+      "bytes": 97
+    },
+    {
+      "path": "run-3/tasks/build-pmars/result.json",
+      "sha256": "f41006c33e804d50d152a6c4fe588d404d169228f522be48f57d03de27607937",
+      "bytes": 632
+    },
+    {
+      "path": "run-3/tasks/build-pov-ray/agent/trajectory.json",
+      "sha256": "d463ce32a1a6150fcdac7fcc4fd8a4212f1db5bf0ea49badfa88bccd2ce18db4",
+      "bytes": 21683637
+    },
+    {
+      "path": "run-3/tasks/build-pov-ray/config.json",
+      "sha256": "e7361a14f5fb9fc98035dd7be1393e21c3551f3122a75d82c0e14061c756eb81",
+      "bytes": 99
+    },
+    {
+      "path": "run-3/tasks/build-pov-ray/result.json",
+      "sha256": "5f070cd94c6e6f4075d8096bae70bfd77efd316fa0ba0863f328bc68c5ab69a2",
+      "bytes": 595
+    },
+    {
+      "path": "run-3/tasks/caffe-cifar-10/agent/trajectory.json",
+      "sha256": "9df66c1753b3496c0469f441e4c50aed75501a1de08a44f974e9e6df84c9a098",
+      "bytes": 2765171
+    },
+    {
+      "path": "run-3/tasks/caffe-cifar-10/config.json",
+      "sha256": "75bb45c50e8eb81bd8724a0da67117f975339da473f956e17d4e29559fc4d450",
+      "bytes": 100
+    },
+    {
+      "path": "run-3/tasks/caffe-cifar-10/result.json",
+      "sha256": "6171ac1135d9459b1c4279078367683d8a35f9d4c734ebe1c6039a0a254d7708",
+      "bytes": 636
+    },
+    {
+      "path": "run-3/tasks/cancel-async-tasks/agent/trajectory.json",
+      "sha256": "902f99642d5c06e9afd7321ec138323dc9e5fed1caf9d626bc131b00b0ba62c3",
+      "bytes": 85721
+    },
+    {
+      "path": "run-3/tasks/cancel-async-tasks/config.json",
+      "sha256": "f9cff885eab462f6f685d8c9c99cd7a132240474d6fb41e13c4921a2899bc306",
+      "bytes": 104
+    },
+    {
+      "path": "run-3/tasks/cancel-async-tasks/result.json",
+      "sha256": "73e8ef90bc112673985034512635b11b05cd5a68b3713bb1df6dd394ab5b5694",
+      "bytes": 590
+    },
+    {
+      "path": "run-3/tasks/chess-best-move/agent/trajectory.json",
+      "sha256": "39aabeb3e141bdb1c941226a20200f1af2f3836c90578228b4e05363dc90ae1e",
+      "bytes": 1733604
+    },
+    {
+      "path": "run-3/tasks/chess-best-move/config.json",
+      "sha256": "178e746e8f95e661ccb7f03ac784ee0fb9f10777d2a34535cb87d1461dd38b61",
+      "bytes": 101
+    },
+    {
+      "path": "run-3/tasks/chess-best-move/result.json",
+      "sha256": "b8192d8baacc5db9585ea4bf503f8ca3f61cdbd4e877969e65b1a6fdba9403b8",
+      "bytes": 593
+    },
+    {
+      "path": "run-3/tasks/circuit-fibsqrt/agent/trajectory.json",
+      "sha256": "121960b05cdd4fc05154994810b90724e75afae7c20d68df9fbca3363acd0bb3",
+      "bytes": 9433842
+    },
+    {
+      "path": "run-3/tasks/circuit-fibsqrt/config.json",
+      "sha256": "d938b6ce929ab97badac038998da4d6ea0c61d4886271baeb86b104575e55220",
+      "bytes": 101
+    },
+    {
+      "path": "run-3/tasks/circuit-fibsqrt/result.json",
+      "sha256": "b9b3bb8d2b5020eb69becfded3113d38b97f0785af214f120726916f86f5a9e7",
+      "bytes": 595
+    },
+    {
+      "path": "run-3/tasks/cobol-modernization/agent/trajectory.json",
+      "sha256": "d5fad5cbd98cafff3b0072893cfe2a12020fc4267961c8d3fd14d73c7e7d049f",
+      "bytes": 565189
+    },
+    {
+      "path": "run-3/tasks/cobol-modernization/config.json",
+      "sha256": "56e44a3f9506238b3d23b100bd59f3a062102b953cdcb065f0c1aa95b8542168",
+      "bytes": 105
+    },
+    {
+      "path": "run-3/tasks/cobol-modernization/result.json",
+      "sha256": "5b436623e8e6e22b737b0006ff8e6d1c122cd6ebc755126a23c47e5090f8dab2",
+      "bytes": 594
+    },
+    {
+      "path": "run-3/tasks/code-from-image/agent/trajectory.json",
+      "sha256": "f26993b09fbb71fb0b2fc8b81348ab541d79bbb2afb0e4a8d10d5f70d7908c32",
+      "bytes": 2225119
+    },
+    {
+      "path": "run-3/tasks/code-from-image/config.json",
+      "sha256": "1e7b9e36acd47169dcb3bae018c7f72d24482455992e87d5f0ee49869507bfb2",
+      "bytes": 101
+    },
+    {
+      "path": "run-3/tasks/code-from-image/result.json",
+      "sha256": "780d524e3a40e18d90fdbc2dd5c4fa538e745f2a58e7d210fde79d5c64293f71",
+      "bytes": 593
+    },
+    {
+      "path": "run-3/tasks/compile-compcert/agent/trajectory.json",
+      "sha256": "e47d716facfe38779c1ad127d7aa6d9030d522a056186cd32fcab0676f4cec53",
+      "bytes": 1585011
+    },
+    {
+      "path": "run-3/tasks/compile-compcert/config.json",
+      "sha256": "b796202af3bf049450ec20a3b5e785b9bb3d80aea6a7484d0191017ecc9af37e",
+      "bytes": 102
+    },
+    {
+      "path": "run-3/tasks/compile-compcert/result.json",
+      "sha256": "23d1947577bdbaf0cf585e19829fc02e813e8a72666fda44a7e393bf32ba2364",
+      "bytes": 591
+    },
+    {
+      "path": "run-3/tasks/configure-git-webserver/agent/trajectory.json",
+      "sha256": "c7b76fa18979fea13fafa61e0f402a80e86710b1cfeb7f1a794511010786e066",
+      "bytes": 332667
+    },
+    {
+      "path": "run-3/tasks/configure-git-webserver/config.json",
+      "sha256": "9a490c7c9553ad976a99e3ae59c8409ab5ab8618088f6e55a76464f66c84e02e",
+      "bytes": 109
+    },
+    {
+      "path": "run-3/tasks/configure-git-webserver/result.json",
+      "sha256": "0dce4158661bdd68211acf5c0b3afc8a4f764dcc4e68f1b3e471eca5f0be1ad0",
+      "bytes": 600
+    },
+    {
+      "path": "run-3/tasks/constraints-scheduling/agent/trajectory.json",
+      "sha256": "b804510d31d01dbe502232fc045f8ad47e0a7aca2d91e8ee2120684bd1b77d26",
+      "bytes": 427728
+    },
+    {
+      "path": "run-3/tasks/constraints-scheduling/config.json",
+      "sha256": "110d6f0d2a004e64fe6b5afc3d51fb82f8a5e867cba435f629cad05b632efd6c",
+      "bytes": 108
+    },
+    {
+      "path": "run-3/tasks/constraints-scheduling/result.json",
+      "sha256": "c1f4b034eda82bb53cb8d823b6828bdaf6bb6327d38023b3bb497670a18a00d0",
+      "bytes": 599
+    },
+    {
+      "path": "run-3/tasks/count-dataset-tokens/agent/trajectory.json",
+      "sha256": "90aca61f12d337217a0d15721792502cb32bc7e57e533543cdd8796441e5b083",
+      "bytes": 549778
+    },
+    {
+      "path": "run-3/tasks/count-dataset-tokens/config.json",
+      "sha256": "5230264090bf72bed301f67ecc785a9a3784c58573c60a4f7c13e998c5ca5fc0",
+      "bytes": 106
+    },
+    {
+      "path": "run-3/tasks/count-dataset-tokens/result.json",
+      "sha256": "1ec718ad9924a8871f6e95e8bbe55d70676e640969ac4084509a3758278e35e4",
+      "bytes": 596
+    },
+    {
+      "path": "run-3/tasks/crack-7z-hash/agent/trajectory.json",
+      "sha256": "23c24f5e57e08802572111ae8d32a15ef3e1f0f5537eb3106a43e10a2128f550",
+      "bytes": 2731209
+    },
+    {
+      "path": "run-3/tasks/crack-7z-hash/config.json",
+      "sha256": "436b86b90d0d89a9d7749ecc3dd9e6fe4a1777f2e318822c535ca3e01f534004",
+      "bytes": 99
+    },
+    {
+      "path": "run-3/tasks/crack-7z-hash/result.json",
+      "sha256": "eab82b58048b666e2f1deda07f405be2495dfd68375131d7d7ca04758db2e4b6",
+      "bytes": 593
+    },
+    {
+      "path": "run-3/tasks/custom-memory-heap-crash/agent/trajectory.json",
+      "sha256": "df07baeead3d750fd82c7654aac26d72744a5e5ec2740d5204ab1cf3d82e205e",
+      "bytes": 1374897
+    },
+    {
+      "path": "run-3/tasks/custom-memory-heap-crash/config.json",
+      "sha256": "a574d060e3550f360e4b590fd87cdad54278b714f6555e5d92d20d4d4654c650",
+      "bytes": 110
+    },
+    {
+      "path": "run-3/tasks/custom-memory-heap-crash/result.json",
+      "sha256": "a081591d7d6afc3e12172ec706ad641e1f41b2fb55e4c6b671efae6a63da7849",
+      "bytes": 604
+    },
+    {
+      "path": "run-3/tasks/db-wal-recovery/agent/trajectory.json",
+      "sha256": "effeaadc8b60680e5d822ab084f1050775e07c55d7e4b1937b04544fe06a7737",
+      "bytes": 2045574
+    },
+    {
+      "path": "run-3/tasks/db-wal-recovery/config.json",
+      "sha256": "e459cd8269186f22ab3e3126ce213dd821f66c6365505b4d53da4971127837c0",
+      "bytes": 101
+    },
+    {
+      "path": "run-3/tasks/db-wal-recovery/result.json",
+      "sha256": "51ebac650c7a205c646bffc42e39548ac08da15dd7102f23137f7505e42b7926",
+      "bytes": 594
+    },
+    {
+      "path": "run-3/tasks/distribution-search/agent/trajectory.json",
+      "sha256": "61a4fc7a1e5a0a2d94c18fde3cdcd4196dee5b3af489a40e37126e52242b3a28",
+      "bytes": 426254
+    },
+    {
+      "path": "run-3/tasks/distribution-search/config.json",
+      "sha256": "f01c28ac5260327e21f2794d40d31df52326e30488b5ef0c5b779877d86ac46f",
+      "bytes": 105
+    },
+    {
+      "path": "run-3/tasks/distribution-search/result.json",
+      "sha256": "e7cc5c25556f66da77db10182c367f3dc2b7ba077406c12528c1dc54780978e4",
+      "bytes": 597
+    },
+    {
+      "path": "run-3/tasks/dna-assembly/agent/trajectory.json",
+      "sha256": "083352b9c61cd1bc8196d1db634264a430373656969c4c8f1dd7acbb3d45620d",
+      "bytes": 1225429
+    },
+    {
+      "path": "run-3/tasks/dna-assembly/config.json",
+      "sha256": "5b259423bf4c74c1736c002b1ebf9a952721213314963e47cd58f3113ce6d801",
+      "bytes": 98
+    },
+    {
+      "path": "run-3/tasks/dna-assembly/result.json",
+      "sha256": "1a009f66b725e2accced5680dfa6d688c80ca0bf9091cddc8da70fccae313ad1",
+      "bytes": 635
+    },
+    {
+      "path": "run-3/tasks/dna-insert/agent/trajectory.json",
+      "sha256": "a9705851c4eac8f73ce267f49e1ad3dd58e7fd38692dee8e02e566ca76fd057c",
+      "bytes": 5383602
+    },
+    {
+      "path": "run-3/tasks/dna-insert/config.json",
+      "sha256": "e5325a39234e2556b44dd660a69d2927de0a93b61a049ac53acf7bb816d47064",
+      "bytes": 96
+    },
+    {
+      "path": "run-3/tasks/dna-insert/result.json",
+      "sha256": "4f25df73f11c4d1d234d4fc619fe9563a6f1e4d9ea9803e80114afa8236ea185",
+      "bytes": 633
+    },
+    {
+      "path": "run-3/tasks/extract-elf/agent/trajectory.json",
+      "sha256": "a9017a06c779b19142f43bdb9404840b7981d6f68e5c1172f6dd27ee42f8f2c3",
+      "bytes": 1281330
+    },
+    {
+      "path": "run-3/tasks/extract-elf/config.json",
+      "sha256": "73f516ec570db0995658b7a3a5603c8eef0453a7e3ffa778f3368ce384dcceb0",
+      "bytes": 97
+    },
+    {
+      "path": "run-3/tasks/extract-elf/result.json",
+      "sha256": "386ae967a4dbafe6f4794ab3a6ebff442ad662f0f10bde4018df6b4586c6a711",
+      "bytes": 589
+    },
+    {
+      "path": "run-3/tasks/extract-moves-from-video/agent/trajectory.json",
+      "sha256": "a092a11565edc34e6e588805a3c0e5953dcbfab2f21b2476dd21dbff673aa4dd",
+      "bytes": 13060129
+    },
+    {
+      "path": "run-3/tasks/extract-moves-from-video/config.json",
+      "sha256": "75c9411cb8232f91bf93aff7805cf58baa182678fea9d1b38dac6ee2fa738806",
+      "bytes": 110
+    },
+    {
+      "path": "run-3/tasks/extract-moves-from-video/result.json",
+      "sha256": "e4cb952705ed63f48fa24d5a45eb76b0260865cb54461cfd38c77df62a0e8e01",
+      "bytes": 649
+    },
+    {
+      "path": "run-3/tasks/feal-differential-cryptanalysis/agent/trajectory.json",
+      "sha256": "6db9f85072dca16570cd8b927ef393a7e66de6f4d8014744456fa650fe615bb3",
+      "bytes": 719648
+    },
+    {
+      "path": "run-3/tasks/feal-differential-cryptanalysis/config.json",
+      "sha256": "c8e3460f7b85d27b4be0d05a561b9b6c551ddba1d2fc3bd67ac6410a08ac132c",
+      "bytes": 117
+    },
+    {
+      "path": "run-3/tasks/feal-differential-cryptanalysis/result.json",
+      "sha256": "aa0f131ed845ddff3a299d738d41e03954445f24d4d090d087b9ff80920b311d",
+      "bytes": 608
+    },
+    {
+      "path": "run-3/tasks/feal-linear-cryptanalysis/agent/trajectory.json",
+      "sha256": "7585b2fe7f80984ac08711fb8346c257527be71f40ebac6a054fac1cc086e203",
+      "bytes": 4765459
+    },
+    {
+      "path": "run-3/tasks/feal-linear-cryptanalysis/config.json",
+      "sha256": "8d41f46b820def8f54d70c3ae273ec970835109e545e832750bd1af77bd1a583",
+      "bytes": 111
+    },
+    {
+      "path": "run-3/tasks/feal-linear-cryptanalysis/result.json",
+      "sha256": "6dc3676ab7e1fe6b1e004dcb3f2e92ebaf26c11765e55c075cdca2ce3adba4dd",
+      "bytes": 648
+    },
+    {
+      "path": "run-3/tasks/filter-js-from-html/agent/trajectory.json",
+      "sha256": "e4172549164efef044c4022f7db6ee470c3d3de7f2993bd7140b8b8794b66eb9",
+      "bytes": 688374
+    },
+    {
+      "path": "run-3/tasks/filter-js-from-html/config.json",
+      "sha256": "a59effe083502ff0433bfcf58628f903ccfa88ef1045578303031662c777cb99",
+      "bytes": 105
+    },
+    {
+      "path": "run-3/tasks/filter-js-from-html/result.json",
+      "sha256": "288aca13374e2297e9012e2b7485a1781a0b21022c82778526a48a13ea81464f",
+      "bytes": 598
+    },
+    {
+      "path": "run-3/tasks/financial-document-processor/agent/trajectory.json",
+      "sha256": "2482630da72cca507dfd3631790b1355f92e6e1c22fb4ceab970add7aca377b6",
+      "bytes": 1480563
+    },
+    {
+      "path": "run-3/tasks/financial-document-processor/config.json",
+      "sha256": "c53291179288789c7415cad2e6f780234cf43bdfd93f32642f9f68f6ddd57c7b",
+      "bytes": 114
+    },
+    {
+      "path": "run-3/tasks/financial-document-processor/result.json",
+      "sha256": "7db9cbb0724359b1225b4350f13acba7d8c2abd214e9ca0172e12fc1e8dc0a47",
+      "bytes": 606
+    },
+    {
+      "path": "run-3/tasks/fix-code-vulnerability/agent/trajectory.json",
+      "sha256": "412e8b5ee494567508516784284a8c9115353074b4caa21cb5eb231aa7cb1b4f",
+      "bytes": 627649
+    },
+    {
+      "path": "run-3/tasks/fix-code-vulnerability/config.json",
+      "sha256": "71e1dd49f15b004f1bcf30cc38e881743062f5ac21f0c5ba3ab0e821e1eb4551",
+      "bytes": 108
+    },
+    {
+      "path": "run-3/tasks/fix-code-vulnerability/result.json",
+      "sha256": "26c65f68bdb3acef8c57382f4d57b08c7927c52a906957c5f1aebfc525d43a7b",
+      "bytes": 598
+    },
+    {
+      "path": "run-3/tasks/fix-git/agent/trajectory.json",
+      "sha256": "8fb59df6d35b54348bedbbc7307f18c181b6935a0d59add0e3efb6993bd4e20f",
+      "bytes": 151836
+    },
+    {
+      "path": "run-3/tasks/fix-git/config.json",
+      "sha256": "3b7da4676bd590cb5592df32431e892113112e18a5a329364f9a3f410ea06cb5",
+      "bytes": 93
+    },
+    {
+      "path": "run-3/tasks/fix-git/result.json",
+      "sha256": "ae04f23c33b7d1c952fbff0a867c2d66cdcfdb8c013ad9a9c26eda9cb784c26e",
+      "bytes": 581
+    },
+    {
+      "path": "run-3/tasks/fix-ocaml-gc/agent/trajectory.json",
+      "sha256": "4bc100fb12ff404e0171f0f8881eac4e2bd52ebbc5b940898a9edfc7b4feb716",
+      "bytes": 9713797
+    },
+    {
+      "path": "run-3/tasks/fix-ocaml-gc/config.json",
+      "sha256": "127d51ea00eb0e1041b0f1a653cc6f2fdd2ea6158c91114628e9b3a885e4099b",
+      "bytes": 98
+    },
+    {
+      "path": "run-3/tasks/fix-ocaml-gc/result.json",
+      "sha256": "4de6cfc252b65ce14624b1fcc796775ae4c32685ba1043764c084d401098528a",
+      "bytes": 592
+    },
+    {
+      "path": "run-3/tasks/gcode-to-text/agent/trajectory.json",
+      "sha256": "a7c813d419bdbd7ab44137a3d8b3ec5f5e5172211b4b6ea58f93595a884b07f6",
+      "bytes": 913944
+    },
+    {
+      "path": "run-3/tasks/gcode-to-text/config.json",
+      "sha256": "cda73b606faabec9b190f29e93e456afd785d6c90e94a8a8c4e866041ea1c438",
+      "bytes": 99
+    },
+    {
+      "path": "run-3/tasks/gcode-to-text/result.json",
+      "sha256": "548f1008afa43c685f0e83f741ad30066269942b559eab0f362c828621df3131",
+      "bytes": 586
+    },
+    {
+      "path": "run-3/tasks/git-leak-recovery/agent/trajectory.json",
+      "sha256": "08d3f1e937309cb5b0778d68cc4915d61ec30322ab1ac593671bc397046fd68f",
+      "bytes": 137652
+    },
+    {
+      "path": "run-3/tasks/git-leak-recovery/config.json",
+      "sha256": "ff742c1888721366eafca133ca5b9f25be30a1dfe9ef144fe142e869c2baa3f2",
+      "bytes": 103
+    },
+    {
+      "path": "run-3/tasks/git-leak-recovery/result.json",
+      "sha256": "5ebfcbdf50cbcdef46d97128d3663922a59bce1d9848934810bae08608fae665",
+      "bytes": 590
+    },
+    {
+      "path": "run-3/tasks/git-multibranch/agent/trajectory.json",
+      "sha256": "2815a780f0f5d9a4db4c8de5b189e1d15b5e6bdd9fe01c7d8c70642809da77fc",
+      "bytes": 656941
+    },
+    {
+      "path": "run-3/tasks/git-multibranch/config.json",
+      "sha256": "33785c1d60dfd356e7ee38d43e784dec995720f1ab152c5118060ca95d07db27",
+      "bytes": 101
+    },
+    {
+      "path": "run-3/tasks/git-multibranch/result.json",
+      "sha256": "cfbd9ac473174c4051b38a228feaa2159eeaafab2321d35ffd34339482385b5d",
+      "bytes": 634
+    },
+    {
+      "path": "run-3/tasks/gpt2-codegolf/agent/trajectory.json",
+      "sha256": "23196f8129e19319c228ab51d8551b068806888ea2222985fd6df6512daeea96",
+      "bytes": 1663000
+    },
+    {
+      "path": "run-3/tasks/gpt2-codegolf/config.json",
+      "sha256": "55e3c54fa484f53ecc7e924f6d236138b059a85e4e6ea649a8bf7899145789fa",
+      "bytes": 99
+    },
+    {
+      "path": "run-3/tasks/gpt2-codegolf/result.json",
+      "sha256": "4e79ae8492832be1851c54dc16a9493203ff6ff7dc1fa211677554464a1a87e1",
+      "bytes": 633
+    },
+    {
+      "path": "run-3/tasks/headless-terminal/agent/trajectory.json",
+      "sha256": "88188e8173ac3dd775ff25f8a53ce3e6f7950773c5a4dc49c937c5dc537fd02b",
+      "bytes": 297970
+    },
+    {
+      "path": "run-3/tasks/headless-terminal/config.json",
+      "sha256": "1f57ccdc1f07ea155951c3501d30165b8d12c1ed28c5fa110a20ca5a2db19ca3",
+      "bytes": 103
+    },
+    {
+      "path": "run-3/tasks/headless-terminal/result.json",
+      "sha256": "8da1867f0aa0785a0b0c02c743fe22d80ecedbd755442924741e7c789165a270",
+      "bytes": 594
+    },
+    {
+      "path": "run-3/tasks/hf-model-inference/agent/trajectory.json",
+      "sha256": "dfa6eba707894484064cc4faaaf6c9dbce743822481b7ea4691dd647e9f6d9d0",
+      "bytes": 828065
+    },
+    {
+      "path": "run-3/tasks/hf-model-inference/config.json",
+      "sha256": "2f7f3ad6ce5ecc6b336e5fe53a16365c16dadeffb4ca1fbfb26678f8183ab491",
+      "bytes": 104
+    },
+    {
+      "path": "run-3/tasks/hf-model-inference/result.json",
+      "sha256": "8f0b1596b8719b03d71c18abc8173322ee672994a406f801cfdd6e3daf25340f",
+      "bytes": 596
+    },
+    {
+      "path": "run-3/tasks/install-windows-3.11/agent/trajectory.json",
+      "sha256": "591c2c38fd7427dbe1e51059455a7e4a95bd69802a916198f59e9a6bc5b8d2c9",
+      "bytes": 714304
+    },
+    {
+      "path": "run-3/tasks/install-windows-3.11/config.json",
+      "sha256": "7aac78d371360acdc5182758508847187b93e77f63df171b259c3688742ab99b",
+      "bytes": 106
+    },
+    {
+      "path": "run-3/tasks/install-windows-3.11/result.json",
+      "sha256": "70aa268e2f3f29b1df9e9b026bac7a679cf3a9ab9a82ae80ba375fe9c0e07f3a",
+      "bytes": 598
+    },
+    {
+      "path": "run-3/tasks/kv-store-grpc/agent/trajectory.json",
+      "sha256": "69c421a69d0139ececf7caf5f84c51884ea5cf66e09d7eda8d3af81dcae72c00",
+      "bytes": 228678
+    },
+    {
+      "path": "run-3/tasks/kv-store-grpc/config.json",
+      "sha256": "ee66557aef404e3e840212161906861822b7a2001348b88286bba36483c2b3ba",
+      "bytes": 99
+    },
+    {
+      "path": "run-3/tasks/kv-store-grpc/result.json",
+      "sha256": "b72e716a481700d3f778bbb13cae55a8fed1c006e4f590b05241c28f55d82ffd",
+      "bytes": 589
+    },
+    {
+      "path": "run-3/tasks/large-scale-text-editing/agent/trajectory.json",
+      "sha256": "6329ff70ea15787e34f504b97429b77c1a8ddf6ded050bc63426cea6136735c6",
+      "bytes": 446055
+    },
+    {
+      "path": "run-3/tasks/large-scale-text-editing/config.json",
+      "sha256": "1f00aa28472f3a5e75d2b38dca6009cf65d5e39f305d2228a75fc3ee16b1b586",
+      "bytes": 110
+    },
+    {
+      "path": "run-3/tasks/large-scale-text-editing/result.json",
+      "sha256": "cbd2cce584bf8ab1af2d8a0ecf8da8ab9453119bb0608c68a8512ff4957f8af7",
+      "bytes": 602
+    },
+    {
+      "path": "run-3/tasks/largest-eigenval/agent/trajectory.json",
+      "sha256": "93648f21afaf77185fa117254c1efb6f6b35cedc719588fc4087be34dd3a5c7e",
+      "bytes": 2955387
+    },
+    {
+      "path": "run-3/tasks/largest-eigenval/config.json",
+      "sha256": "47c8d2f0a98432e9d61dfc5fe0fcca5f3fb6096b5ad4d933bf1c7b1bf4a2e432",
+      "bytes": 102
+    },
+    {
+      "path": "run-3/tasks/largest-eigenval/result.json",
+      "sha256": "7da417503315165163679cc9e60e370131ff0734b262b715613db221f729225d",
+      "bytes": 637
+    },
+    {
+      "path": "run-3/tasks/llm-inference-batching-scheduler/agent/trajectory.json",
+      "sha256": "9603f8c24539c4b92fa0ab6ba5444805df232e404cd4e98e3ec5a22155a17616",
+      "bytes": 861169
+    },
+    {
+      "path": "run-3/tasks/llm-inference-batching-scheduler/config.json",
+      "sha256": "de052e476398a63fef6453fe510290632e373814d120d185d0dce5fbb8017a5f",
+      "bytes": 118
+    },
+    {
+      "path": "run-3/tasks/llm-inference-batching-scheduler/result.json",
+      "sha256": "af607c960052639a2934bb65705320a11a5865168d19009948e7e423be2e93c1",
+      "bytes": 609
+    },
+    {
+      "path": "run-3/tasks/log-summary-date-ranges/agent/trajectory.json",
+      "sha256": "7dee5f53614e23da4e4e49197a0cb2320040773ae06671f4e19f3768cdce4252",
+      "bytes": 205607
+    },
+    {
+      "path": "run-3/tasks/log-summary-date-ranges/config.json",
+      "sha256": "d6c53d36f5a64cd15cfef351aa0c88b747727a681017a5cab22a3c976dcbe32b",
+      "bytes": 109
+    },
+    {
+      "path": "run-3/tasks/log-summary-date-ranges/result.json",
+      "sha256": "8bef80fe6cd3f561bccdad5d48df3e7e3b03bfee4c1b714b70baa32ab0033822",
+      "bytes": 595
+    },
+    {
+      "path": "run-3/tasks/mailman/agent/trajectory.json",
+      "sha256": "d223dffbc8369ab41bf344a34cce3fa79de500a008fbce4811d12603499ba5a3",
+      "bytes": 6830178
+    },
+    {
+      "path": "run-3/tasks/mailman/config.json",
+      "sha256": "3a30a9a0dfb4bb1d79889075ee83bc1ec22f32b22f546bfe693258cf65624504",
+      "bytes": 93
+    },
+    {
+      "path": "run-3/tasks/mailman/result.json",
+      "sha256": "aaab5979fb99c6e83f16d5775160fbcc5eacbea31edada74e5db155298a1aac3",
+      "bytes": 631
+    },
+    {
+      "path": "run-3/tasks/make-doom-for-mips/agent/trajectory.json",
+      "sha256": "ae986c508020543b86d8419699ff9e55c2b40755e5e6b41df97a0b8553c39b7c",
+      "bytes": 5331192
+    },
+    {
+      "path": "run-3/tasks/make-doom-for-mips/config.json",
+      "sha256": "a64e731870759de171f2d30104d8a7970d7a4deef1695eb58b4a6781a3de7026",
+      "bytes": 104
+    },
+    {
+      "path": "run-3/tasks/make-doom-for-mips/result.json",
+      "sha256": "2caa550010067a0a78dbc8fd397fd8399b8a3fcd9763f935390facf7a45e0efd",
+      "bytes": 639
+    },
+    {
+      "path": "run-3/tasks/make-mips-interpreter/agent/trajectory.json",
+      "sha256": "fd0fa04c5ca1b941f2da42d1b2295c8f7e11f68248b2afc006e3f76e70edb81a",
+      "bytes": 6859991
+    },
+    {
+      "path": "run-3/tasks/make-mips-interpreter/config.json",
+      "sha256": "8c938de524167c5d1db4fd32a0fb6f17f06dd33679267005b5c3dfc5d945ac59",
+      "bytes": 107
+    },
+    {
+      "path": "run-3/tasks/make-mips-interpreter/result.json",
+      "sha256": "7c3b989639f3309b52e62bea74395535f5967fcf46f701b16674fbf785b6d25e",
+      "bytes": 645
+    },
+    {
+      "path": "run-3/tasks/mcmc-sampling-stan/agent/trajectory.json",
+      "sha256": "e9d166e00bfab752c607a04446844f9149dbadb80acd023ac149504881a65628",
+      "bytes": 7521660
+    },
+    {
+      "path": "run-3/tasks/mcmc-sampling-stan/config.json",
+      "sha256": "a99981cc2de3f66a368845a37433b6af2bc55e90f0d851f70bb5ebfd896c9caf",
+      "bytes": 104
+    },
+    {
+      "path": "run-3/tasks/mcmc-sampling-stan/result.json",
+      "sha256": "d2f72bb33f90d38d7820d8cc27b543c90dc9c3e87e16b9266d7c6e116cae64d0",
+      "bytes": 599
+    },
+    {
+      "path": "run-3/tasks/merge-diff-arc-agi-task/agent/trajectory.json",
+      "sha256": "1d5454c8c84e8f35a1a3680785458cde825746940791d27bc290b288e6e53c82",
+      "bytes": 283006
+    },
+    {
+      "path": "run-3/tasks/merge-diff-arc-agi-task/config.json",
+      "sha256": "3f0d644e51bb01be8ea52f54847a836a33a7359ce50735411f36449d4fc71d13",
+      "bytes": 109
+    },
+    {
+      "path": "run-3/tasks/merge-diff-arc-agi-task/result.json",
+      "sha256": "bb8439f861d6fb315d0e082bf167f2df7c3839374bdb729e1eb6f1d00b8a1d82",
+      "bytes": 599
+    },
+    {
+      "path": "run-3/tasks/model-extraction-relu-logits/agent/trajectory.json",
+      "sha256": "97c073f66af8def891d9f0ad17b5e5217be03b774cd5787f0428c7e0a727613b",
+      "bytes": 290891
+    },
+    {
+      "path": "run-3/tasks/model-extraction-relu-logits/config.json",
+      "sha256": "d848b5ebbab4c51dc7bcf632cbc6df476ededc5e92165184ab919335ca9187a9",
+      "bytes": 114
+    },
+    {
+      "path": "run-3/tasks/model-extraction-relu-logits/result.json",
+      "sha256": "b9b8ca0b27819e2f970555111f1aa12eaa27b9ee54c086aabf9d0fa035c93d0f",
+      "bytes": 604
+    },
+    {
+      "path": "run-3/tasks/modernize-scientific-stack/agent/trajectory.json",
+      "sha256": "e7f5da3cfbf5f752a732ba28fb46c4ba1b3909f6b01040e314d35c0a0064bf5c",
+      "bytes": 185935
+    },
+    {
+      "path": "run-3/tasks/modernize-scientific-stack/config.json",
+      "sha256": "afce00831ebcef35f00d9022e527c6e534126831746519779232d91d6da99baa",
+      "bytes": 112
+    },
+    {
+      "path": "run-3/tasks/modernize-scientific-stack/result.json",
+      "sha256": "ddc8c88b200211fd5e94b1e777426dc2f68672618232fb3a264d6f33fcba949f",
+      "bytes": 600
+    },
+    {
+      "path": "run-3/tasks/mteb-leaderboard/agent/trajectory.json",
+      "sha256": "83420cc682fb3f8056a4a3de0ff5578646c009a5e28e9b0141364b5dfd215086",
+      "bytes": 1228918
+    },
+    {
+      "path": "run-3/tasks/mteb-leaderboard/config.json",
+      "sha256": "f5b3a26f439e8184b17f8205a3208a87064de949955eb8be5fcd6b7f6cb35bc1",
+      "bytes": 102
+    },
+    {
+      "path": "run-3/tasks/mteb-leaderboard/result.json",
+      "sha256": "46d1f802c98557d7d25f63c2023d20dddddcbd9e28fc0d6668d828f26d8a3a56",
+      "bytes": 593
+    },
+    {
+      "path": "run-3/tasks/mteb-retrieve/agent/trajectory.json",
+      "sha256": "3a6fcca1d278f8b9cccba8eaffc1d417ae7a223999a812b40f1e6e343e72a220",
+      "bytes": 37094
+    },
+    {
+      "path": "run-3/tasks/mteb-retrieve/config.json",
+      "sha256": "d4509f3327919b3899ff23a82b8c25ca07963cf45f4d1f25a22aba4c8f64832c",
+      "bytes": 99
+    },
+    {
+      "path": "run-3/tasks/mteb-retrieve/result.json",
+      "sha256": "d1399acdd9c376b0d250934e40c878fbd928c1354c0ae927591dd12e18bebc2b",
+      "bytes": 586
+    },
+    {
+      "path": "run-3/tasks/multi-source-data-merger/agent/trajectory.json",
+      "sha256": "cef050ca6373774aec90b50ebe89c4d8026550590b644914b6d1f901447d4ecc",
+      "bytes": 256438
+    },
+    {
+      "path": "run-3/tasks/multi-source-data-merger/config.json",
+      "sha256": "28d09bfe78b53ecfdaa62d6d2bcd16c65a7e3d52d8c5a03fdf4b5bf41d2bad55",
+      "bytes": 110
+    },
+    {
+      "path": "run-3/tasks/multi-source-data-merger/result.json",
+      "sha256": "19aef763b1277be68810661a2dac43be6330b4500d97e155eb34077765fbc2da",
+      "bytes": 600
+    },
+    {
+      "path": "run-3/tasks/nginx-request-logging/agent/trajectory.json",
+      "sha256": "541eb49c1e717f6a695504f68c892dfcf07114f26ebcf30769093e5314d49168",
+      "bytes": 244242
+    },
+    {
+      "path": "run-3/tasks/nginx-request-logging/config.json",
+      "sha256": "3620ae378c4182684d4be0d9bacbd36dd597b44ce1042add5153c5524b33fe71",
+      "bytes": 107
+    },
+    {
+      "path": "run-3/tasks/nginx-request-logging/result.json",
+      "sha256": "27f4f9f567075576af6be7d955e054ac66d8893b485e2507b8c948fbb813d2e6",
+      "bytes": 596
+    },
+    {
+      "path": "run-3/tasks/openssl-selfsigned-cert/agent/trajectory.json",
+      "sha256": "2bc6158147a85571e28c0358cc6a4462ad5b47af475da25d47a159d91f4a91b9",
+      "bytes": 341295
+    },
+    {
+      "path": "run-3/tasks/openssl-selfsigned-cert/config.json",
+      "sha256": "8d4e37b4c34ace4600e85eccf1f0a32c603ad2dc77bd570d502f31cd095bdcc3",
+      "bytes": 109
+    },
+    {
+      "path": "run-3/tasks/openssl-selfsigned-cert/result.json",
+      "sha256": "0a0f07d83add0fc3a75afaee276679582ef76bff3031b84b7bf62653ee20750d",
+      "bytes": 599
+    },
+    {
+      "path": "run-3/tasks/overfull-hbox/agent/trajectory.json",
+      "sha256": "ad1d2dc10195521f1ea533395994df321b053e9dafdec7bf1f857d7663df3dbe",
+      "bytes": 743558
+    },
+    {
+      "path": "run-3/tasks/overfull-hbox/config.json",
+      "sha256": "b76dce4b9c4221217cc02225a2c6db47f1ccec31340056f50efa924aeb3b51b6",
+      "bytes": 99
+    },
+    {
+      "path": "run-3/tasks/overfull-hbox/result.json",
+      "sha256": "8e6a312a242a833478b0bc83159fe714428a0e73eaa76b9ed55ad12bf2ca30a1",
+      "bytes": 592
+    },
+    {
+      "path": "run-3/tasks/password-recovery/agent/trajectory.json",
+      "sha256": "bb017fcb90d008d3fb2a8565553c080cabe24fe666375418f45adfda79c51390",
+      "bytes": 209771
+    },
+    {
+      "path": "run-3/tasks/password-recovery/config.json",
+      "sha256": "e001c9c122085b2d222b97674c434bcebe5838fd194b2b54edaa46fcb9c081e6",
+      "bytes": 103
+    },
+    {
+      "path": "run-3/tasks/password-recovery/result.json",
+      "sha256": "0d6276f1ae22b0bd7cf7c924b90324343b3014ddad013d560ca7922eb4e1abf5",
+      "bytes": 592
+    },
+    {
+      "path": "run-3/tasks/path-tracing/agent/trajectory.json",
+      "sha256": "01e56573c24265a44c4fcbea4329cc8a1ada838467862518331d3c2814654304",
+      "bytes": 2191942
+    },
+    {
+      "path": "run-3/tasks/path-tracing/config.json",
+      "sha256": "c7cbe5332abd3de358b625d96f6430a69711a1eed7f0bab1c00d422f6a06784d",
+      "bytes": 98
+    },
+    {
+      "path": "run-3/tasks/path-tracing/result.json",
+      "sha256": "4deb60a9f82463601fc37fdd53518ae83cdbf664deca2e55c6a900b2219ce5d5",
+      "bytes": 635
+    },
+    {
+      "path": "run-3/tasks/path-tracing-reverse/agent/trajectory.json",
+      "sha256": "fc601076e54951bd8bb1a80bae764bb476732ffcfa2bebdc5b89a3897d375ae6",
+      "bytes": 8383551
+    },
+    {
+      "path": "run-3/tasks/path-tracing-reverse/config.json",
+      "sha256": "483448dbea121b5f48c632a925f39ed78c68d8a755ab41f9f7b807d0c6094537",
+      "bytes": 106
+    },
+    {
+      "path": "run-3/tasks/path-tracing-reverse/result.json",
+      "sha256": "93d446f26cc2654c0240c76a5c2395845ce43c4a499e19cd555fe28863ebb4fa",
+      "bytes": 644
+    },
+    {
+      "path": "run-3/tasks/polyglot-c-py/agent/trajectory.json",
+      "sha256": "ee2a163f05c6d4be99a627d965006bd4887e4943093f0dcfb3433296528bc3c3",
+      "bytes": 262954
+    },
+    {
+      "path": "run-3/tasks/polyglot-c-py/config.json",
+      "sha256": "ab1903997c5d46ee78ad26ae403e9a0df4a6fc0b3373f9cdb68652a99e6d02dd",
+      "bytes": 99
+    },
+    {
+      "path": "run-3/tasks/polyglot-c-py/result.json",
+      "sha256": "e47e1dce609f21493fa536af26b193a94a7e336cbd19c0d75e22bf9d2b0dff2a",
+      "bytes": 588
+    },
+    {
+      "path": "run-3/tasks/polyglot-rust-c/agent/trajectory.json",
+      "sha256": "b077bbbb1edc370b4de9599344da28dc811674c96089909e658b795584b658ca",
+      "bytes": 357885
+    },
+    {
+      "path": "run-3/tasks/polyglot-rust-c/config.json",
+      "sha256": "e17f648631359f8aaf22db40e80ef72638af8981366a133e3c8de30828869ac2",
+      "bytes": 101
+    },
+    {
+      "path": "run-3/tasks/polyglot-rust-c/result.json",
+      "sha256": "a3ec5f1bf2e884e0e6b29e42b14494aea11abde2247004a6202bf4efe846a9b2",
+      "bytes": 632
+    },
+    {
+      "path": "run-3/tasks/portfolio-optimization/agent/trajectory.json",
+      "sha256": "e6dcdc761e6691743e8903d1a710789b998ab88d885ac337d700c73e57d4121e",
+      "bytes": 1285551
+    },
+    {
+      "path": "run-3/tasks/portfolio-optimization/config.json",
+      "sha256": "115d3a82eda527f887bb90b89f8c59730a2b53b72982648d4aec6ac01e932675",
+      "bytes": 108
+    },
+    {
+      "path": "run-3/tasks/portfolio-optimization/result.json",
+      "sha256": "2796f6eff40aabba2546674a4da8d17aba4edb2e51359da8bf6a42c2829f1b68",
+      "bytes": 600
+    },
+    {
+      "path": "run-3/tasks/protein-assembly/agent/trajectory.json",
+      "sha256": "f64de3033268d13ed4869068fe973b6dd7e654b4925ca0da4982a3510ee77fa7",
+      "bytes": 2643524
+    },
+    {
+      "path": "run-3/tasks/protein-assembly/config.json",
+      "sha256": "a5984637b6285f6d14592dae1d606ea502ce244a12287d998a3cae3c2f99fa43",
+      "bytes": 102
+    },
+    {
+      "path": "run-3/tasks/protein-assembly/result.json",
+      "sha256": "aa21fe4c40ed38213fe29bba873140fd987c5c46aa09ffc398ec3b7db7cc1f11",
+      "bytes": 596
+    },
+    {
+      "path": "run-3/tasks/prove-plus-comm/agent/trajectory.json",
+      "sha256": "668fdff3332ac7ea183514f675e58bcad8acd8a1e22a83db5a8082c3c48809f0",
+      "bytes": 127466
+    },
+    {
+      "path": "run-3/tasks/prove-plus-comm/config.json",
+      "sha256": "fc811319a20489f57c218f86618ad7444d4587db861b26d92fbc38d9b1f0d70d",
+      "bytes": 101
+    },
+    {
+      "path": "run-3/tasks/prove-plus-comm/result.json",
+      "sha256": "e04ad1a8d973968e6ceadd244ee1da598778973c2c42ff81b781de42396a7052",
+      "bytes": 589
+    },
+    {
+      "path": "run-3/tasks/pypi-server/agent/trajectory.json",
+      "sha256": "fb754516df9335004baf3447b6d7e1a56836bf3a56c7dff39b4bf6e24ad66e2b",
+      "bytes": 581991
+    },
+    {
+      "path": "run-3/tasks/pypi-server/config.json",
+      "sha256": "e6af6eb305bf1b4475b8a4345e449d32a94a3054659ae344e2e776bf3c0002b5",
+      "bytes": 97
+    },
+    {
+      "path": "run-3/tasks/pypi-server/result.json",
+      "sha256": "a2e14a57e7784613af98f5112831f51451b8ba8f67ee68a3f6d9d1ed6401d4dd",
+      "bytes": 587
+    },
+    {
+      "path": "run-3/tasks/pytorch-model-cli/agent/trajectory.json",
+      "sha256": "e928459b52d0761a1fe572878a71e394a862b87570b9122908aa41260ccc1475",
+      "bytes": 3314997
+    },
+    {
+      "path": "run-3/tasks/pytorch-model-cli/config.json",
+      "sha256": "7076df823b2b4f78cb24b36e2d8c1fc00d890796e461e0a6e81e718c7b4d804c",
+      "bytes": 103
+    },
+    {
+      "path": "run-3/tasks/pytorch-model-cli/result.json",
+      "sha256": "af7dda1e71eed6441b3eab12d2752141f003b038532d7eb0caf5f3c3269a6b1e",
+      "bytes": 596
+    },
+    {
+      "path": "run-3/tasks/pytorch-model-recovery/agent/trajectory.json",
+      "sha256": "9c7aa14079670284d7b21219b529de5802ab78c254d374521205963afac51bcb",
+      "bytes": 1282758
+    },
+    {
+      "path": "run-3/tasks/pytorch-model-recovery/config.json",
+      "sha256": "ee012857b68e2f6df60456cbb27d677279ff5e3ae629235ad89e6686f9f33b44",
+      "bytes": 108
+    },
+    {
+      "path": "run-3/tasks/pytorch-model-recovery/result.json",
+      "sha256": "df50aa92a778eb11634e13fb3ff2e0c28ee85aac815dac89d18a0b4755485312",
+      "bytes": 600
+    },
+    {
+      "path": "run-3/tasks/qemu-alpine-ssh/agent/trajectory.json",
+      "sha256": "a135a127b6bcce6aac74fc5170d145ea8e083b25ef4ded542be15bcbfaa97684",
+      "bytes": 618950
+    },
+    {
+      "path": "run-3/tasks/qemu-alpine-ssh/config.json",
+      "sha256": "b0bad4f1d36ebd160667d07475e077f7148604c8382e7e39197852a1f53ab04f",
+      "bytes": 101
+    },
+    {
+      "path": "run-3/tasks/qemu-alpine-ssh/result.json",
+      "sha256": "78851bdfef8ae7ae9780c133df2f2ab70e22a7de6e8df1c9a723b04497711aa2",
+      "bytes": 635
+    },
+    {
+      "path": "run-3/tasks/qemu-startup/agent/trajectory.json",
+      "sha256": "acb70059cc7f4ad714a39955f3c62ae9cb37be03e019b62aa1a5464d67b47c23",
+      "bytes": 34308
+    },
+    {
+      "path": "run-3/tasks/qemu-startup/config.json",
+      "sha256": "2748fe27be34e427a11eb84d3ed8db4815053c955b5259fd50a45c037d278b75",
+      "bytes": 98
+    },
+    {
+      "path": "run-3/tasks/qemu-startup/result.json",
+      "sha256": "f043ca0e039613715119b842ecf08a7b901ea70f5cdc2c048b5ab7a86ee16d7e",
+      "bytes": 586
+    },
+    {
+      "path": "run-3/tasks/query-optimize/agent/trajectory.json",
+      "sha256": "1e2cac287ae0d02d115d1076998648a1328d2348a36fd71ff43c3508f7fdaeab",
+      "bytes": 295324
+    },
+    {
+      "path": "run-3/tasks/query-optimize/config.json",
+      "sha256": "ccfcfa06fb1660725e56495ae0fd1156d54697680917cbc419943d8047b16ae7",
+      "bytes": 100
+    },
+    {
+      "path": "run-3/tasks/query-optimize/result.json",
+      "sha256": "96942f8a1c128399cf816fdd6001c464bba81443b213ad42e06752e2a07a18e9",
+      "bytes": 588
+    },
+    {
+      "path": "run-3/tasks/raman-fitting/agent/trajectory.json",
+      "sha256": "82c1bebcce045b6e25e765a95ff3e58082eb44e952ab63293e6c00a836346897",
+      "bytes": 1070409
+    },
+    {
+      "path": "run-3/tasks/raman-fitting/config.json",
+      "sha256": "2469be30b92d856dd4ea006ea2d7d87c39f99c20e27928e822224cbe3124ae76",
+      "bytes": 99
+    },
+    {
+      "path": "run-3/tasks/raman-fitting/result.json",
+      "sha256": "6324fea76ab1e3f2cfae39ede4d873b3492a061de194840fe40853743af343b7",
+      "bytes": 633
+    },
+    {
+      "path": "run-3/tasks/regex-chess/agent/trajectory.json",
+      "sha256": "bbe71725b3f33c2587606c65ce0f083ed72de44c4dc11ced821f93dcbedb8c88",
+      "bytes": 5872954
+    },
+    {
+      "path": "run-3/tasks/regex-chess/config.json",
+      "sha256": "a50ff4ef7c76ab99bf471646b46aeab09e1c37b5544f26482d8df8f89313d3e9",
+      "bytes": 97
+    },
+    {
+      "path": "run-3/tasks/regex-chess/result.json",
+      "sha256": "7ae753bf73ffec80679d0ecdd51aeb776a081d56246779bc0355b44da29b58c8",
+      "bytes": 593
+    },
+    {
+      "path": "run-3/tasks/regex-log/agent/trajectory.json",
+      "sha256": "d19e9b64c4e583f4ed8dba24962dc47f5a0ebee23e5339b6879e8ae613e01b11",
+      "bytes": 162235
+    },
+    {
+      "path": "run-3/tasks/regex-log/config.json",
+      "sha256": "c6dd38edd13fb0191ee3ea31dbb5ab49dd571986a60145a7d639ed09b28a25f3",
+      "bytes": 95
+    },
+    {
+      "path": "run-3/tasks/regex-log/result.json",
+      "sha256": "41a49cc9e07668ffeecb55795c8a748baeaeb251f35e6e05403e749f50e58459",
+      "bytes": 582
+    },
+    {
+      "path": "run-3/tasks/reshard-c4-data/agent/trajectory.json",
+      "sha256": "34ea0162985a22bef44ef4c72be5a4855642a4e8e7739c8433ac2a26c4b2f3f7",
+      "bytes": 534653
+    },
+    {
+      "path": "run-3/tasks/reshard-c4-data/config.json",
+      "sha256": "6080f14c09614d7e68ad79d0712fa54ff50ec49d07f621abbcf33a6d051453bd",
+      "bytes": 101
+    },
+    {
+      "path": "run-3/tasks/reshard-c4-data/result.json",
+      "sha256": "29ac877e6ad859cabb8cdd947bfd85c53f1a12ef5fc2f254d75308c47b2ef092",
+      "bytes": 592
+    },
+    {
+      "path": "run-3/tasks/rstan-to-pystan/agent/trajectory.json",
+      "sha256": "d9e1dfd3959efe0c3640f8f2d4e890fd28a01f42bcb5c1e8eef21021041370ae",
+      "bytes": 3172092
+    },
+    {
+      "path": "run-3/tasks/rstan-to-pystan/config.json",
+      "sha256": "cf0bd5a206a6368c62c1eed78ee5673f1bdd7cf33de7eac7afc206dee9ad97e4",
+      "bytes": 101
+    },
+    {
+      "path": "run-3/tasks/rstan-to-pystan/result.json",
+      "sha256": "120222a6d40f27b57a754043b0f2b008a750adf46194edfaeca99b2e93fa8b30",
+      "bytes": 636
+    },
+    {
+      "path": "run-3/tasks/sam-cell-seg/agent/trajectory.json",
+      "sha256": "59771eb595a22899ad06a320da4ac2d8e658f7a927fe61e4ada67c1a143b8d6d",
+      "bytes": 12386795
+    },
+    {
+      "path": "run-3/tasks/sam-cell-seg/config.json",
+      "sha256": "1ba3ec923030915a863fb75b99e92a3a71bd1899d0dbbe406e8393eb100adb8d",
+      "bytes": 98
+    },
+    {
+      "path": "run-3/tasks/sam-cell-seg/result.json",
+      "sha256": "d8cd18c9ddec0c1859d46ae667b65605423a52afc16984af7b364a6c37286b9b",
+      "bytes": 594
+    },
+    {
+      "path": "run-3/tasks/sanitize-git-repo/agent/trajectory.json",
+      "sha256": "6ab3d7331844e8ccc0a1ba908bd46de52eb25825890f6d1b6db4b4703776da6d",
+      "bytes": 3895044
+    },
+    {
+      "path": "run-3/tasks/sanitize-git-repo/config.json",
+      "sha256": "79c658eee4c084087b4735d348720968d996d67063b50977ced78f321d279b5f",
+      "bytes": 103
+    },
+    {
+      "path": "run-3/tasks/sanitize-git-repo/result.json",
+      "sha256": "b4e876bb907030243fc92ec518797e9ab97e20ab93e947c3187f31941c447736",
+      "bytes": 637
+    },
+    {
+      "path": "run-3/tasks/schemelike-metacircular-eval/agent/trajectory.json",
+      "sha256": "9087a26c7ea08856b05f35c535ff4f6e91b7f0c40d16d806eddaa7870cc0875b",
+      "bytes": 825370
+    },
+    {
+      "path": "run-3/tasks/schemelike-metacircular-eval/config.json",
+      "sha256": "78d8f11f96eef5c9e9110b57a22576ff3d2e13cfb456a85f02e3a9c4862f15bc",
+      "bytes": 114
+    },
+    {
+      "path": "run-3/tasks/schemelike-metacircular-eval/result.json",
+      "sha256": "a5f02bdc17be7e3e9c745cce768d1746accf976f78fac319afd3e9baf68bc92b",
+      "bytes": 650
+    },
+    {
+      "path": "run-3/tasks/sparql-university/agent/trajectory.json",
+      "sha256": "e45feb92d6487fcea3d7eafae6c0cfbf07a6c2dc53f4c6e6c21fb7c40e211fe0",
+      "bytes": 282144
+    },
+    {
+      "path": "run-3/tasks/sparql-university/config.json",
+      "sha256": "f9e56af5d85ff404681159422edd8b9d43c79063107f9c8c4ef6dce5000ac5d5",
+      "bytes": 103
+    },
+    {
+      "path": "run-3/tasks/sparql-university/result.json",
+      "sha256": "05c212cc1425f4e2262b7dc48ffa8e81d468e1bf4b962896a05143b40b3bae22",
+      "bytes": 594
+    },
+    {
+      "path": "run-3/tasks/sqlite-db-truncate/agent/trajectory.json",
+      "sha256": "522f436b86611bc69aae0e16ab21336c1af58b4814298becae233262ad350355",
+      "bytes": 1010243
+    },
+    {
+      "path": "run-3/tasks/sqlite-db-truncate/config.json",
+      "sha256": "491439cd95fbe2cd5cbffd643a7c60e99a57479f2c99e2e9f01eb34c9ad827c1",
+      "bytes": 104
+    },
+    {
+      "path": "run-3/tasks/sqlite-db-truncate/result.json",
+      "sha256": "94d3c9bc457cbaebc8f4e3a53591ef13b8aa88e56a8dbeb090be1c8783683d90",
+      "bytes": 596
+    },
+    {
+      "path": "run-3/tasks/sqlite-with-gcov/agent/trajectory.json",
+      "sha256": "55e2fa6b7cf6d12e16090d69ec04ac56fff5c4ffa652f3345357aac1c4333be1",
+      "bytes": 1811260
+    },
+    {
+      "path": "run-3/tasks/sqlite-with-gcov/config.json",
+      "sha256": "91232fdf4a70d3ba19a40f3dad3f9a72bcf15cc1a0f987ad5dd0108d4a138184",
+      "bytes": 102
+    },
+    {
+      "path": "run-3/tasks/sqlite-with-gcov/result.json",
+      "sha256": "1d91a17b60d6f601de21f1a129ab390f81342c2541b8b424ae70ebde93e60e57",
+      "bytes": 592
+    },
+    {
+      "path": "run-3/tasks/torch-pipeline-parallelism/agent/trajectory.json",
+      "sha256": "6037ae7b7e0352a81b4e1996524c771be539c3c1ba038023d53729b15298bce5",
+      "bytes": 378521
+    },
+    {
+      "path": "run-3/tasks/torch-pipeline-parallelism/config.json",
+      "sha256": "f268f5224fba19e1963b4788b8807d05f58b0f277c38f6e98ca597f9620ec07d",
+      "bytes": 112
+    },
+    {
+      "path": "run-3/tasks/torch-pipeline-parallelism/result.json",
+      "sha256": "2c7d7526409078cd8a1b0891d79509d62723ab408d4b8a963ce3f528401a2214",
+      "bytes": 603
+    },
+    {
+      "path": "run-3/tasks/torch-tensor-parallelism/agent/trajectory.json",
+      "sha256": "fd9521443d4f04f3a2f3432c335cd975258ec3dd3b3a48a734d86f7241165d27",
+      "bytes": 375258
+    },
+    {
+      "path": "run-3/tasks/torch-tensor-parallelism/config.json",
+      "sha256": "53ceaa0bb7b6e7121483ad159813d4de52e34882b2d1905f79c51049cc7a1a64",
+      "bytes": 110
+    },
+    {
+      "path": "run-3/tasks/torch-tensor-parallelism/result.json",
+      "sha256": "560885c75740e342fad5d785e90d42f5939ef6df77523647a2459531e2837c36",
+      "bytes": 642
+    },
+    {
+      "path": "run-3/tasks/train-fasttext/agent/trajectory.json",
+      "sha256": "39b060c7dcba68d84d44fb605df81b7c7b781e154e3b39ea0efa88894e8a4459",
+      "bytes": 15288355
+    },
+    {
+      "path": "run-3/tasks/train-fasttext/config.json",
+      "sha256": "dfe78a4aaffcf48f699d9f1a4ae5c93a14000651e1ce14e44fd035fc4ca7c9b8",
+      "bytes": 100
+    },
+    {
+      "path": "run-3/tasks/train-fasttext/result.json",
+      "sha256": "9c2536be3256d9428a9a50c8d2eef3e2376b5ac0b23155094beb93f784988221",
+      "bytes": 596
+    },
+    {
+      "path": "run-3/tasks/tune-mjcf/agent/trajectory.json",
+      "sha256": "39d3a1c5fb003116c21c6e4392d0a44f420d892e0e969787794dba2a5f5310bd",
+      "bytes": 725326
+    },
+    {
+      "path": "run-3/tasks/tune-mjcf/config.json",
+      "sha256": "a1d45570dc880d4cf987556c51dc9fabebe540060eae6066d1172440d1715319",
+      "bytes": 95
+    },
+    {
+      "path": "run-3/tasks/tune-mjcf/result.json",
+      "sha256": "6992332f198eaff3b94b0a59fa63a0df3d0587d94d4e1d40c26f2d2789f9ba4b",
+      "bytes": 588
+    },
+    {
+      "path": "run-3/tasks/video-processing/agent/trajectory.json",
+      "sha256": "cf7401fa4117adc1e5d624d5a9e33eb61d34ba0d4968250483984543f2f53460",
+      "bytes": 3639304
+    },
+    {
+      "path": "run-3/tasks/video-processing/config.json",
+      "sha256": "b59f2b06b0b994d8f06d3d80be206f2ed6524d9704a8d9a54efd17a840e4eca8",
+      "bytes": 102
+    },
+    {
+      "path": "run-3/tasks/video-processing/result.json",
+      "sha256": "afbdff69800d7609bb728b4b9d1a60d1ce13889ade61ebe14e2493a8cb8bd0d9",
+      "bytes": 595
+    },
+    {
+      "path": "run-3/tasks/vulnerable-secret/agent/trajectory.json",
+      "sha256": "bdc8f40e5c6b1b42704cfa4d3c8b2eeb83eefe38bbd006d0b0d351c0f25185aa",
+      "bytes": 273250
+    },
+    {
+      "path": "run-3/tasks/vulnerable-secret/config.json",
+      "sha256": "fe5e6efafeec1377667012f69abe6483ec38bb398c2da51a474d4c6350fa8daf",
+      "bytes": 103
+    },
+    {
+      "path": "run-3/tasks/vulnerable-secret/result.json",
+      "sha256": "23ef4dc96c96f3adf1fd90d967f89f7fdf04e3be60ace72a7a49ffbcd2d5aa8e",
+      "bytes": 592
+    },
+    {
+      "path": "run-3/tasks/winning-avg-corewars/agent/trajectory.json",
+      "sha256": "a7f2466cd0c9caa57ea995c893cfa5bd43acaff20e321d8edbeb26656a33cd67",
+      "bytes": 6323298
+    },
+    {
+      "path": "run-3/tasks/winning-avg-corewars/config.json",
+      "sha256": "0f06d7b89c36cab3ed34c40169db7feb2c82065c19f9b94ffb7882018ee8fbdb",
+      "bytes": 106
+    },
+    {
+      "path": "run-3/tasks/winning-avg-corewars/result.json",
+      "sha256": "9a90edf1ff6674a2fd7f8a007d86d4846ad0476ee087e1fbad440eeb1fe9bd6a",
+      "bytes": 602
+    },
+    {
+      "path": "run-3/tasks/write-compressor/agent/trajectory.json",
+      "sha256": "e76f57db29f2fbc7ef8543500160a8d3764668f610f0766331e4ae9bd1205d61",
+      "bytes": 358412
+    },
+    {
+      "path": "run-3/tasks/write-compressor/config.json",
+      "sha256": "18cfed0c9c6ce021cbc2f20098c9731c36bf125bf89df404a2a7601586f35904",
+      "bytes": 102
+    },
+    {
+      "path": "run-3/tasks/write-compressor/result.json",
+      "sha256": "49b867b8c87678ee841543c09d6fcdecf0ab8bfbded6641d974231c7a3069b90",
+      "bytes": 637
+    }
+  ]
+}

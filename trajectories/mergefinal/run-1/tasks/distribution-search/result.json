@@ -1,0 +1,28 @@
+{
+  "task_name": "distribution-search",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 400360,
+    "n_output_tokens": 40496,
+    "n_cache_tokens": 314368,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 24
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.403301,
+    "agent_setup_seconds": 3.2e-05,
+    "agent_execution_seconds": 415.095451,
+    "verifier_seconds": 5.29825
+  },
+  "exception_info": null
+}

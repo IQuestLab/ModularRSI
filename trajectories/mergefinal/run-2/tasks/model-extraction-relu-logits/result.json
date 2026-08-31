@@ -1,0 +1,30 @@
+{
+  "task_name": "model-extraction-relu-logits",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 2240120,
+    "n_output_tokens": 35356,
+    "n_cache_tokens": 1584128,
+    "metadata": {
+      "summarization_count": 1,
+      "n_episodes": 18
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.396581,
+    "agent_setup_seconds": 2.1e-05,
+    "agent_execution_seconds": 901.130338,
+    "verifier_seconds": 58.025181
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

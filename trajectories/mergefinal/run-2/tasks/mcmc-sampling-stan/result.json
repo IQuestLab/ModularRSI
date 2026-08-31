@@ -1,0 +1,28 @@
+{
+  "task_name": "mcmc-sampling-stan",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 12343068,
+    "n_output_tokens": 58879,
+    "n_cache_tokens": 9074432,
+    "metadata": {
+      "summarization_count": 9,
+      "n_episodes": 55
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.577794,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 1694.596893,
+    "verifier_seconds": 443.084934
+  },
+  "exception_info": null
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "adaptive-rejection-sampler",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 3531591,
+    "n_output_tokens": 41568,
+    "n_cache_tokens": 3000320,
+    "metadata": {
+      "summarization_count": 1,
+      "n_episodes": 30
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.383507,
+    "agent_setup_seconds": 4.2e-05,
+    "agent_execution_seconds": 725.417572,
+    "verifier_seconds": 11.692368
+  },
+  "exception_info": null
+}

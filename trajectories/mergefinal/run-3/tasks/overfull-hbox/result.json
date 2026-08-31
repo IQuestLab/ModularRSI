@@ -1,0 +1,28 @@
+{
+  "task_name": "overfull-hbox",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 1880090,
+    "n_output_tokens": 37575,
+    "n_cache_tokens": 1664256,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 28
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.412387,
+    "agent_setup_seconds": 1.8e-05,
+    "agent_execution_seconds": 583.550314,
+    "verifier_seconds": 35.851262
+  },
+  "exception_info": null
+}

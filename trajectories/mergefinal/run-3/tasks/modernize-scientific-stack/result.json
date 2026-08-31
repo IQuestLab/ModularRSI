@@ -1,0 +1,28 @@
+{
+  "task_name": "modernize-scientific-stack",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 314840,
+    "n_output_tokens": 8121,
+    "n_cache_tokens": 260096,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 16
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.43107,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 159.719476,
+    "verifier_seconds": 8.363335
+  },
+  "exception_info": null
+}

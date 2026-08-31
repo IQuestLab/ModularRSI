@@ -1,0 +1,28 @@
+{
+  "task_name": "kv-store-grpc",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 220617,
+    "n_output_tokens": 14776,
+    "n_cache_tokens": 171520,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 11
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.508377,
+    "agent_setup_seconds": 1.9e-05,
+    "agent_execution_seconds": 226.480153,
+    "verifier_seconds": 4.402287
+  },
+  "exception_info": null
+}

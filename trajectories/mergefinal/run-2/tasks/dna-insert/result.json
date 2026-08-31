@@ -1,0 +1,28 @@
+{
+  "task_name": "dna-insert",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 9249643,
+    "n_output_tokens": 126121,
+    "n_cache_tokens": 6852608,
+    "metadata": {
+      "summarization_count": 5,
+      "n_episodes": 47
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.438445,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 1430.159772,
+    "verifier_seconds": 7.166668
+  },
+  "exception_info": null
+}

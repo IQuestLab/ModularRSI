@@ -1,0 +1,30 @@
+{
+  "task_name": "compile-compcert",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 14445291,
+    "n_output_tokens": 136785,
+    "n_cache_tokens": 10545920,
+    "metadata": {
+      "summarization_count": 12,
+      "n_episodes": 72
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.552011,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 2400.947182,
+    "verifier_seconds": 7.541824
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

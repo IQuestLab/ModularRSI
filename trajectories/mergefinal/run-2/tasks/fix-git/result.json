@@ -1,0 +1,28 @@
+{
+  "task_name": "fix-git",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 921139,
+    "n_output_tokens": 4998,
+    "n_cache_tokens": 764160,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 14
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.247041,
+    "agent_setup_seconds": 2.6e-05,
+    "agent_execution_seconds": 112.428497,
+    "verifier_seconds": 5.485511
+  },
+  "exception_info": null
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "feal-differential-cryptanalysis",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 1607024,
+    "n_output_tokens": 56148,
+    "n_cache_tokens": 1389696,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 20
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.377336,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 797.179166,
+    "verifier_seconds": 14.300792
+  },
+  "exception_info": null
+}

@@ -1,0 +1,26 @@
+{
+  "task_name": "circuit-fibsqrt",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 9568643,
+    "n_output_tokens": 371209,
+    "n_cache_tokens": 9397248,
+    "metadata": {
+      "summarization_count": 1,
+      "n_episodes": 119
+    }
+  },
+  "verifier_result": null,
+  "durations": {
+    "environment_setup_seconds": 1.346238,
+    "agent_setup_seconds": 2.7e-05,
+    "agent_execution_seconds": 3603.494333,
+    "verifier_seconds": 1.31462
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

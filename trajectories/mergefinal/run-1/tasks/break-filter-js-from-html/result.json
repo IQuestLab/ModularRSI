@@ -1,0 +1,28 @@
+{
+  "task_name": "break-filter-js-from-html",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 484563,
+    "n_output_tokens": 67827,
+    "n_cache_tokens": 472320,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 25
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 4.678556,
+    "agent_setup_seconds": 4.6e-05,
+    "agent_execution_seconds": 907.995391,
+    "verifier_seconds": 6.894404
+  },
+  "exception_info": null
+}

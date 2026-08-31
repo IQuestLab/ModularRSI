@@ -1,0 +1,28 @@
+{
+  "task_name": "query-optimize",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 293979,
+    "n_output_tokens": 27694,
+    "n_cache_tokens": 237824,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 11
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.454482,
+    "agent_setup_seconds": 2.8e-05,
+    "agent_execution_seconds": 460.114671,
+    "verifier_seconds": 4.3376
+  },
+  "exception_info": null
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "reshard-c4-data",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 1689079,
+    "n_output_tokens": 25849,
+    "n_cache_tokens": 1513216,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 28
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.785361,
+    "agent_setup_seconds": 2e-05,
+    "agent_execution_seconds": 508.497715,
+    "verifier_seconds": 79.585034
+  },
+  "exception_info": null
+}

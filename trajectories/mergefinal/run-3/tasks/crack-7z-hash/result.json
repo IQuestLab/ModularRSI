@@ -1,0 +1,28 @@
+{
+  "task_name": "crack-7z-hash",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 16687978,
+    "n_output_tokens": 38322,
+    "n_cache_tokens": 15639296,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 51
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.461196,
+    "agent_setup_seconds": 2.5e-05,
+    "agent_execution_seconds": 793.352609,
+    "verifier_seconds": 8.737437
+  },
+  "exception_info": null
+}

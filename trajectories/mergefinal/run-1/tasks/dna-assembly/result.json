@@ -1,0 +1,30 @@
+{
+  "task_name": "dna-assembly",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 345544,
+    "n_output_tokens": 139728,
+    "n_cache_tokens": 309248,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 17
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.355257,
+    "agent_setup_seconds": 5e-05,
+    "agent_execution_seconds": 1800.939589,
+    "verifier_seconds": 7.210513
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

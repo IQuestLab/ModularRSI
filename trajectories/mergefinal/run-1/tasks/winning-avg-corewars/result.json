@@ -1,0 +1,28 @@
+{
+  "task_name": "winning-avg-corewars",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 4978054,
+    "n_output_tokens": 118296,
+    "n_cache_tokens": 4523008,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 95
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 4.71496,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 2167.661026,
+    "verifier_seconds": 7.526753
+  },
+  "exception_info": null
+}

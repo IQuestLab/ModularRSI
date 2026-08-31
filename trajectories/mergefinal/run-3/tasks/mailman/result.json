@@ -1,0 +1,30 @@
+{
+  "task_name": "mailman",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 5914887,
+    "n_output_tokens": 129455,
+    "n_cache_tokens": 4558208,
+    "metadata": {
+      "summarization_count": 4,
+      "n_episodes": 31
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.554084,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 1800.963297,
+    "verifier_seconds": 31.278271
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

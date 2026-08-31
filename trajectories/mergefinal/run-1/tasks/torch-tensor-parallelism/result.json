@@ -1,0 +1,28 @@
+{
+  "task_name": "torch-tensor-parallelism",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 150773,
+    "n_output_tokens": 17468,
+    "n_cache_tokens": 115712,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 20
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.625041,
+    "agent_setup_seconds": 2.9e-05,
+    "agent_execution_seconds": 197.368399,
+    "verifier_seconds": 103.701558
+  },
+  "exception_info": null
+}

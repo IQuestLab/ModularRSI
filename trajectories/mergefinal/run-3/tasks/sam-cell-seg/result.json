@@ -1,0 +1,28 @@
+{
+  "task_name": "sam-cell-seg",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 18271440,
+    "n_output_tokens": 78097,
+    "n_cache_tokens": 14400128,
+    "metadata": {
+      "summarization_count": 10,
+      "n_episodes": 80
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.61221,
+    "agent_setup_seconds": 2.1e-05,
+    "agent_execution_seconds": 1535.927038,
+    "verifier_seconds": 38.728153
+  },
+  "exception_info": null
+}

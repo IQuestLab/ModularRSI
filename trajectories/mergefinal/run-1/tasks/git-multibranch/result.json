@@ -1,0 +1,30 @@
+{
+  "task_name": "git-multibranch",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 2021875,
+    "n_output_tokens": 62371,
+    "n_cache_tokens": 1937920,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 81
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.438503,
+    "agent_setup_seconds": 3.3e-05,
+    "agent_execution_seconds": 900.887764,
+    "verifier_seconds": 22.423964
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

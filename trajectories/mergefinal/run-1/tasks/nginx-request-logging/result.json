@@ -1,0 +1,28 @@
+{
+  "task_name": "nginx-request-logging",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 517476,
+    "n_output_tokens": 51156,
+    "n_cache_tokens": 426624,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 37
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.393891,
+    "agent_setup_seconds": 2.5e-05,
+    "agent_execution_seconds": 702.804074,
+    "verifier_seconds": 7.012434
+  },
+  "exception_info": null
+}

@@ -1,0 +1,30 @@
+{
+  "task_name": "caffe-cifar-10",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 5753388,
+    "n_output_tokens": 24528,
+    "n_cache_tokens": 4996864,
+    "metadata": {
+      "summarization_count": 3,
+      "n_episodes": 44
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.390534,
+    "agent_setup_seconds": 3.4e-05,
+    "agent_execution_seconds": 1200.986672,
+    "verifier_seconds": 7.806148
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

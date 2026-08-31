@@ -1,0 +1,28 @@
+{
+  "task_name": "configure-git-webserver",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 929108,
+    "n_output_tokens": 14307,
+    "n_cache_tokens": 820224,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 30
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.327867,
+    "agent_setup_seconds": 2.5e-05,
+    "agent_execution_seconds": 264.470871,
+    "verifier_seconds": 35.778402
+  },
+  "exception_info": null
+}

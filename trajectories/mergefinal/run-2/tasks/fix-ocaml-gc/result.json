@@ -1,0 +1,28 @@
+{
+  "task_name": "fix-ocaml-gc",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 28051427,
+    "n_output_tokens": 112065,
+    "n_cache_tokens": 26705664,
+    "metadata": {
+      "summarization_count": 4,
+      "n_episodes": 165
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.633993,
+    "agent_setup_seconds": 2.5e-05,
+    "agent_execution_seconds": 2170.156419,
+    "verifier_seconds": 519.524463
+  },
+  "exception_info": null
+}

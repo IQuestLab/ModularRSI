@@ -1,0 +1,28 @@
+{
+  "task_name": "headless-terminal",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 492935,
+    "n_output_tokens": 10061,
+    "n_cache_tokens": 402432,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 16
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.343118,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 196.050462,
+    "verifier_seconds": 25.816662
+  },
+  "exception_info": null
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "pytorch-model-recovery",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 3189618,
+    "n_output_tokens": 22897,
+    "n_cache_tokens": 2769920,
+    "metadata": {
+      "summarization_count": 1,
+      "n_episodes": 34
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.427483,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 443.00255,
+    "verifier_seconds": 45.458925
+  },
+  "exception_info": null
+}

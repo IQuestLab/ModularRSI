@@ -1,0 +1,11 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+*.swp

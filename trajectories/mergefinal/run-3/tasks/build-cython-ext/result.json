@@ -1,0 +1,30 @@
+{
+  "task_name": "build-cython-ext",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 2324104,
+    "n_output_tokens": 8459,
+    "n_cache_tokens": 659456,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 23
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.398404,
+    "agent_setup_seconds": 2.7e-05,
+    "agent_execution_seconds": 901.205693,
+    "verifier_seconds": 12.120544
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

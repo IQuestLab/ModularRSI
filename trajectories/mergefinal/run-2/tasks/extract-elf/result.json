@@ -1,0 +1,28 @@
+{
+  "task_name": "extract-elf",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 3515518,
+    "n_output_tokens": 41203,
+    "n_cache_tokens": 2986496,
+    "metadata": {
+      "summarization_count": 1,
+      "n_episodes": 28
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.460159,
+    "agent_setup_seconds": 2.6e-05,
+    "agent_execution_seconds": 489.343392,
+    "verifier_seconds": 8.414888
+  },
+  "exception_info": null
+}

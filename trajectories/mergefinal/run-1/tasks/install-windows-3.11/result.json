@@ -1,0 +1,28 @@
+{
+  "task_name": "install-windows-3.11",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 4682082,
+    "n_output_tokens": 74716,
+    "n_cache_tokens": 4288256,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 101
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.642373,
+    "agent_setup_seconds": 2.6e-05,
+    "agent_execution_seconds": 1176.615509,
+    "verifier_seconds": 22.762314
+  },
+  "exception_info": null
+}

@@ -1,0 +1,30 @@
+{
+  "task_name": "llm-inference-batching-scheduler",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 8733866,
+    "n_output_tokens": 172548,
+    "n_cache_tokens": 8277504,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 96
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 2.106519,
+    "agent_setup_seconds": 2.1e-05,
+    "agent_execution_seconds": 1801.000159,
+    "verifier_seconds": 5.631719
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

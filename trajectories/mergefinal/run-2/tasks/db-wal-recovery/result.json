@@ -1,0 +1,30 @@
+{
+  "task_name": "db-wal-recovery",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 5956049,
+    "n_output_tokens": 48250,
+    "n_cache_tokens": 3752960,
+    "metadata": {
+      "summarization_count": 2,
+      "n_episodes": 23
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.397239,
+    "agent_setup_seconds": 3.6e-05,
+    "agent_execution_seconds": 900.907787,
+    "verifier_seconds": 7.471169
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

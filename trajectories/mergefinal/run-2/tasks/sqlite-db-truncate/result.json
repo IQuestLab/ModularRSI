@@ -1,0 +1,28 @@
+{
+  "task_name": "sqlite-db-truncate",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 1230584,
+    "n_output_tokens": 35356,
+    "n_cache_tokens": 974336,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 17
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.421058,
+    "agent_setup_seconds": 2.6e-05,
+    "agent_execution_seconds": 410.09199,
+    "verifier_seconds": 5.044361
+  },
+  "exception_info": null
+}

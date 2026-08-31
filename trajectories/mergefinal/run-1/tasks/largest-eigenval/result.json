@@ -1,0 +1,30 @@
+{
+  "task_name": "largest-eigenval",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 1309591,
+    "n_output_tokens": 56069,
+    "n_cache_tokens": 1185536,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 50
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.332994,
+    "agent_setup_seconds": 2.5e-05,
+    "agent_execution_seconds": 900.901787,
+    "verifier_seconds": 3.781333
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

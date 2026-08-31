@@ -1,0 +1,28 @@
+{
+  "task_name": "cobol-modernization",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 1892474,
+    "n_output_tokens": 28683,
+    "n_cache_tokens": 1650944,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 26
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.331018,
+    "agent_setup_seconds": 2.4e-05,
+    "agent_execution_seconds": 400.30632,
+    "verifier_seconds": 5.375068
+  },
+  "exception_info": null
+}

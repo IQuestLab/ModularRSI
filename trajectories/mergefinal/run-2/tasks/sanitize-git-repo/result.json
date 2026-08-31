@@ -1,0 +1,30 @@
+{
+  "task_name": "sanitize-git-repo",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 5656832,
+    "n_output_tokens": 47962,
+    "n_cache_tokens": 3966464,
+    "metadata": {
+      "summarization_count": 5,
+      "n_episodes": 31
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.329965,
+    "agent_setup_seconds": 1.7e-05,
+    "agent_execution_seconds": 901.551759,
+    "verifier_seconds": 6.168243
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

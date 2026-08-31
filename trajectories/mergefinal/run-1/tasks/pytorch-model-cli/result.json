@@ -1,0 +1,28 @@
+{
+  "task_name": "pytorch-model-cli",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 1830696,
+    "n_output_tokens": 56191,
+    "n_cache_tokens": 1690112,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 66
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 2.072113,
+    "agent_setup_seconds": 2.4e-05,
+    "agent_execution_seconds": 730.252204,
+    "verifier_seconds": 45.98686
+  },
+  "exception_info": null
+}

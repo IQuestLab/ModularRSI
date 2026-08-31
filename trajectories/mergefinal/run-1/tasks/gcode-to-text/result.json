@@ -1,0 +1,30 @@
+{
+  "task_name": "gcode-to-text",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 578209,
+    "n_output_tokens": 63575,
+    "n_cache_tokens": 539648,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 29
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.525763,
+    "agent_setup_seconds": 2.1e-05,
+    "agent_execution_seconds": 900.877586,
+    "verifier_seconds": 4.957024
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

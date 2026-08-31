@@ -1,0 +1,28 @@
+{
+  "task_name": "portfolio-optimization",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 64896,
+    "n_output_tokens": 6447,
+    "n_cache_tokens": 44288,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 10
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.311222,
+    "agent_setup_seconds": 3e-05,
+    "agent_execution_seconds": 156.60655,
+    "verifier_seconds": 98.971977
+  },
+  "exception_info": null
+}

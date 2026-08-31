@@ -1,0 +1,28 @@
+{
+  "task_name": "build-pov-ray",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 1238659,
+    "n_output_tokens": 34889,
+    "n_cache_tokens": 1142656,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 53
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 0.930603,
+    "agent_setup_seconds": 2.4e-05,
+    "agent_execution_seconds": 672.805423,
+    "verifier_seconds": 19.916759
+  },
+  "exception_info": null
+}

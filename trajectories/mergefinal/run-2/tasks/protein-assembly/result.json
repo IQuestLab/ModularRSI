@@ -1,0 +1,30 @@
+{
+  "task_name": "protein-assembly",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 6245707,
+    "n_output_tokens": 171877,
+    "n_cache_tokens": 5097728,
+    "metadata": {
+      "summarization_count": 3,
+      "n_episodes": 40
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.360224,
+    "agent_setup_seconds": 2.4e-05,
+    "agent_execution_seconds": 1800.894398,
+    "verifier_seconds": 5.241663
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

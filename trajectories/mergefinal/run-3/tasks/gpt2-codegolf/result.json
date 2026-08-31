@@ -1,0 +1,30 @@
+{
+  "task_name": "gpt2-codegolf",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 4653271,
+    "n_output_tokens": 74040,
+    "n_cache_tokens": 3837952,
+    "metadata": {
+      "summarization_count": 1,
+      "n_episodes": 30
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 2.615013,
+    "agent_setup_seconds": 4e-05,
+    "agent_execution_seconds": 901.019522,
+    "verifier_seconds": 11.580981
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

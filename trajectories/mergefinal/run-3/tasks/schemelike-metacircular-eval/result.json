@@ -1,0 +1,30 @@
+{
+  "task_name": "schemelike-metacircular-eval",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 323547,
+    "n_output_tokens": 142043,
+    "n_cache_tokens": 253312,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 11
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.601537,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 2400.891138,
+    "verifier_seconds": 10.377894
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

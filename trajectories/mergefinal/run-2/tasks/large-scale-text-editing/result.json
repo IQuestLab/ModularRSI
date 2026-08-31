@@ -1,0 +1,28 @@
+{
+  "task_name": "large-scale-text-editing",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 468150,
+    "n_output_tokens": 68993,
+    "n_cache_tokens": 402560,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 19
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.248471,
+    "agent_setup_seconds": 2.4e-05,
+    "agent_execution_seconds": 1029.563056,
+    "verifier_seconds": 52.239494
+  },
+  "exception_info": null
+}

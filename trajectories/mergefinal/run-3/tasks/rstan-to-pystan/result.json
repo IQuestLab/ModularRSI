@@ -1,0 +1,30 @@
+{
+  "task_name": "rstan-to-pystan",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 7530849,
+    "n_output_tokens": 46166,
+    "n_cache_tokens": 6563456,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 27
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.32004,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 1800.946714,
+    "verifier_seconds": 7.877024
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

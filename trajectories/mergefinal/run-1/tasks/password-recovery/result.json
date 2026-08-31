@@ -1,0 +1,28 @@
+{
+  "task_name": "password-recovery",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 447749,
+    "n_output_tokens": 21988,
+    "n_cache_tokens": 394496,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 31
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.265408,
+    "agent_setup_seconds": 2.9e-05,
+    "agent_execution_seconds": 383.746034,
+    "verifier_seconds": 7.102124
+  },
+  "exception_info": null
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "bn-fit-modify",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 5118127,
+    "n_output_tokens": 23838,
+    "n_cache_tokens": 4474880,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 41
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.482261,
+    "agent_setup_seconds": 2.4e-05,
+    "agent_execution_seconds": 615.178154,
+    "verifier_seconds": 16.955427
+  },
+  "exception_info": null
+}

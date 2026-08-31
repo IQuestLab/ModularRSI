@@ -1,0 +1,30 @@
+{
+  "task_name": "make-doom-for-mips",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 6757586,
+    "n_output_tokens": 54114,
+    "n_cache_tokens": 5335424,
+    "metadata": {
+      "summarization_count": 3,
+      "n_episodes": 38
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.378905,
+    "agent_setup_seconds": 2.1e-05,
+    "agent_execution_seconds": 900.86821,
+    "verifier_seconds": 38.624944
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

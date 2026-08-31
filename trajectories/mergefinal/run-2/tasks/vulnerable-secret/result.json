@@ -1,0 +1,28 @@
+{
+  "task_name": "vulnerable-secret",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 487695,
+    "n_output_tokens": 6256,
+    "n_cache_tokens": 382976,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 16
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.576948,
+    "agent_setup_seconds": 2e-05,
+    "agent_execution_seconds": 169.013295,
+    "verifier_seconds": 6.000349
+  },
+  "exception_info": null
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "code-from-image",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 6947488,
+    "n_output_tokens": 46212,
+    "n_cache_tokens": 6166528,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 34
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.392448,
+    "agent_setup_seconds": 2.3e-05,
+    "agent_execution_seconds": 673.729436,
+    "verifier_seconds": 4.714931
+  },
+  "exception_info": null
+}

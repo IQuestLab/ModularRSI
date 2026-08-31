@@ -1,0 +1,30 @@
+{
+  "task_name": "path-tracing-reverse",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 10348783,
+    "n_output_tokens": 96401,
+    "n_cache_tokens": 7700224,
+    "metadata": {
+      "summarization_count": 6,
+      "n_episodes": 42
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.510507,
+    "agent_setup_seconds": 2.1e-05,
+    "agent_execution_seconds": 1800.920209,
+    "verifier_seconds": 11.569792
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

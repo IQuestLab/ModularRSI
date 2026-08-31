@@ -1,0 +1,28 @@
+{
+  "task_name": "cancel-async-tasks",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 168263,
+    "n_output_tokens": 13818,
+    "n_cache_tokens": 117760,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 10
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.311468,
+    "agent_setup_seconds": 2.6e-05,
+    "agent_execution_seconds": 152.227468,
+    "verifier_seconds": 18.841942
+  },
+  "exception_info": null
+}

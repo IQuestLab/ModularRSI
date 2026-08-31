@@ -1,0 +1,30 @@
+{
+  "task_name": "build-pmars",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 4364749,
+    "n_output_tokens": 55352,
+    "n_cache_tokens": 3525888,
+    "metadata": {
+      "summarization_count": 3,
+      "n_episodes": 29
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.314857,
+    "agent_setup_seconds": 2.2e-05,
+    "agent_execution_seconds": 900.961305,
+    "verifier_seconds": 5.515878
+  },
+  "exception_info": {
+    "exception_type": "AgentTimeoutError"
+  }
+}

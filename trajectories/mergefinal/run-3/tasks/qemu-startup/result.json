@@ -1,0 +1,28 @@
+{
+  "task_name": "qemu-startup",
+  "source": "terminal-bench",
+  "agent_info": {
+    "name": "terminus-2-modular"
+  },
+  "agent_result": {
+    "n_input_tokens": 19629,
+    "n_output_tokens": 4286,
+    "n_cache_tokens": 13312,
+    "metadata": {
+      "summarization_count": 0,
+      "n_episodes": 8
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "durations": {
+    "environment_setup_seconds": 1.317884,
+    "agent_setup_seconds": 2.4e-05,
+    "agent_execution_seconds": 183.204771,
+    "verifier_seconds": 131.554043
+  },
+  "exception_info": null
+}
