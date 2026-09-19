@@ -1,5 +1,11 @@
 # ModularRSI
 
+![Tests](https://github.com/IQuestLab/ModularRSI/actions/workflows/pytest.yml/badge.svg)
+![Ruff](https://github.com/IQuestLab/ModularRSI/actions/workflows/ruff-format.yml/badge.svg)
+![Type Check](https://github.com/IQuestLab/ModularRSI/actions/workflows/ty.yml/badge.svg)
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache)
+
 **ModularRSI studies generalizable Harness RSI: can an agent improve its
 harness from independent execution experience and transfer the improvement to
 unseen tasks, domains, and foundation models?**
