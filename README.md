@@ -41,6 +41,16 @@ candidates that pass validation gates. The study improves Terminal-Bench 2.0
 accuracy from **47.57% to 52.43%** with DeepSeek-V4-Flash-Preview and evaluates
 transfer across unseen tasks, domains, and models.
 
+## Roadmap
+
+We will release the following updates step by step:
+
+- [ ] **Before-and-after evaluation during evolution:** Run the current and
+  modified harnesses on the same tasks to compare success rates, execution
+  steps, and token usage.
+- [ ] **Cross-batch evolution:** Propose improvements from one batch of training
+  tasks, then validate them on a separate batch to check whether they generalize.
+
 ## How it works
 
 [![ModularRSI overview: trajectory sampling and contrastive analysis guide module-wise harness changes, followed by program checks, diff review, and execution validation.](assets/figures/modularrsi-overview.png)](assets/figures/modularrsi-overview.pdf)
